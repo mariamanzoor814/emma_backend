@@ -1,0 +1,264 @@
+{
+  "slug": "about",
+  "template": "content",
+  "blocks": [
+    {
+      "key": "hero.title",
+      "language": "en",
+      "block_type": "text",
+      "value": {
+        "text": "About EMMA Foundation"
+      },
+      "sort_order": 1
+    },
+    {
+      "key": "hero.subtitle",
+      "language": "en",
+      "block_type": "text",
+      "value": {
+        "text": "EMMA Foundation is a U.S. IRS 501(c)(3) global philanthropic NGO focused on feeding the soul (mind) and the body through rational thinking, mentoring, and effective altruism."
+      },
+      "sort_order": 2
+    },
+    {
+      "key": "hero.image",
+      "language": "en",
+      "block_type": "image",
+      "value": {
+        "url": "/assets/hero.jpg",
+        "alt": "EMMA Foundation hero image"
+      },
+      "sort_order": 3
+    },
+
+    {
+      "key": "about.story.title",
+      "language": "en",
+      "block_type": "text",
+      "value": {
+        "text": "Founder’s Story"
+      },
+      "sort_order": 10
+    },
+    {
+      "key": "about.story.body",
+      "language": "en",
+      "block_type": "text",
+      "value": {
+        "text": "My name is Munzer Haque, and I am the founder of the EMMA Foundation.\n\nEMMA is a non-profit charity registered in the U.S. as an IRS 501(c)(3) entity. Our long-term mission is to transform charity by emphasizing development of intellect, moral systems, and rational thinking — feeding the soul — while also addressing urgent human needs by feeding the body.\n\nWe mentor, guide, and seed-fund viable R&D or startup projects for qualified individuals, professors, and postgraduate students who are stuck under corporate golden handcuffs, so they can reach their maximum potential and live healthier, wealthier, wiser, and happier lives with purpose."
+      },
+      "sort_order": 11
+    },
+
+    {
+      "key": "about.highlights.title",
+      "language": "en",
+      "block_type": "text",
+      "value": {
+        "text": "Highlights"
+      },
+      "sort_order": 20
+    },
+    {
+      "key": "about.highlights.items",
+      "language": "en",
+      "block_type": "list",
+      "value": {
+        "items": [
+          "Registered IRS 501(c)(3) non-profit organization in the United States.",
+          "Primary mission: Feeding the Soul (mind) — critical thinking, rationality, wisdom, and self-actualization.",
+          "Secondary mission: Feeding the Body — urgent humanitarian relief worldwide.",
+          "Mentoring, training, and seed-funding for qualified members at no personal cost.",
+          "Building global networks of top minds, universities, investors, and entrepreneurs."
+        ]
+      },
+      "sort_order": 21
+    },
+
+    {
+      "key": "about.pillars.title",
+      "language": "en",
+      "block_type": "text",
+      "value": {
+        "text": "Our Pillars"
+      },
+      "sort_order": 30
+    },
+    {
+      "key": "about.pillars",
+      "language": "en",
+      "block_type": "list",
+      "value": {
+        "items": [
+          {
+            "title": "Feeding the Soul",
+            "body": "Developing intellect, reasoning skills, moral clarity, and rational thinking so people can reach their maximum potential."
+          },
+          {
+            "title": "Feeding the Body",
+            "body": "Providing urgent humanitarian relief including food, medicine, shelter, and health support worldwide."
+          },
+          {
+            "title": "Mentorship & Funding",
+            "body": "Mentoring and seed-funding viable R&D or startup projects for qualified individuals for sweat equity."
+          }
+        ]
+      },
+      "sort_order": 31
+    },
+
+    {
+      "key": "participation.title",
+      "language": "en",
+      "block_type": "text",
+      "value": { "text": "Your Participation" },
+      "sort_order": 100
+    },
+    {
+      "key": "participation.intro_top",
+      "language": "en",
+      "block_type": "text",
+      "value": {
+        "text": "Lucky you! Your Serendipity today.\nI hope Emma Foundation will trigger epiphany in your mind."
+      },
+      "sort_order": 101
+    },
+    {
+      "key": "participation.intro_body",
+      "language": "en",
+      "block_type": "text",
+      "value": {
+        "text": "If you want meaning, fulfillment, enlightenment, self-actualization, eudaimonia in life AND\n… then you have come to the right place."
+      },
+      "sort_order": 102
+    },
+    {
+      "key": "participation.intro_bullets",
+      "language": "en",
+      "block_type": "list",
+      "value": {
+        "items": [
+          "a) Make a lot of money by adding value to the society",
+          "b) Improve your health, live longer with mental and physical fitness",
+          "c) Improve your intellect, wisdom, and philosophy",
+          "d) Improve your relationship",
+          "e) and more – see 8-Pistons Poster"
+        ]
+      },
+      "sort_order": 103
+    },
+    {
+      "key": "participation.roman_sections",
+      "language": "en",
+      "block_type": "list",
+      "value": {
+        "items": [
+          {
+            "title": "i.",
+            "body": "We will mentor you on our cost. This involves fostering rational, logical, just, and impartial thought processes based on science and reason to arrive at conclusions. Subsequently, these conclusions are put into practice. Over time, these practices become habits, and that's when you will see the magic. Becoming a member of EMMA is like being partner with EMMA."
+          },
+          {
+            "title": "ii.",
+            "body": "We would like to propose a partnership between the EMMA Foundation and your university, or individually with your professors, Ph.D. and graduate students, or with you as an entrepreneur if you are employed in a corporation. After taking some time to explore our website, please let us know if you, professors, graduate and Ph.D. students are interested in joining our mission in any of the eight roles listed in the following pages, then contact us. You can join EMMA as a student, teacher, professor, investor, syndicator, sponsor, or entrepreneur, or all. We can arrange a one-on-one in-person or Zoom meeting with you."
+          },
+          {
+            "title": "iii.",
+            "body": "Emma’s philosophy is stoic lifestyle for excellence in almost all aspects of life. Embracing deep truths, epistemology, and practicing accordingly can enhance your life and the lives of those around you. Unfortunately, there is a lack of teaching and training in this regard."
+          },
+          {
+            "title": "iv.",
+            "body": "Right thinking and practice will make you healthy, wealthy, and happy. EMMA’s goal is to eventually make you sagacious, perspicacious, and indefectible, helping you make money for yourself by adding value to society while finding fulfillment in life."
+          }
+        ]
+      },
+      "sort_order": 104
+    },
+    {
+      "key": "participation.next_note_1",
+      "language": "en",
+      "block_type": "text",
+      "value": {
+        "text": "Click on <Next> below\nYou can participate in EMMA mission through any of the following ways."
+      },
+      "sort_order": 105
+    },
+    {
+      "key": "participation.sections",
+      "language": "en",
+      "block_type": "list",
+      "value": {
+        "items": [
+          {
+            "title": "Create your name brand through our online video Interview and Discourse:",
+            "body": "If you are an expert, professor, graduate or Ph.D. student, or a professional working in a corporation and possess expertise in fields such as philosophy, science, biology, medicine, engineering, IT, AI, high-finance, the meaning of life, religion, history, psychology, sociology, and more, you can volunteer to be interviewed and discuss over Zoom for a few hours per week or month. These interviews will be used for EMMA's Youtube and other video channels and podcast. Meanwhile you will get publicity to make your name brand and at the same time get satisfaction, meaning in life by advocating the Truth."
+          },
+          {
+            "title": "Charity: Donate Money:",
+            "body": "You can passively contribute by making monetary donations and draw satisfaction by observing the EMMA's progress in improving people's lives. Please see menu item Feeding the children."
+          },
+          {
+            "title": "Charity: Volunteer x number of hours/week for EMMA",
+            "body": "For those who wish to actively participate in effective altruism but lack extra funds for donations, you will have the option to pledge 10, 20, 30 hours, or more per week to work remotely as a volunteer for EMMA from anywhere in the world. This model is similar to Wikipedia's volunteer contributions. Additionally, there are various other avenues for volunteering within EMMA."
+          },
+          {
+            "title": "Charity: Create a local chapter for EMMA:",
+            "body": "You can also initiate a local chapter of the Emma Foundation, and we will provide guidance and support. Here too you can build your own brand name through EMMA and get satisfaction in life."
+          },
+          {
+            "title": "Global Alliance of Universities (GAU):",
+            "body": "EMMA is building a Global Alliance of Universities (GAU) network, an online platform, to tap into the top 1% professors and post graduate students from top 1% of universities all over the world to collaborate for their research and development or for their own startup business purpose, or join ours.\n\nA substantial portion of the world's exceptional brainpower, skills, passion, and determination remains untapped due to a lack of effective networking and collaboration with like-minded resourceful partners on a global scale. Should Emma successfully harness even a mere 0.1% of these invaluable resources, the potential outcomes hold the promise of ushering in constructive transformations for our world. This is the central aspiration of EMMA – to unlock and channel these talents for positive change. We invite you to be a part of this endeavor; join us."
+          },
+          {
+            "title": "Joining EMMA’s Sponsored Startup:",
+            "body": "You do not have to invest in these startups unless you want to. You can participate part-time remotely in EMMA’s sponsored startup while maintaining your daytime job. There's no requirement for you to invest your money, nor you will receive any monetary compensation for your work, except for the sweat equity granted based on your contribution. The potential value of this sweat equity could be in tens of millions of dollars over time when these companies go public in a few years."
+          },
+          {
+            "title": "Start your own Blue Ocean business:",
+            "body": "If you are a professional working for a corporation, or if you are a professor, Graduate or Ph.D. student, and if you are entrepreneur minded, driven, hard-working, smart, creative person with big dreams and wants to start a business with your own idea then please contact us. We will match you up with Angel Investors or EMMA itself can put in the seed money for equity of your business. You may reside anywhere in the world, still participate in our program and keep your fulltime day job.\n\nOf course, you will have to be highly qualified in the particular area. EMMA is very selective. Contact us for more details."
+          },
+          {
+            "title": "Investment: Join EMMA’s sponsored CLAP investment club.",
+            "body": "You can passively invest in Emma sponsored businesses or other investment opportunities worldwide. International fund is welcome for global investment opportunities.\n\nCLAP stands for Caishen, Lakshmi, Abundantia, Plutus, God and Goddess of Wealth, Prosperity, and Abundance from ancient Chinese, Hindu, Roman and Greek religion mythology, respectively. Clap’s goal is to bring in the top 1% private equity and other investment opportunities to its HNWI and UHNWI members. EMMA has the access to over 100,000 SEC registered Reg. D. based investment opportunities. We analyze data very diligently."
+          }
+        ]
+      },
+      "sort_order": 106
+    },
+    {
+      "key": "participation.next_note_2",
+      "language": "en",
+      "block_type": "text",
+      "value": {
+        "text": "Click on <Next> below\nEMMA Foundation's sponsored startups value your skills, time, and expertise more than your money. We want your brain, time, skill, passion and drive. Take the quiz on Intellect, in the menu item The 1% & Better-8 Clubs, sub-menu P3.\nEight ways to benefit from EMMA’s Philanthropy"
+      },
+      "sort_order": 107
+    },
+    {
+      "key": "participation.philanthropy_title",
+      "language": "en",
+      "block_type": "text",
+      "value": { "text": "Eight ways to benefit from EMMA’s Philanthropy" },
+      "sort_order": 108
+    },
+    {
+      "key": "participation.philanthropy_image",
+      "language": "en",
+      "block_type": "image",
+      "value": {
+        "url": "/images/8-ways-philanthropy.png",
+        "alt": "Eight ways to benefit from EMMA’s Philanthropy",
+        "caption": ""
+      },
+      "sort_order": 109
+    },
+    {
+      "key": "participation.closing_note",
+      "language": "en",
+      "block_type": "text",
+      "value": {
+        "text": "Charity + Business: Or you can do both, charity and make equity for yourself in business."
+      },
+      "sort_order": 110
+    }
+  ]
+}

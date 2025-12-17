@@ -1,0 +1,202 @@
+{
+  "slug": "book-of-truth-chapter-1",
+  "template": "default",
+  "blocks": [
+    {
+      "key": "hero.title",
+      "type": "text",
+      "value": {
+        "text": "Book of Truth – Chapter 1"
+      }
+    },
+    {
+      "key": "hero.subtitle",
+      "type": "text",
+      "value": {
+        "text": "System 1, System 2 and the Autonomic Nervous System (ANS) of the Human Brain"
+      }
+    },
+
+    {
+      "key": "chapter1.intro.heading",
+      "type": "text",
+      "value": {
+        "text": "Introduction"
+      }
+    },
+    {
+      "key": "chapter1.intro.body",
+      "type": "markdown",
+      "value": {
+        "text": "Copy Right © Munzer Haque\n\nBook of Truth\nUpdated 3-20-2022\n\nEMMA believe that path to any achievement begins with the mind. Therefore, let me start with the simple story of mind, explained for laymen. If you want to be healthy, wealthy or improve in any of the Munzer’s 8-Pistons Game of Life, then start with your mind. Read many books, watch educational YouTube, ponder, practice, develop independent thinking, dream big, very big then quickly act on your plan. Please click below on the like button and subscribe."
+      }
+    },
+
+    {
+      "key": "chapter1.jesus_sarah.heading",
+      "type": "text",
+      "value": {
+        "text": "System 1, 2 and Autonomic Nervous System (ANS) of Human Brain – Jesus Christ and a Not So Good Woman"
+      }
+    },
+    {
+      "key": "chapter1.jesus_sarah.body",
+      "type": "markdown",
+      "value": {
+        "text": "Two thousand years ago, during the Jesus Christ time, there used to live a not so kind woman named Sarah. Sarah despised Jesus Christ. She did not like his message. As a matter of fact, she hated Jesus so much that to hurt Jesus, she, every morning, used to leave thorns and sharp stones on Jesus’s walkway.\n\nOne day Jesus noticed there is no thorn or stone on his walkway. He enquired about the woman. Villagers told him that she is sick. She lives by herself at the end of the village. Villagers gave him directions to the woman’s house.\n\nJesus walked to her house, knocked at the door. Upon permission given, Jesus entered her house. She was lying on her bed, looking like she was very sick. She had high fever. She couldn’t even get up from her bed. She had no family, no friends, nobody to help her. Jesus sat next to her bed, brought her food and water, gave her comfort. After a few days of Jesus taking care of her she became well.\n\nYou may replace Jesus with Mohammad or Bhagvan or someone else according to your own religious belief. Modify a certain part of the story as necessary at your discretion while maintaining the original message behind the story intact.\n\nWhen she became thoroughly well, she fell on her knee in front of Jesus Christ. She began to cry. She apologized for being so nasty toward him in the past. She asked for forgiveness. Jesus forgave her. She then asked about him. He said, “I am the only son of God. I am sent to Earth from God. There is a hell and a heaven. People will go to hell or heaven after they die. I can walk on the water. I was raised from the grave twice; I can do miracles.” He told her a lot more details about after life, God, soul, etc.\n\nSarah was so touched by Jesus’s kind character of taking care of her that she totally believed him. She said, “I believe every word you said. I am now a convert.” She really, really believed him and his story. She became Christian. Since then, she began to teach Jesus’s gospel to others in the village. She deeply and firmly believed him. She became a woman of faith.\n\nWhat happened here?\n\nReader, listener, please ponder deeply.\n\nWhat happened between Jesus and Sarah here?\n\nPlease write your explanation down."
+      }
+    },
+
+    {
+      "key": "chapter1.modern_brain_science.heading",
+      "type": "text",
+      "value": {
+        "text": "Modern Brain Science – System 1, System 2 and ANS"
+      }
+    },
+    {
+      "key": "chapter1.modern_brain_science.body",
+      "type": "markdown",
+      "value": {
+        "text": "Fast forward to the 21st Century. Empowered by the modern days’ neuroscience, neuropsychology, Behavioral Economics, fMRI Machine, Social Sciences, Mathematics, Physics, Medical Science, and more, and applying critical thinking, now we have a little better understanding of how the human brain and mind works. David Eagleman described in a great detail how our brain works in his bestselling book *The Brain: The Story of You*.\n\nHuman brain has about 86 billion neurons. Our brain functionally can be modeled into 3 distinct categories: System 1, System 2 and Autonomic Nervous System (ANS). System 1 and System 2 are sometimes referred to by Type 1 and 2. System 1 and ANS combined is about 84% of our brain, whereas System 2, frontal cortex, is only 16% of our brain. ANS resides just below System 1. Our gut and spinal cord have 100 million and 70 million nerve cells respectively. Our heart has only 40,000 nerve cells. Nobel Laureate Daniel Kahneman and Amos Tversky in partnership first discovered System 1 and 2, the most important aspects of our brain in terms of how our thought arises.\n\nThe ANS was first evolved over 800 million to a couple of billion years ago. ANS is responsible for signaling and operating all bodily functions such as heart rate, body temperature, blood pressure, kidney function, thyroid gland, etc. Endocrine system is part of ANS.\n\nSystem 1 is the result of hundreds of millions of years of evolution. This is our subconscious mind. We are not consciously aware of the processing that takes place in System 1 or in the autonomic nervous system. System 1 is far more compact than System 2. System 1 is several hundred times faster than System 2. Our emotion, love, hate, anger, instincts, sensations, feelings, compassion, empathy, resides in System 1. Various parts of System 1 can operate in parallel.\n\nWhereas System 2 is mostly our frontal cortex, this includes neo cortex. System 2 is a relatively very recent development, of the past couple of hundred thousand years of homo-sapient evolution. System 2 is slow, cognitive, deliberate, serial processing, uses reason, logic, etc. System 1 and 2 work together and have some feedback mechanism to influence each other. For example, with meditation, Wim Hof Method, with proper practice one can influence System 1 and even the autonomic system (ANS) to a limited extent. Similarly, System 2 rational, logic processing can be sped up with the right kind and amount of passion. Passion originates in System 1.\n\nNobel Laureate in Economic Sciences, Daniel Kahneman, in his bestselling book *Thinking, Fast and Slow* (2011) explained how System 1 and 2 works.\n\nAlthough we need both, System 1 and 2, but to rapidly and effortlessly function in autonomous mode, using habit rather than deliberate action, we need System 1 more than System 2. Self-mastery, quitting age old bad habits and acquiring new good habits over time are formed in System 1. Charles Duhigg explains the power of habit in his bestselling book *The Power of Habit*."
+      }
+    },
+
+    {
+      "key": "chapter1.front_back_door.heading",
+      "type": "text",
+      "value": {
+        "text": "Front and the Back Door of Our Brain"
+      }
+    },
+    {
+      "key": "chapter1.front_back_door.body",
+      "type": "markdown",
+      "value": {
+        "text": "Imagine there is a door on the forehead and another door in the lower back of our head. These are the two ways an idea can enter into our System 1, the subconscious mind.\n\nIf an idea tries to enter from the front door, then System 2 will have an opportunity to scrutinize it using critical thinking, to figure out good from bad, right from wrong, and truth from lies. If the idea passes System 2 test, then the job is only half done. Now this idea needs to be pushed down internally to System 1 by repetition, practice, verbal, written, action, etc. To see the magic (result) of an idea, good or bad, it has to latch into System 1, preferably with passion.\n\nIn the Jesus and Sarah example above, Jesus entered Sarah’s mind’s System 1 via the back door, bypassing the System 2, the front door. Jesus appealed to her System 1.\n\nWhen a person is in deep pain, physical or psychological, he/she doesn’t think or reason or apply logic. That person just wants the pain to go away, desperate for help, compassion, love and caring etc.\n\nWhen a person is in deep trouble, has a lot of problems, issues, then that is not the best time for System 2 to work properly. It will not critically analyze the incoming idea. At this desperate situation the back door opens up wide, very wide, no question asked.\n\nInstead of arguing with Sarah or trying to explain to her his story, Jesus just entered from the back door by appealing to her emotion, by providing comfort, compassion, empathy, taking care of her. Sarah’s System 2 never got the opportunity to analyze Jesus’s message. System 2 was short circuited. It failed to cross check what Jesus said about himself and life after death. Her System 1 accepted it with passion. She really, really believed everything Jesus said.\n\nThe idea that Jesus Christ is the son of God entered to Mother Theresa’s head through the backdoor. The idea of Mohammad is the last prophet and infidels must be killed entered into their System 1 from the back door. One created an orphanage and the other one killed 3,000 people on Sept 11, 2001. In both cases, that idea was latched to System 1. Most of the power comes from System 1. System 1 doesn’t discriminate between good or bad ideas on the basis of reason but only on the basis of feeling. System 2 is capable of discriminating between good and bad, right and wrong, truth and false objectively."
+      }
+    },
+
+    {
+      "key": "chapter1.elephant_rider.heading",
+      "type": "text",
+      "value": {
+        "text": "Elephant and the Rider"
+      }
+    },
+    {
+      "key": "chapter1.elephant_rider.body",
+      "type": "markdown",
+      "value": {
+        "text": "Robin Hanson, in his bestselling book *The Elephant in the Brain* refers to System 1 as the elephant and System 2 as the rider. Homo-sapient (System 2) can direct the elephant but not exactly fight against it."
+      }
+    },
+
+    {
+      "key": "chapter1.examples.heading",
+      "type": "text",
+      "value": {
+        "text": "Examples: Smokers and Healthy Diet"
+      }
+    },
+    {
+      "key": "chapter1.examples.body",
+      "type": "markdown",
+      "value": {
+        "text": "Example 1: Smokers\n\nMany cigarette smokers thoroughly understand (System 2) that smoking is bad for their lungs but they can’t quit smoking because that message is not engraved in the System 1. Actually, in case of compulsion for smoking, alcohol, drugs, it goes deeper than System 1. These cravings gradually make physical changes in ANS, produce chemical dependency.\n\nExample 2: Healthy Diet\n\nSame is true for a healthy diet. First, one has to understand (using System 2) and be convinced that eating vegetables is better for health than eating sugary food. But initially one doesn’t develop a taste for raw vegetables. Initially, one has to consciously, using System 2, force himself to eat vegetables. Repeat, practice, over and over again, then eventually, the same vegetable will not taste that bad and later even begin to enjoy the taste of raw vegetables.\n\nWhen one develops the taste for the vegetables that means this information has arrived to System 1. But in this example, it initially came through System 2. Once something is in System 1, it becomes very powerful. It can be triggered, and function without one’s conscious (System 2) effort. Metaphorically speaking one can move mountains once an idea, any idea has arrived in System 1, no pondering is required. System 1 doesn’t care through which path, front or the back door, the idea arrived. As long as the idea, true or false, is there it will act upon it, similar to breathing and heartbeat.\n\nTaste for beer is acquired. Taste for sugar is natural. Not everything in nature is good for our modern life. Nail and hair grow naturally but we cut it regularly. We have to be selective to keep natural things intact and acquire new unnatural things wisely. Here naturally means something that happens as a result of millions of years of biological evolution."
+      }
+    },
+
+    {
+      "key": "chapter1.ans.heading",
+      "type": "text",
+      "value": {
+        "text": "Autonomic Nervous System (ANS)"
+      }
+    },
+    {
+      "key": "chapter1.ans.body",
+      "type": "markdown",
+      "value": {
+        "text": "The Autonomic nervous system (ANS) is part of our reptilian brain. It is responsible for all bodily essential functions. Until recently it was thought that our conscious mind has no control over ANS. But modern neuroscience has discovered that ANS can be influenced if not entirely controlled.\n\nIn a medical laboratory-controlled environment, the Dutch Iceman, Wim Hof, has demonstrated significantly influencing his immune system using his conscious mind, meditation, System 2. He also demonstrated that this ability to influence the ANS is not limited to him only but most people can do this with training. His students also demonstrated the same ability in the laboratory condition. (In the original book a YouTube link is referenced here.)"
+      }
+    },
+
+    {
+      "key": "chapter1.ethos_pathos_logos.heading",
+      "type": "text",
+      "value": {
+        "text": "Ethos, Pathos, and Logos"
+      }
+    },
+    {
+      "key": "chapter1.ethos_pathos_logos.body",
+      "type": "markdown",
+      "value": {
+        "text": "When an idea is accepted just because it came from an authority it is appealing to **Ethos**.\n\nWhen an idea is accepted because it provides a good feeling, as in the story of Jesus and Sarah, it appeals to **Pathos**.\n\nWhen an idea is accepted on the basis of reason, logic, and rational scrutinizing, then it is appealing to **Logos**.\n\nNothing is wrong by entering from the back door to provide temporary and urgently needed comfort to a needy person. But taking advantage of someone’s weakness (when backdoor is left open), then shoving in an idea through the backdoor, any idea to the victim’s System 1, is evil. Jesus entered Sarah’s System 1 by cheating, by entering from the back door, then installing his message in Sarah’s System 1 bypassing her System 2.\n\nIn the scientific world, we enter from the front door. In science we are so cautious about our own back door that we don't even trust ourselves. We scientific minded people know and acknowledge our vulnerability of our backdoor. That is why science has developed randomized double-blind tests."
+      }
+    },
+
+    {
+      "key": "chapter1.lesson.heading",
+      "type": "text",
+      "value": {
+        "text": "Lesson: Use the Front Door First"
+      }
+    },
+    {
+      "key": "chapter1.lesson.body",
+      "type": "markdown",
+      "value": {
+        "text": "We shouldn’t fall in love or hate first and then analyze things. By then it will be too late. By then we are already biased. We should hold our love or hate until we analyze things objectively. This means let ideas come through the front door only.\n\nOnce an idea has passed the System 2 critical thinking, only then one should fall in love or hate with that idea by practicing it verbally (NLP), in writing, in action, over and over again, form new good habits and quit old bad habits."
+      }
+    },
+
+    {
+      "key": "chapter1.system1_enjoy_nature.heading",
+      "type": "text",
+      "value": {
+        "text": "System 1: Enjoy the Beauty of Nature"
+      }
+    },
+    {
+      "key": "chapter1.system1_enjoy_nature.body",
+      "type": "markdown",
+      "value": {
+        "text": "Yes, for a short duration of time if you want to just enjoy the good feeling of a nice sunset, sitting on a bench in a park by a lake, watching birds flying, ducks swimming, children playing, feel the wind on your skin and hair, then you may shut your System 2 off. Let the back door open. Let all the information get to your System 1 from the back door. Just enjoy the feeling of it. Let your qualia do its job.\n\nDo not try to analyze the spectrum of light frequency, 10^14 Hz to 10^15 Hz or the rainbow, or aerodynamics of flying birds, kinetic energy of children playing. Just watch, hear, feel the wind and enjoy. System 2 has no role in enjoyment except just consciously being aware of your good feelings.\n\n**Warning:** shutting off System 2 should not last for too long otherwise you could be in trouble, you won’t know when to use System 2 until you get severely interrupted by external potentially dangerous stimuli. By then it could be too late. Put some kind of alarm clock to free yourself from the real world metaverse, so to speak."
+      }
+    },
+
+    {
+      "key": "chapter1.enjoy_love.heading",
+      "type": "text",
+      "value": {
+        "text": "Enjoy Love"
+      }
+    },
+    {
+      "key": "chapter1.enjoy_love.body",
+      "type": "markdown",
+      "value": {
+        "text": "Or when you want to enjoy the hug of your little son or daughter then keep your System 2 aside. Leave the back door open and let System 1 do its job of experiencing the good feeling of love.\n\nIf you analyze the reason for someone loving you and find an answer then the enjoyment of love will be reduced if not completely vanished. Do not ask questions why one loves you while trying to enjoy the feeling of love. You can do that later.\n\n**Warning:** but watch out, don’t keep the back door open for too long, unchecked, otherwise, bad things can happen and you won’t even know how and why it happened.\n\nIf you question, think, reason, go through a lot of analysis then you will find out why a person loves you. That person’s love may be for your wealth. If you come to that conclusion then your enjoyment of love will vanish. You might immediately think that, “oh, well, if I lose my wealth then that person won’t love me.”\n\nYou might conclude that the other person loves you because you are good looking, or because you treat the other person kindly, or because you have high social status, or what have you. The moment you find the answer your enjoyment will vanish. You will think, “well if I lose that specific thing then the other person won’t love me anymore.” Qualia doesn’t need reason. Qualia needs the presence of something pleasant at the moment.\n\nInterestingly, System 1, ANS, qualia, enjoyment are all about short term, preferably immediate feelings. It is the System 2 that is capable of thinking and planning for the long term. But for action and strong regular, habitual execution you need System 1."
+      }
+    },
+
+    {
+      "key": "chapter1.just_analyze.heading",
+      "type": "text",
+      "value": {
+        "text": "Just Analyze"
+      }
+    },
+    {
+      "key": "chapter1.just_analyze.body",
+      "type": "markdown",
+      "value": {
+        "text": "When you want to analyze something objectively to find the truth then shut the back door closed. Use the front door. Only with the permission of System 2 you may open your back door for a short duration of time if it is beneficial and required and approved by System 2 for analysis of the subject under scrutiny.\n\nSet a biological alarm clock on, interrupt, and then close the back door, and return full control back to System 2."
+      }
+    }
+
+   
+  ]
+}

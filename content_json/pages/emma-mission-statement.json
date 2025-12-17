@@ -1,0 +1,232 @@
+{
+  "slug": "emma-mission-statement",
+  "template": "content",
+  "blocks": [
+    {
+      "key": "hero.title",
+      "language": "en",
+      "block_type": "text",
+      "value": { "text": "EMMA Foundation Goals and Mission Statements" },
+      "sort_order": 1
+    },
+    {
+      "key": "hero.subtitle",
+      "language": "en",
+      "block_type": "text",
+      "value": {
+        "text": "A roadmap to elevate the top 1% and better, blending intellect, ethics, resilience, and compassion for meaningful impact."
+      },
+      "sort_order": 2
+    },
+    {
+      "key": "hero.image",
+      "language": "en",
+      "block_type": "image",
+      "value": {
+        "url": "/media/gallery/2023/03.jpg",
+        "alt": "Mission blueprint for EMMA Foundation"
+      },
+      "sort_order": 3
+    },
+
+    {
+      "key": "mission.intro",
+      "language": "en",
+      "block_type": "text",
+      "value": {
+        "text": "EMMA empowers people to reach their fullest potential through the 8 Pistons of Life while pairing soul (mind) development with practical support."
+      },
+      "sort_order": 4
+    },
+
+    {
+      "key": "mission.statements",
+      "language": "en",
+      "block_type": "list",
+      "value": {
+        "items": [
+          {
+            "title": "1) The 8 Pistons of Life",
+            "body": "EMMA is a US-based IRS 501(c)(3) global philanthropic entity that helps people reach their maximum potential via the Founder's 8 Pistons named after Greek gods and goddesses: Health (Hygieia), Wealth (Plutus), Intellect (Athena), Family (Philotas), Travel (Hermes), Philosophy (Dike), Self-Mastery (Sophrosyne), and Philanthropy (Eleos)."
+          },
+          {
+            "title": "2) Teaching people how to think",
+            "body": "The goal is to foster rational, logical, just, and impartial thought based on science and reason. Practice turns conclusions into habits, revealing the real magic."
+          },
+          {
+            "title": "3) Seven tiers of daily practice",
+            "body": "EMMA provides seven tiers of non-denominational services and encourages a balanced life that blends wealth, health, spirituality, enlightenment, eudaemonic, ascetic, stoic, and balanced-epicurean elements, with diet, exercise, self-mastery, and meditation."
+          },
+          {
+            "title": "4) Clearer thinking to solve problems",
+            "body": "To fix material and spiritual issues, EMMA replaces flawed ideas with logical, science-based concepts, using the 7 Commandments of the 21st Century Science."
+          },
+          {
+            "title": "5) Feeding the soul as well as the body",
+            "body": "Beyond food and shelter, EMMA nurtures the mind that discerns truth from falsehood, allocating more resources to elevate consciousness while still providing material aid."
+          },
+          {
+            "title": "6) Clarity amid misinformation",
+            "body": "Recent election cycles, global conflicts, pandemics, and big-tech power have exposed corruption across institutions, eroding trust and highlighting the need for personal discernment."
+          },
+          {
+            "title": "7) Empowering individuals first",
+            "body": "EMMA believes governments, corporations, media, and conventional education will not fully serve ordinary people; change must be driven by individuals helping each other reach their highest potential."
+          },
+          {
+            "title": "8) Self-reliance and resilience",
+            "body": "EMMA discourages entitlement mindsets and instead promotes self-reliance, responsibility, hard work, and charity for the unfortunate while building strength on your own merit."
+          },
+          {
+            "title": "9) A grassroots, bottom-up movement",
+            "body": "By empowering individuals and fostering collaboration, EMMA aims to create ripple effects that improve the world through the 7-tier system and trickle-down impact."
+          },
+          {
+            "title": "10) Test your thinking",
+            "body": "Challenge your biases and reasoning via The 1% and Better - 8 Clubs, P3: Intellect - 8PQ Athena, and read chapter 1 of the Book of Intense Truth."
+          },
+          {
+            "title": "11) Rewiring the mind",
+            "body": "Harness the prefrontal cortex (System 2, the rider) to guide System 1 (the elephant), overcoming cognitive dissonance and unhelpful habits with science, reason, and truth."
+          }
+        ]
+      },
+      "sort_order": 5
+    },
+
+    {
+      "key": "mission.steps",
+      "language": "en",
+      "block_type": "list",
+      "value": {
+        "items": [
+          {
+            "title": "Appeal to emotion with compassion and truth",
+            "body": "Create a warm environment while teaching the bitter truth, honest self-analysis, and rational life review to reconfigure the prefrontal cortex (System 2)."
+          },
+          {
+            "title": "Daily practice and re-patterning",
+            "body": "Provide a friendly space for rituals, meditation, and stoic practice so System 1 is gradually aligned with well-thought-out ideas."
+          },
+          {
+            "title": "Local chapters",
+            "body": "EMMAM will be allowed to open local EMMA chapters with guidance from the foundation."
+          },
+          {
+            "title": "Public discourse",
+            "body": "EMMAM and other professionals will be interviewed for EMMA's YouTube channel to educate the public."
+          },
+          {
+            "title": "Train the elephant",
+            "body": "System 1 is 84% of the brain and holds untapped power; EMMA trains members to influence it and align passion with EMMA's value system."
+          },
+          {
+            "title": "Learn from thinkers",
+            "body": "System 1 and 2 were described by Nobel Laureate Daniel Kahneman in Thinking, Fast and Slow."
+          },
+          {
+            "title": "Track and refine progress",
+            "body": "Members monitor their progress and fine-tune personalized strategies for success."
+          },
+          {
+            "title": "Commit for life",
+            "body": "Members (EMMAM) commit for life, take an oath to help others for life, and operate openly regardless of race, sex, religion, or origin."
+          },
+          {
+            "title": "Entrepreneurship and investment",
+            "body": "Entrepreneurs can build their own ideas or join EMMA initiatives; investors can join the CLAP club and Plutus Investment to connect with founders and angel investors."
+          },
+          {
+            "title": "Why people fall short",
+            "body": "Common blockers include self-deception and lies; wanting things for free and now; tunnel vision; lack of critical thinking and logic; and poor emotional control."
+          },
+          {
+            "title": "Invitation to driven talent",
+            "body": "Professors, graduate and Ph.D. students, and professionals anywhere in the world can join, contribute brain, time, and skill, and earn sweat equity in EMMA-sponsored startups."
+          }
+        ]
+      },
+      "sort_order": 6
+    },
+
+    {
+      "key": "mission.principles",
+      "language": "en",
+      "block_type": "list",
+      "value": {
+        "items": [
+          {
+            "title": "Snowball effect",
+            "body": "Small actions compound. The Ice Bucket Challenge showed how a simple idea can go global and fund real change."
+          },
+          {
+            "title": "Survival for the most adaptable",
+            "body": "Adapt to thrive. Netflix evolved from DVDs to streaming, proving flexibility wins in changing environments."
+          },
+          {
+            "title": "Pareto's law",
+            "body": "Roughly 80% of outcomes come from 20% of inputs. Focus effort where it creates outsized results."
+          },
+          {
+            "title": "Price's law",
+            "body": "The square root of the number of people in a domain creates half the output. A small group can move the needle for millions."
+          },
+          {
+            "title": "Proximity matters",
+            "body": "You become the average of the five people you spend time with. Curate circles that push you higher."
+          },
+          {
+            "title": "Lessons from history",
+            "body": "Scarcity and abundance follow those who build capability; purpose and rigor compound over time."
+          }
+        ]
+      },
+      "sort_order": 7
+    },
+
+    {
+      "key": "mission.quotes",
+      "language": "en",
+      "block_type": "list",
+      "value": {
+        "items": [
+          "Matthew 25:29 (NIV): For whoever has will be given more, and they will have an abundance. Whoever does not have, even what they have will be taken from them.",
+          "Mark 4:25 (NIV): Whoever has will be given more; whoever does not have, even what they have will be taken from them.",
+          "Luke 8:18 (NIV): Therefore, consider carefully how you listen. Whoever has will be given more; whoever does not have, even what they think they have will be taken from them."
+        ]
+      },
+      "sort_order": 8
+    },
+
+    {
+      "key": "mission.lessons",
+      "language": "en",
+      "block_type": "list",
+      "value": {
+        "items": [
+          {
+            "title": "Self-awareness with honesty",
+            "body": "Most people desire wealth without admitting it; EMMA pairs thoughtful charity with a venue to build value and help others."
+          },
+          {
+            "title": "Survival and group uplift",
+            "body": "Nature favors groups that cooperate. EMMA enhances group survival for self-interest through intelligence and collaboration."
+          },
+          {
+            "title": "Positive-sum mindset",
+            "body": "In positive-sum games, nice people can finish first. Reputation, cooperation, and creating new value matter most."
+          },
+          {
+            "title": "Emergent possibilities",
+            "body": "Consciousness, fairness, and shared purpose can shift outcomes. Feeding both the body and the mind is required."
+          },
+          {
+            "title": "Join and grow",
+            "body": "EMMA seeks volunteers and builders who want meaning, excellence, and the chance to create outsized, positive change."
+          }
+        ]
+      },
+      "sort_order": 9
+    }
+  ]
+}

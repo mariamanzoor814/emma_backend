@@ -1,0 +1,98 @@
+{
+  "slug": "feeding-the-soul",
+  "blocks": [
+    {
+      "key": "hero.title",
+      "block_type": "text",
+      "value": { "text": "Feeding the Soul" },
+      "sort_order": 1
+    },
+    {
+      "key": "hero.subtitle",
+      "block_type": "text",
+      "value": {
+        "text": "Developing intellect, reasoning, and critical thinking."
+      },
+      "sort_order": 2
+    },
+    {
+      "key": "hero.image",
+      "block_type": "image",
+      "value": {
+        "url": "/media/gallery/2023/03.jpg",
+        "alt": "Feeding the Soul"
+      },
+      "sort_order": 3
+    },
+    {
+      "key": "feeding.sections",
+      "language": "en",
+      "block_type": "list",
+      "value": {
+        "items": [
+          {
+            "id": "feeding_1",
+            "heading": "Feeding the Soul",
+            "body": "We educate, mentor, train, teach critical thinking and provide venue to the smartest and most educated people, to revise and update their own moral and practical value systems and practice those to become healthy, wealthy and improve in all 8-Pistons at no cost to you. Then later, you can help others."
+          },
+          {
+            "id": "feeding_2",
+            "heading": "Free EMMA Training Program (Powered by Athena, USA)",
+            "body": "For selected candidates who want to be members of and volunteer for EMMA, we pay for their 3-month-long, once-a-week, live online interactive training course. This curriculum is provided by Athena, USA, and covers most of the topics mentioned in the 8-Pistons poster. We do not ask you for any money."
+          },
+          {
+            "id": "feeding_3",
+            "heading": "Seed Funding for Research & Innovation Projects",
+            "body": "We seed-fund qualified R&D projects for industry professionals, individuals, startups, professors, and Ph.D. students in Computer Science, Engineering, High-finance, business and various other schools at global universities at no cost to you."
+          },
+          {
+            "id": "feeding_4",
+            "heading": "Breaking Free from Corporate Golden Handcuffs",
+            "body": "We help the smartest people, the top 1% of the population break free from the corporate golden handcuffs and switch from the 9-to-5 job, modern-day slavery, to being their own boss. Obviously, this is not for everyone."
+          },
+          {
+            "id": "feeding_5",
+            "heading": "Entrepreneurial Training with Direct Investment Support",
+            "body": "The Emma Foundation not only educates and trains you on how to become a successful entrepreneur but also invests its money in your project if it is viable. Additionally, we provide a venue through which you can progress and excel financially if you do not have your own venue."
+          },
+          {
+            "id": "feeding_6",
+            "heading": "Scholarships, Student Visas & U.S. Green Card Assistance",
+            "body": "Additionally, we provide scholarships and sponsor qualified international Ph.D. students for student visas, later assist them with green card applications in the U.S."
+          },
+          {
+            "id": "feeding_7",
+            "heading": "Access to an Elite Global Network",
+            "body": "No matter how smart, hardworking, drive you are if you do not have proper network to likeminded, resourceful people then you will go nowhere. Emma connects you to smart, wealthy, driven, resourceful, experienced and good people."
+          },
+          {
+            "id": "feeding_8",
+            "heading": "The Practical 8PQ Polymath Course",
+            "body": "We offer practical “8PQ course” for entrepreneur minded individuals, corporate employees, professors, and graduate students. Content of this practical course span across multiple disciplines such as, Business, Finance, Accounting, Law, Engineering, Computer Science, AI, Physics, Psychology, Sociology, Networking. Universities and other institution can incorporate our 8PQ, 3 to 6 credit hours course in their postgraduate course through our sponsored institution Athena."
+          },
+          {
+            "id": "feeding_9",
+            "heading": "Becoming Polymathic & Startup-Ready",
+            "body": "8PQ course will make you Polymathic and help you understand how the real-world works. Individual can start their own startup immediately after taking this course. Founders of any startup need broader knowledge and understanding of the world than 9-5 expert workers. Please see item 17, “Bitter Truth – Global Educational System and Experts” on page 7 in “About the Founder” menu item."
+          },
+          {
+            "id": "feeding_10",
+            "heading": "Interviews with Professors & Subject-Matter Experts",
+            "body": "We also conduct interviews with professors and subject matter experts in various fields for our upcoming YouTube channel. This encompasses, but is not limited to, psychology, sociology, history, philosophy, science, engineering, physics, genetics, economics, business, high-finance and more. Send us email with your questions."
+          },
+          {
+            "id": "feeding_11",
+            "heading": "Global Conferences & University Collaboration",
+            "body": "Furthermore, we facilitate conferences, seminars, collaboration between universities around the globe. Send us and email with your question."
+          },
+          {
+            "id": "feeding_12",
+            "heading": "7-Tier Mentoring, AI Truth Machine & Founder’s Vision",
+            "body": "Please see the 7-tier mentoring concept in text block #9 on the 8-Pistons poster, the AI-based Truth Machine, and About the Founder in the menu item."
+          }
+        ]
+      },
+      "sort_order": 210
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "slug": "clap-investment-club",
+  "template": "default",
+  "blocks": [
+    {
+      "key": "hero.title",
+      "type": "text",
+      "value": {
+        "text": "CLAP Investment Club"
+      }
+    },
+    {
+      "key": "hero.subtitle",
+      "type": "text",
+      "value": {
+        "text": "Become Top 1% Investor in Terms of Risk-Adjusted Return"
+      }
+    },
+    {
+      "key": "hero.image",
+      "language": "en",
+      "block_type": "image",
+      "value": { "url": "/media/gallert/2024/03.jpg", "alt": "EMMA Foundation" },
+      "sort_order": 4
+    },
+
+    {
+      "key": "clap.intro.heading",
+      "type": "text",
+      "value": {
+        "text": "Become a Top 1% Investor"
+      }
+    },
+    {
+      "key": "clap.intro.body",
+      "type": "markdown",
+      "value": {
+        "text": "A lot more detail is coming soon.\n\nSince most people are most interested in the 2nd piston, \"Wealth,\" regardless of the virtue signal they try to convey, EMMA endorses the CLAP Entrepreneur-Investors club. CLAP is a for-profit organization that brings both parties with complementary interests together on one platform. Please contact us if you are looking for the top 1% investment opportunities or if you have a business idea and need funding and guidance."
+      }
+    },
+
+    {
+      "key": "clap.meaning.heading",
+      "type": "text",
+      "value": {
+        "text": "What Is CLAP?"
+      }
+    },
+    {
+      "key": "clap.meaning.body",
+      "type": "markdown",
+      "value": {
+        "text": "CLAP stands for **Caishen, Lakshmi, Abundantia, Plutus** — God and Goddess of Wealth, Prosperity, and Abundance from ancient Chinese, Hindu, Roman, and Greek mythology, respectively.\n\nCurrently, CLAP is endorsed by EMMA Foundation, a US-based 501(c) philanthropic organization."
+      }
+    },
+
+    {
+      "key": "clap.goal.heading",
+      "type": "text",
+      "value": {
+        "text": "Goal of CLAP Investment Club"
+      }
+    },
+    {
+      "key": "clap.goal.body",
+      "type": "markdown",
+      "value": {
+        "text": "CLAP's goal is to bring the **top 1% private equity and other investment opportunities** to its HNWI and UHNWI members.\n\nCLAP also brings other deals to smaller investors and all 7-tier individuals. Please see the 7-tier concept in the **8-Piston Poster**.\n\nCLAP has access to tens of thousands of private equities filed with the SEC every year. Extensive due diligence is performed on investment opportunities and entrepreneurs before declaring them as \"The top 1%.\" These investment opportunities are confidential and exclusive information for its members.\n\nCLAP mentors doctors, engineers, scientists, small business owners, STEM professionals, and other entrepreneurs on investing and business, emphasizing topics not readily found on the internet.\n\nCLAP invites startup ventures, syndicators of private equities, and fund managers (Reg. D 506(b) & (c)) to join the club."
+      }
+    },
+
+    {
+      "key": "clap.emma.heading",
+      "type": "text",
+      "value": {
+        "text": "EMMA Foundation and the 8 Pistons"
+      }
+    },
+    {
+      "key": "clap.emma.body",
+      "type": "markdown",
+      "value": {
+        "text": "EMMA sponsors one club for each of its 8 Pistons:\n\n1. Health\n2. Wealth\n3. Intellect\n4. Family\n5. Travel\n6. Philosophy\n7. Self-Mastery\n8. Charity\n\nThe concept of 8 pistons came from powerful American 8-cylinder cars.\n\nPlease visit [EMMA Foundation's website](https://www.EmmaFoundation.net)."
+      }
+    },
+
+    {
+      "key": "clap.sponsorship.heading",
+      "type": "text",
+      "value": {
+        "text": "Event Sponsorships and Deal Presentation"
+      }
+    },
+    {
+      "key": "clap.sponsorship.body",
+      "type": "markdown",
+      "value": {
+        "text": "CLAP offers sponsorship for once or twice a month local meetup events, where your deal and investment opportunity will be introduced to CLAP's members.\n\nAs CLAP is an investment club and does not have its own syndication or deals to sell, we are allowed to present outside deals and private equities to our club members."
+      }
+    },
+
+    {
+      "key": "clap.costs.heading",
+      "type": "text",
+      "value": {
+        "text": "What CLAP Asks From You"
+      }
+    },
+    {
+      "key": "clap.costs.body",
+      "type": "markdown",
+      "value": {
+        "text": "In return, CLAP asks you to bear the cost of the following items for your dedicated event:\n\n- The cost of obtaining the contact info of the right kind of HNWI and UHNWI for your business.\n- The cost of digital and non-digital marketing.\n- The cost of the event itself, including hotel or event center rental, meals for the investors, etc."
+      }
+    }
+  ]
+}

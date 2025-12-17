@@ -1,0 +1,836 @@
+
+{
+  "slug": "home",
+  "template": "landing",
+  "blocks": [
+
+    {
+      "key": "hero.title",
+      "language": "en",
+      "block_type": "text",
+      "value": { "text": "Path to “The 1% & Better” a Global Community" },
+      "sort_order": 1
+    },
+    {
+      "key": "hero.subtitle",
+      "language": "en",
+      "block_type": "text",
+      "value": { "text": "We mentor you and fund your R&D or startup project, or your work on ours for sweat equity." },
+      "sort_order": 2
+    },
+    {
+      "key": "hero.cta_label",
+      "language": "en",
+      "block_type": "text",
+      "value": { "text": "Get Started" },
+      "sort_order": 3
+    },
+    {
+      "key": "hero.image",
+      "language": "en",
+      "block_type": "image",
+      "value": { "url": "/media/home/hero11.png", "alt": "EMMA Foundation" },
+      "sort_order": 4
+    },
+
+    {
+      "key": "mission.title",
+      "language": "en",
+      "block_type": "text",
+      "value": { "text": "Our Mission" },
+      "sort_order": 1
+    },
+
+    {
+      "key": "mission.soul.title",
+      "language": "en",
+      "block_type": "text",
+      "value": { "text": "Feeding the Soul (Mind)" },
+      "sort_order": 2
+    },
+    {
+      "key": "mission.soul.body",
+      "language": "en",
+      "block_type": "text",
+      "value": {
+      "text": "Our primary goal is to solve the root causes of global problems by developing people's intellect, reasoning, and critical thinking.\nWe help the smartest, most motivated individuals reach their maximum potential.\nWhen the fortunate rise, they naturally uplift others — this is our \"Trickle Down mindset.We collaborate with:\"."
+      },  
+
+      "sort_order": 3
+    },
+    {
+      "key": "mission.soul.bullets",
+      "language": "en",
+      "block_type": "list",
+      "value": { "items": ["Provosts, professors, and deans", "Top 1% Ph.D. students", "Researchers worldwide"] },
+      "sort_order": 4
+    },
+    {
+      "key": "mission.soul.image",
+      "language": "en",
+      "block_type": "image",
+      "value": { "url": "/media/mission/soul.png" },
+      "sort_order": 5
+    },
+
+    {
+      "key": "mission.body.title",
+      "language": "en",
+      "block_type": "text",
+      "value": { "text": "Feeding the Body" },
+      "sort_order": 6
+    },
+    {
+      "key": "mission.body.body",
+      "language": "en",
+      "block_type": "text",
+      "value": { "text": "Our secondary mission is immediate relief for those in need.Activities include:" },
+      "sort_order": 7
+    },
+    {
+      "key": "mission.body.bullets",
+      "language": "en",
+      "block_type": "list",
+      "value": { "items": ["Feeding programs", "Medical aid", "Dental aid", "Book donations", "Supporting 5 remote islands in the Philippines", "Recent missions:", "2023 Philippines Feeding the Children initiative", "2024 ongoing medical and humanitarian missions"] },
+      "sort_order": 8
+    },
+    {
+      "key": "mission.body.image",
+      "language": "en",
+      "block_type": "image",
+      "value": { "url": "/media/mission/body.png" },
+      "sort_order": 9
+    },
+{
+  "key": "mission.serendipity.image",
+  "language": "en",
+  "block_type": "image",
+  "value": {
+    "url": "/media/mission/serendipity.png",
+    "alt": "Serendipity illustration"
+  },
+  "sort_order": 100
+},
+    {
+  "key": "mission.serendipity.title",
+  "language": "en",
+  "block_type": "text",
+  "value": {
+    "text": "Lucky you! Your Serendipity today. Read on"
+  },
+  "sort_order": 98
+},
+{
+  "key": "mission.serendipity.body",
+  "language": "en",
+  "block_type": "text",
+  "value": {
+    "text": "The EMMA Foundation is a unique charity organization registered in the U.S. as an IRS 501(c)(3) entity. We serve as a global philanthropic NGO and non-profit charity. Our mission involves mentoring, supporting, and funding viable business ideas and R&D projects for qualified individuals who are stuck in corporate jobs, professors, and postgraduate students. We aim to help you reach your maximum potential and live a healthier, wealthier, wiser, and happier lives with purpose. We utilize the \"7 Commandments of 21stCS” (the 21st Century Science) as defined in EMMA's Mission Statement page to assist people."
+  },
+  "sort_order": 99
+},
+
+    {
+  "key": "readponder.title",
+  "value": { "text": "Read, Ponder, Meditate, Soul Search" }
+},
+{
+  "key": "readponder.body",
+  "block_type": "group",
+  "value": {
+    "title": "If you read this website fully, specially:",
+    "items": [
+      "i) This Landing Page",
+      "ii) About the Founder and 8-Pistons Poster",
+      "iii) EMMA’s Mission Statement; “7 Commandments of 21stCS” (21st Century Science)",
+      "iv) First chapter “Jesus Christ and a not so good woman” of the book “Book of Intense Truth”",
+      "v) Take the short intellectual tests in the menu item The 1% and Better – 8 Clubs; P3: Intellect (Athena)."
+    ],
+    "footer": "…then sit in solitude, meditate, truthfully, honestly, intellectually ponder, self-reflect, do soul searching about your life and the things that you read …\n\n….then most probably you will join EMMA Foundation\n\n….then most probably you will eventually hit the point of inflection in your life for better.\n\nWe can help you to put your new understanding about life into action, practice and make it habit then you will see the magic. We spend our money, time and courses on selected few, along with your effort to help you reach your maximum potential. Then you help others."
+  }
+},
+
+{
+  "key": "readponder.cards",
+  "block_type": "list",
+  "value": {
+    "items": [
+      {
+        "body": "Even if you are already in the top 1%, still you will benefit from it by achieving your fullest potential. ",
+        "image": "/media/readponder/card1.png"
+      },
+      {
+        "body": "Why, How, Fund, Execution: We guide you to find your why, mentor you to find your how, then we fund your project and again help you to execute your viable dream that will add value to the society and for you",
+        "image": "/media/readponder/card2.png"
+      },
+      {
+        "body": "There is no monetary cost to you to join our charity organization. ",
+        "image": "/media/readponder/card3.jpg"
+      },
+        {
+        "body": "EMMA’s long term goal is to revolutionize the current way of doing charity from mostly only feeding the body to putting more emphasis on feeding the soul (the mind).",
+        "image": "/media/readponder/card3.jpg"
+      },
+        {
+        "body": "Most probably I, as the founder of EMMA, might not even see the full result of EMMA’s effort in my life time but I want to put the seed for it then let the next generation take it forward ",
+        "image": "/media/readponder/card2.png"
+      },
+        {
+        "body": "What do EMMA and I as the founder of EMMA get in return? Answer: Our ROI (Return on Investment) are satisfaction, joy, happiness, eudemonic life, by witnessing people around EMMA are truly benefiting in the long term and rather than just temporarily or superficially.",
+        "image": "/media/readponder/card2.png"
+      }
+    ]
+  }
+},
+  
+  {
+    "key": "section3.title",
+    "language": "en",
+    "block_type": "text",
+    "value": { "text": "EMMA Feeds the Soul and the Body" },
+    "sort_order": 1
+  },
+
+  {
+    "key": "section3.soul.title",
+    "language": "en",
+    "block_type": "text",
+    "value": { "text": "Feeding the Soul" },
+    "sort_order": 2
+  },
+  {
+    "key": "section3.soul.intro",
+    "language": "en",
+    "block_type": "text",
+    "value": {
+      "text": "We educate, mentor, train, teach critical thinking and provide venue to the smartest and most educated people, to revise and update their own moral and practical value systems and practice those to become healthy, wealthy and improve in all 8-Pistons at no cost to you. Then later, you can help others."
+    },
+    "sort_order": 3
+  },
+  {
+    "key": "section3.soul.points",
+    "language": "en",
+    "block_type": "list",
+    "value": {
+      "items": [
+        "For selected candidates who want to be members of and volunteer for EMMA, we pay for their 3-month-long, once-a-week, live online interactive training course provided by Athena, USA.",
+        "We seed-fund qualified R&D projects for industry professionals, individuals, startups, professors, and Ph.D. students in Computer Science, Engineering, High-finance, business and various other schools at global universities at no cost to you.",
+        "We help the smartest people, the top 1% of the population break free from the corporate golden handcuffs and switch from the 9-to-5 job, modern-day slavery, to being their own boss.",
+        "The Emma Foundation not only educates and trains you on how to become a successful entrepreneur but also invests its money in your project if it is viable. Additionally, we provide a venue through which you can progress and excel financially if you do not have your own venue.",
+        "Additionally, we provide scholarships and sponsor qualified international Ph.D. students for student visas, later assist them with green card applications in the U.S.",
+        "Emma connects you to smart, wealthy, driven, resourceful, experienced and good people worldwide.",
+        "We offer practical '8PQ course' for entrepreneur-minded individuals, corporate employees, professors, and graduate students across multiple disciplines including Business, Finance, Accounting, Law, Engineering, Computer Science, AI, Physics, Psychology, Sociology, Networking.",
+        "8PQ course will make you Polymathic and help you understand how the real-world works. Individuals can start their own startup immediately after taking this course.",
+        "We conduct interviews with professors and subject matter experts for our YouTube channel in various fields including psychology, sociology, history, philosophy, science, engineering, physics, genetics, economics, business, high-finance and more.",
+        "We facilitate conferences, seminars, collaboration between universities around the globe."
+      ]
+    },
+    "sort_order": 4
+  },
+
+  {
+    "key": "section3.body.title",
+    "language": "en",
+    "block_type": "text",
+    "value": { "text": "Feeding the Body" },
+    "sort_order": 5
+  },
+  {
+    "key": "section3.body.points",
+    "language": "en",
+    "block_type": "list",
+    "value": {
+      "items": [
+        "We provide food, medicine and shelter around the world to the unfortunate ones.",
+        "We collaborate with other charity organizations around the world.",
+        "EMMA’s goal is to provide what people want but at the same time give them what they actually need."
+      ]
+    },
+    "sort_order": 6
+  },
+
+  {
+    "key": "section3.handout.title",
+    "language": "en",
+    "block_type": "text",
+    "value": { "text": "Handout vs. Earned" },
+    "sort_order": 7
+  },
+  {
+    "key": "section3.handout.points",
+    "language": "en",
+    "block_type": "list",
+    "value": {
+      "items": [
+        "Give a man a fish and you feed him for a day; teach a man how to fish and you feed him for life. EMMA gives urgent ‘fish’ when needed, but always teaches ‘fishing’ for long-term independence.",
+        "Give a man a fish then he knows exactly who to come back to the next time, teach a man how to fish and you destroy your market share. EMMA’s ROI is not based on short-term gains, but on long-term positive changes in society. Members return to EMMA to help others."
+      ]
+    },
+    "sort_order": 8
+  },
+  {
+  "key": "section3.earned.imagecard",
+  "language": "en",
+  "block_type": "image",
+  "value": {
+    "url": "/media/mission/soule.png",
+    "alt": "Earned Illustration Card"
+  },
+  "sort_order": 10
+},
+
+    {
+  "key": "bitter.title",
+  "language": "en",
+  "block_type": "text",
+  "value": { "text": "Bitter and Sad Truth of Nature – Adapt to it" },
+  "sort_order": 60
+},
+{
+  "key": "bitter.one_percent.body",
+  "language": "en",
+  "block_type": "text",
+  "value": {
+    "text": "“The 1%” mentioned refers to the top 1% population of the United States and not to the top 1% of the global population. The threshold for being in the top 1% of the world population is much lower and therefore, much easier to achieve. Other nations that are better off than the US have much smaller population and therefore, may not be a good reference point. Due to dynamic nature of the world the reference points can be changed and 8-PQ can be adjusted."
+  },
+  "sort_order": 61
+},
+
+{
+  "key": "bitter.hero_image",
+  "language": "en",
+  "block_type": "image",
+  "value": {
+    "url": "/media/bitter/img.png",
+    "alt": "Founder and 7-tier concept"
+  },
+  "sort_order": 62
+},
+
+{
+  "key": "bitter.sections",
+  "language": "en",
+  "block_type": "list",
+  "value": {
+    "items": [
+      {
+        "title": "Feeding the soul and the body",
+        "body": "My name is Munzer Haque, and I am the founder of the EMMA Foundation. The Emma Foundation is a non-profit NGO registered in the US as an IRS 501(c)(3) global philanthropic entity. One of the main goals of the Emma Foundation is to teach people how to think, rather than prescribing what to think. EMMA spends a smaller percentage of its resources to feed the body - feeding the hungry, providing shelter to the homeless, medicine to the sick, and allocates more resources to feed the soul - the mind, through which one figures out good from bad, right from wrong, and truth from lies. We help people to improve their ideology, value system and practice it."
+      },
+      {
+        "title": "EMMA’s Core Value",
+        "body": "The founder of EMMA believes that root cause of a) most of the problems in the world and b) the reason most people do not reach even a fraction of their own maximum potentials is lack of clear & critical thinking, reason/logic, honesty, fairness, along with emotional control. And therefore, EMMA’s primary goal is to train people for critical thinking, fairness and emotional control, according to where each individual’s current fitness level matches in EMMA’s 7-tiers of rating."
+      },
+      {
+        "title": "Why helping top tier people",
+        "body": "EMMA wants to do charity work in most effective way as possible. EMMA’s conclusion is helping the top tier people, the fortunate ones, the top 1%, in the 8PQ 7-tier concept, (please see the 7-tier in text block 9 in 8-Piston poster) can have most positive impact in the world provided these people have good heart, compassionate and care for others, we train them, educated them, convince them to be that. EMMA relies on trickle down effect to see the most effective positive outcome for the maximum number of people."
+      },
+      {
+        "title": "Why helping the lower tier people",
+        "body": "While helping the top tier people EMMA at the same time, helps the “unfortunate ones”, the lower tiered people as well hoping the lower tiered people will climb up in the 7-tiered ladder, become fortunate one and then they will help the lower tiered people. We educate and convince them to do so."
+      },
+      {
+        "title": "Swallow this! Why extremely wealthy and extremely poor people exist?",
+        "body": "Matthew 13:12 (Bible New International Version): \"Whoever has will be given more, and they will have an abundance. Whoever does not have, even what they have will be taken from them.\" Laws of nature is brutal and amoral. Nature favor Snowball effect, Preto Law (80%-20% rule), Price’s Law (Half of the total production is created by by the square root of that population. In the US only 18,000 of 340 million people creates half of US $24 trillion GDP.) Make up your mind where you want to be for your long-term future?"
+      },
+      {
+        "title": "EMMA’s Two Options for You",
+        "body": "Although EMMA is more interested in Option 2 below but knowing that most people are less interested in the philosophy of life and eudemonic life as stated in Option 2 below and more interested in making money, we also mentor, help, and fund your research and startup business or let you participate in Emma-sponsored, already-funded startups to help you get wealthy through sweat equity.",
+        "bullets": [
+          "Option 1 (Funding): Do you want to become a multimillionaire, decamillionaire, multi-decamillionaire or more? Then join us. It will cost you time but not a dime. Turn your dreams, entrepreneurship ideas, or research projects into successful businesses with EMMA’s seed funding and mentoring or join one of EMMA’s sponsored, already funded projects for sweat equity. You can keep your day job. We pay, not you. We reward you for your brain, time, skill, passion and drive. Take the quiz on Intellect in The 1% & Better-8 Clubs, sub-menu P3.",
+          "Option 2 (Charity): If you are an expert in any field and passionate about it then we will interview you for our Youtube channel. Discuss your research project, scientific thinking, deep philosophy, stoic life, meaning, fulfillment. This helps you build your own brand and spreads knowledge."
+        ]
+      }
+    ]
+  },
+  "sort_order": 63
+},
+{
+  "key": "participation.title",
+  "language": "en",
+  "block_type": "text",
+  "value": { "text": "Your Participation" },
+  "sort_order": 1
+},
+{
+  "key": "participation.intro",
+  "language": "en",
+  "block_type": "text",
+  "value": {
+    "text": "Lucky you! Your Serendipity today.\nI hope Emma Foundation will trigger epiphany in your mind.\nIf you want meaning, fulfillment, enlightenment, self-actualization, eudaimonia in life AND\na) Make a lot of money by adding value to the society\nb) Improve your health, live longer with mental and physical fitness\nc) Improve your intellect, wisdom, and philosophy\nd) Improve your relationship\ne) and more – see 8-Pistons Poster\n… then you have come to the right place."
+  },
+  "sort_order": 2
+},
+{
+  "key": "participation.points",
+  "language": "en",
+  "block_type": "list",
+  "value": {
+    "items": [
+      {
+        "title": "We mentor you on our cost.",
+        "text": "This involves fostering rational, logical, just, and impartial thought processes based on science and reason to arrive at conclusions. These conclusions are put into practice, become habits, and that’s when you see the magic. Becoming a member of EMMA is like being partner with EMMA."
+      },
+      {
+        "title": "Partnership with universities and professionals.",
+        "text": "We would like to propose a partnership between the EMMA Foundation and your university, or individually with your professors, Ph.D. and graduate students, or with you as an entrepreneur if you are employed in a corporation. After taking some time to explore our website, please let us know if you, professors, graduate and Ph.D. students are interested in joining our mission in any of the eight roles listed in the following pages, then contact us. You can join EMMA as a student, teacher, professor, investor, syndicator, sponsor, or entrepreneur, or all. We can arrange a one-on-one in-person or Zoom meeting with you."
+      },
+      {
+        "title": "Stoic lifestyle for excellence.",
+        "text": "Emma’s philosophy is stoic lifestyle for excellence in almost all aspects of life. Embracing deep truths, epistemology, and practicing accordingly can enhance your life and the lives of those around you. Unfortunately, there is a lack of teaching and training in this regard. "
+      },
+      {
+        "title": "Right thinking makes you healthy, wealthy, and happy.",
+        "text": "Right thinking and practice will make you healthy, wealthy, and happy. EMMA’s goal is to eventually make you sagacious, perspicacious, and indefectible, helping you make money for yourself by adding value to society while finding fulfillment in life."
+      }
+    ]
+  },
+  "sort_order": 3
+},
+{
+  "key": "participation.ways_title",
+  "language": "en",
+  "block_type": "text",
+  "value": { "text": "You can participate in EMMA mission through any of the following ways." },
+  "sort_order": 4
+},
+{
+  "key": "participation.ways",
+  "language": "en",
+  "block_type": "list",
+  "value": {
+    "items": [
+      {
+        "number": "1",
+        "title": "Create your name brand through our online video Interview and Discourse",
+        "text": "If you are an expert, professor, graduate or Ph.D. student, or a professional working in a corporation and possess expertise in fields such as philosophy, science, biology, medicine, engineering, IT, AI, high-finance, the meaning of life, religion, history, psychology, sociology, and more, you can volunteer to be interviewed and discuss over Zoom for a few hours per week or month. These interviews will be used for EMMA's Youtube and other video channels and podcast. Meanwhile you will get publicity to make your name brand and at the same time get satisfaction, meaning in life by advocating the Truth."
+      },
+      {
+        "number": "2",
+        "title": "Charity: Donate Money",
+        "text": "You can passively contribute by making monetary donations and draw satisfaction by observing the EMMA's progress in improving people's lives. Please see menu item Feeding the children."
+      },
+      {
+        "number": "3",
+        "title": "Charity: Volunteer x hours/week for EMMA",
+        "text": "For those who wish to actively participate in effective altruism but lack extra funds for donations, you will have the option to pledge 10, 20, 30 hours, or more per week to work remotely as a volunteer for EMMA from anywhere in the world. This model is similar to Wikipedia's volunteer contributions. Additionally, there are various other avenues for volunteering within EMMA."
+      },
+      {
+        "number": "4",
+        "title": "Charity: Create a local chapter for EMMA",
+        "text": "You can also initiate a local chapter of the Emma Foundation, and we will provide guidance and support. Here too you can build your own brand name through EMMA and get satisfaction in life."
+      },
+      {
+        "number": "5",
+        "title": "Global Alliance of Universities (GAU)",
+        "text": "Global Alliance of Universities (GAU): EMMA is building a Global Alliance of Universities (GAU) network, an online platform, to tap into the top 1% professors and post graduate students from top 1% of universities all over the world to collaborate for their research and development or for their own startup business purpose, or join ours.A substantial portion of the world's exceptional brainpower, skills, passion, and determination remains untapped due to a lack of effective networking and collaboration with like-minded resourceful partners on a global scale. Should Emma successfully harness even a mere 0.1% of these invaluable resources, the potential outcomes hold the promise of ushering in constructive transformations for our world. This is the central aspiration of EMMA – to unlock and channel these talents for positive change. We invite you to be a part of this endeavor; join us."
+      },
+      {
+        "number": "6",
+        "title": "Join EMMA’s Sponsored Startup",
+        "text": "You do not have to invest in these startups unless you want to. You can participate part-time remotely in EMMA’s sponsored startup while maintaining your daytime job.  There's no requirement for you to invest your money, nor you will receive any monetary compensation for your work, except for the sweat equity granted based on your contribution. The potential value of this sweat equity could be in tens of millions of dollars over time when these companies go public in a few years.EMMA Foundation's sponsored startups value your skills, time, and expertise more than your money. We want your brain, time, skill, passion and drive. Take the quiz on Intellect, in the menu item The 1% & Better-8 Clubs, sub-menu P3."
+      },
+      {
+        "number": "7",
+        "title": "Start your own Blue Ocean business",
+        "text": "If you are a professional working for a corporation, or if you are a professor, Graduate or Ph.D. student, and if you are entrepreneur minded, driven, hard-working, smart, creative person with big dreams and wants to start a business with your own idea then please contact us. We will match you up with Angel Investors or EMMA itself can put in the seed money for equity of your business. You may reside anywhere in the world, still participate in our program and keep your fulltime day job. Of course, you will have to be highly qualified in the particular area. EMMA is very selective. Contact us for more details."
+      },
+      {
+        "number": "8",
+        "title": "Investment: Join EMMA’s sponsored CLAP investment club",
+        "text": ": Join EMMA’s sponsored CLAP investment club. You can passively invest in Emma sponsored businesses or other investment opportunities worldwide. International fund is welcome for global investment opportunities./n/n CLAP stands for Caishen, Lakshmi, Abundantia, Plutus, God and Goddess of Wealth, Prosperity, and Abundance from ancient Chinese, Hindu, Roman and Greek religion mythology, respectively. Clap’s goal is to bring in the top 1% private equity and other investment opportunities to its HNWI and UHNWI members. EMMA has the access to over 100,000 SEC registered Reg. D. based investment opportunities. We analyze data very diligently. "
+      }
+    ]
+  },
+  "sort_order": 5
+},
+{
+  "key": "participation.footer",
+  "language": "en",
+  "block_type": "text",
+  "value": {
+    "text": "Charity + Business: Or you can do both — charity and make equity for yourself in business."
+  },
+  "sort_order": 6
+},
+{
+  "key": "participation.image",
+  "language": "en",
+  "block_type": "image",
+  "value": {
+    "url": "/media/participate/8-ways.png",
+    "alt": "Emma Participation Graphic"
+  },
+  "sort_order": 5.5
+},
+{
+  "key": "feeding.title",
+  "language": "en",
+  "block_type": "text",
+  "value": { "text": "Feeding the body and the soul" },
+  "sort_order": 200
+},
+{
+  "key": "feeding.sections",
+  "language": "en",
+  "block_type": "list",
+  "value": {
+    "items": [
+      {
+        "id": "feeding_1",
+        "heading": "EMMA’s 2023–2025 Missions",
+        "body": "EMMA has successfully completed its first overseas feeding mission, providing meals to 600 children in a poor school district in the Philippines in 2023. EMMA then completed several overseas charities in poor countries in 2024, providing food, medicine, dental, computers and books. EMMA plans to do the same for Africa in 2025. Please see menu item “Feeding the Children”."
+      },
+      {
+        "id": "feeding_2",
+        "heading": "Expansion to Africa and India",
+        "body": "Furthermore, EMMA has plans to expand these initiatives to Africa and India. You can view pictures and videos in “Feeding the Children”. Future updates will be in the '8-Piston' menu item, specifically under piston #8, labeled 'Philanthropy'."
+      },
+      {
+        "id": "feeding_3",
+        "heading": "Educating the best and brightest",
+        "body": "While providing physical sustenance through charity is important, it's only a small part of EMMA's mission. EMMA aims to educate and inspire highly educated adults, the best and brightest individuals, including those who are financially well-off, about how to think, philosophy of life, the importance of philanthropy, giving back to society, and to encourage them to follow EMMA's example. Please see 7 tiers of mingling in EMMA’s 8-Pistons NFT Poster."
+      },
+      {
+        "id": "feeding_4",
+        "heading": "Assess your intellectual abilities (P3 Intellect – 8PQ Athena)",
+        "body": "To assess and enhance your intellectual abilities, please explore Piston #3, Intellect, under the menu item “The 1% and Better – 8 Clubs -> P3 Intellect-8PQ Athena.” From there, you can estimate your qualification to fit in a specific tier of mingling as shown in the 8-Pistons NFT Poster, item 11, that shows 7 tiers."
+      },
+      {
+        "id": "feeding_5",
+        "heading": "Website status and volunteers",
+        "body": "This website is still under development. EMMA's current website is in English only, but with your assistance, we can expand to include more languages. EMMA is looking for volunteers. If you are currently experiencing significant personal issues, it might be advisable not to volunteer for EMMA at this time."
+      },
+      {
+        "id": "feeding_6",
+        "heading": "Feeding the soul and startup opportunities",
+        "body": "Although EMMA Foundation’s main goal is to feed the soul — the mind — by educating the next tier of people with rational and logical thinking, philosophy, meaning of life, intellectual improvement and more, as shown in the 8-Pistons of Life NFT poster, because we understand that most people are interested in money first, we have integrated EMMA-sponsored startup business opportunities as well."
+      },
+      {
+        "id": "feeding_7",
+        "heading": "Giving people what they need and what they want",
+        "body": "EMMA needs to provide what people need (Intellect, Value System and habit) while providing what they want (money)."
+      },
+      {
+        "id": "feeding_8",
+        "heading": "Specific advice and real startup venues",
+        "body": "There are many good books, training, valuable podcasts and YouTube channels that give you generic advice and motivate you to take action, but they do not provide you with specific advice tailored for you, your business and your personal situation. EMMA gives specific advice according to your specific situation. In addition, we provide an actual venue through which you can launch your startup. We bring in angel investors as well, or you can work on EMMA-sponsored startups.\n\nClick on <Next> below."
+      },
+      {
+        "id": "feeding_9",
+        "heading": "Habits, passions and the subconscious brain",
+        "body": "In addition to teaching the masses how to think and arrive at rational conclusions, EMMA also instructs its members on how to develop habits, passions and many other subconscious processes that are part of System 1, the Basal Ganglia, Amygdala and the Limbic system, among others. Please read Chapter 1 of The Book of Intense Truth, “Jesus and not such a good woman” to understand the role of the conscious and subconscious brain, System 1 and 2."
+      },
+      {
+        "id": "feeding_10",
+        "heading": "System 1 and 2 across the whole nervous system",
+        "body": "System 1 and 2 both work together and are not located only in a specific part of the brain but spread throughout the brain. The spinal cord and gut also play a part in System 1 function. Many aspects of the entire neural network in the human body are still under research."
+      },
+      {
+        "id": "feeding_11",
+        "heading": "Neuroscience, psychology and Stoicism together",
+        "body": "EMMA applies new discoveries from Neuroscience, fMRI (Functional Magnetic Resonance Imaging), Illusion of Free Will, behavioral economics, psychology and sociology along with the valuable age-old philosophy of Stoicism from Zeno and Marcus Aurelius. We will help you grow not only in theory, lectures, podcasts and training courses, but also by funding your startup business ideas — your dream. The initial emphasis on success, particularly the financial aspect, among the 8-Pistons is because material success tends to attract more attention."
+      },
+      {
+        "id": "feeding_12",
+        "heading": "The 8 Pistons of Life",
+        "body": "EMMA's philosophy promotes a holistic balance across all 8 Pistons of success. The eight pistons are: 1) Health, 2) Wealth, 3) Intellect, 4) Family, 5) Travel, 6) Philosophy, 7) Self-Mastery and 8) Philanthropy. Please see menu item “About the Founder” to learn about the origin of 8-Pistons of Life."
+      },
+      {
+        "id": "feeding_13",
+        "heading": "Why there are 7 tiers in the 8-Pistons Poster",
+        "body": "The reason EMMA’s 8-Pistons NFT Poster has 7 tiers of teaching and intermingling is to make the process more effective. Please see 8-Pistons NFT Poster text block 9, the 7-tiers concept."
+      },
+      {
+        "id": "feeding_14",
+        "heading": "Enlightening the mind to tackle worldly problems",
+        "body": "To reach one’s maximum potential to tackle worldly problems — material and spiritual — one must first enlighten one’s own mind by replacing bad ideas with good ones: well thought out, logical ideas based on science, reason and truth, and sometimes with a slight touch of myth when necessary."
+      },
+      {
+        "id": "feeding_15",
+        "heading": "Feeding the Soul – the mind",
+        "body": "EMMA wants to feed the Soul – the mind – through which one figures out good from bad, right from wrong and truth from lies. EMMA’s founder practices the 8 Pistons and has achieved great results. EMMA is propagating its value system and process to make the world a little better place."
+      },
+      {
+        "id": "feeding_16",
+        "heading": "Meritocracy with charity and evolving ideas",
+        "body": "We favor objective meritocracy with some charity over blind equity. Any and all ideas in the 8-Pistons NFT Poster can be modified as society changes or as human–AI/ASI/AGI hybrids emerge."
+      },
+      {
+        "id": "feeding_17",
+        "heading": "Sweat equity and remote participation",
+        "body": "You can reside anywhere in the world and still participate, adding value to any of the following areas by working remotely for sweat equity only, while still keeping your full-time day job. Your sweat equity has the potential to be valued at a few million dollars in a few years. You do not need to put in any investment capital unless you want to join EMMA as an investor. Only your brain, time, skill set, good value system and effort are in high demand, not your money.\n\nClick on <Next> below."
+      },
+      {
+        "id": "feeding_18",
+        "heading": "Volunteer service and US Green Card sponsorship",
+        "body": "After a couple of years of your volunteer service with EMMA's sponsored startup, you may be sponsored for a US Green Card."
+      },
+      {
+        "id": "feeding_19",
+        "heading": "Non-profit nature of EMMA",
+        "body": "EMMA itself doesn’t make any profit by providing you and others various services. Join us in this endeavor. Please see Munzer's 8-Pistons of Life NFT Poster on our website."
+      }
+    ]
+  },
+  "sort_order": 210
+},
+{
+  "key": "qualifications.title",
+  "language": "en",
+  "block_type": "text",
+  "value": { "text": "Qualification required to be member of EMMA" },
+  "sort_order": 220
+},
+{
+  "key": "qualifications.subtitle",
+  "language": "en",
+  "block_type": "text",
+  "value": {
+    "text": "Do you qualify to join EMMA as a member, volunteer, entrepreneur, or investor? Review the criteria below."
+  },
+  "sort_order": 221
+},
+{
+  "key": "qualifications.challenge",
+  "language": "en",
+  "block_type": "text",
+  "value": {
+    "text": "Reflect honestly: which path fits you best – charity/volunteering, business/sweat equity, or investment? If you see yourself in any of these, consider reaching out to EMMA and taking the next step."
+  },
+  "sort_order": 222
+},
+{
+  "key": "qualifications.items",
+  "language": "en",
+  "block_type": "list",
+  "value": {
+    "items": [
+      {
+        "id": 1,
+        "title": "Skill-based qualification",
+        "body": "You are qualified if you have very good skill in any of the following: (i) Software architectural design, programming, coding. (ii) Complex Web3 development including blockchain, tokenization, SEO. (iii) AI algorithm development for an AI-based Truth Machine (Wikipedia-like charity). (iv) Causal quantitative analysis for high-frequency trading (HFT) in stock and commodity markets. (v) Expertise in healthcare, real estate, high-finance, internet-based business or any other high-demand industry. (vi) Deep knowledge in mathematics, science, biology, medical, engineering, IT, AI, high-finance, meaning of life, religion, history, psychology, sociology, or similar topics for EMMA’s upcoming YouTube channels. (vii) YouTube video editing and structuring content for EMMA’s upcoming Web3-based YouTube channel. (viii) Online stores, online and social media marketing. (ix) A genuine desire to do smart charity work."
+      },
+      {
+        "id": 2,
+        "title": "Charity track: Volunteer for EMMA",
+        "body": "You can volunteer for the EMMA Foundation and help develop an AI-based Truth Machine. You may participate in in-depth discussions for EMMA’s YouTube channel and podcast, or start a local EMMA Foundation chapter in your town – with guidance and support from EMMA."
+      },
+      {
+        "id": 3,
+        "title": "Business track: Sweat equity with EMMA-sponsored startups",
+        "body": "If you are an entrepreneur seeking angel investors or seed funding, you can work part-time for EMMA-sponsored startups or Plutus Investment in exchange for sweat equity. Opportunities include: (i) Global Exchange for Private Equity (a Blue Ocean strategy; currently non-existent). (ii) Causal quant HFT (high frequency trading), extremely profitable. (iii) CLAP Global Investment Club bringing in Asia-Pacific fund as well. (iv) AI-based Truth Processing Machine (a non-profit Wikipedia-like system). (v) Healthcare, real estate, internet-based business, or other industries. (vi) Or bring your own idea; EMMA will help you find angel investors.\n\nClick on <Next> below."
+      },
+      {
+        "id": 4,
+        "title": "Great investment opportunities: CLAP Investment Club",
+        "body": "CLAP Investment Club gives access to exceptional private equity and global investment opportunities. It is designed for high-net-worth and ultra high-net-worth individuals who want to participate in EMMA’s sponsored businesses and other vetted opportunities worldwide."
+      },
+      {
+        "id": 5,
+        "title": "Asia-Pacific investors seeking higher ROI",
+        "body": "Even before China’s 2023 financial and real estate crisis, the ROI in Asia Pacific countries for private equity was less than 10% IRR. Now it is even lower. Consequently, many ultra high-net-worth individuals in the Asia Pacific are increasingly interested in investing in the United States and a few other Western countries. EMMA visited several Asia Pacific countries, exploring various business opportunities and meeting potential investors."
+      },
+      {
+        "id": 6,
+        "title": "Why EMMA focuses on your independent thinking",
+        "body": "EMMA’s main goal is to help you become the best version of yourself in every direction. Local, state, and federal governments, techno-feudal systems, giant hedge funds and private equity firms, UNO, WEF, ESG, IMF, WTO, large corporations, Hollywood, educational systems, social media, virtue signaling, woke-ism, cancel culture, euphemism, and even places of worship will not necessarily help you become an independent thinker, smart, healthy, wealthy, self-reliant, and self-sufficient. Therefore, you must take responsibility for your own intellectual and personal growth."
+      },
+      {
+        "id": 7,
+        "title": "Government virtue signaling and the lottery example",
+        "body": "Governments often signal virtue while acting against the interests of the unfortunate. For example, on the basis that gambling is not good for society, most forms of gambling are illegal in states like Texas and California. Yet both states run government lotteries that keep 60–70% of the lottery revenue, which is worse than gambling in Las Vegas casinos. The people who spend a disproportionate amount of their income playing lottery tend to be less educated and poor. These are the very people losing money while the state profits. Although this revenue is used to fund education, it effectively acts as a poverty tax or stupidity tax because it is taken from the uneducated and poor."
+      }
+    ]
+  },
+  "sort_order": 223
+},
+{
+  "key": "edu_bitter.title",
+  "language": "en",
+  "block_type": "text",
+  "value": { "text": "Bitter Truth – Global Educational System and Experts" },
+  "sort_order": 230
+},
+{
+  "key": "edu_bitter.subtitle",
+  "language": "en",
+  "block_type": "text",
+  "value": {
+    "text": "An original analogy from EMMA’s founder about how modern education turns polymathic humans into specialized robots—and how EMMA wants to reverse that."
+  },
+  "sort_order": 231
+},
+{
+  "key": "edu_bitter.challenge",
+  "language": "en",
+  "block_type": "text",
+  "value": {
+    "text": "Ask yourself honestly: are you becoming more human and polymathic over time—or more like a specialized cog in a system that does not care about your full potential?"
+  },
+  "sort_order": 232
+},
+{
+  "key": "edu_bitter.items",
+  "language": "en",
+  "block_type": "list",
+  "value": {
+    "items": [
+      {
+        "id": 1,
+        "title": "From mechanics to robots: an analogy",
+        "body": "In the 1950s and 1960s, semi-automated automobile factories relied on human mechanics working alongside conveyor belts, using screwdrivers and spot welding to assemble cars. Today, those mechanics have been replaced by robotic arms that perform tasks more efficiently, quickly, and accurately than any human can. The analogy: the world is gradually replacing humans as mere specialists, yet the true value of humans lies not just in specialization but in their capacity for generalization.\n\nClick on <Next> below."
+      },
+      {
+        "id": 2,
+        "title": "How the current education system creates specialized robots",
+        "body": "The current educational system takes children who have the potential to excel in many subjects and pushes them through a pipeline: elementary school, middle school, high school, college, university. By the time they emerge from the other side, many are no longer whole human beings but specialized robots—doctors, engineers, lawyers, etc. This is in the interest of industrialists and corporations who own the factories. Industrialists do not care whether you are a polymath; they want predictable, specialized units. EMMA encourages you to break away from this modern-day slavery by becoming entrepreneurial and polymathic."
+      },
+      {
+        "id": 3,
+        "title": "Experts who don’t see the bigger picture",
+        "body": "Entrepreneurship is not for everyone, but most experts today know very little outside their narrow field. Many lack the understanding of the bigger picture and even lack independent creative thinking within their own specialty. This hurts their clients and also themselves in the long term, while benefiting industrialists who simply want a quota of doctors, lawyers, engineers, etc. The system has little use for fully rounded human beings; it wants robots."
+      },
+      {
+        "id": 4,
+        "title": "A minimum upgrade to education",
+        "body": "One way to improve the system would be to require that students take at least one or two courses in personal healthcare, high-finance, law, philosophy, and entrepreneurship. The lack of basic knowledge across a wide range of subjects is why the overwhelming majority of so-called experts are incapable of providing more than mediocre service to their clients. They also do not develop the skill to think deeply and rationally. They become more like machines than humans."
+      },
+      {
+        "id": 5,
+        "title": "EMMA’s goal: building polymaths and whole humans",
+        "body": "One of EMMA’s goals is to encourage younger generations in their 20s and 30s—as well as those in their 40s, 50s, 60s and beyond—to be polymaths, think critically, be honest, fair, and apply reason, logic, and 21st century science as defined in EMMA’s Mission Statement. A college degree alone doesn’t mean much. EMMA’s goal is to make you human and whole again, not just a specialized robot."
+      }
+    ]
+  },
+  "sort_order": 233
+},
+{
+  "key": "healthcare.title",
+  "language": "en",
+  "block_type": "text",
+  "value": { "text": "Healthcare System" },
+  "sort_order": 240
+},
+{
+  "key": "healthcare.subtitle",
+  "language": "en",
+  "block_type": "text",
+  "value": {
+    "text": "Why EMMA emphasizes preventative and customized healthcare instead of the current sickness-centered industry model."
+  },
+  "sort_order": 241
+},
+{
+  "key": "healthcare.challenge",
+  "language": "en",
+  "block_type": "text",
+  "value": {
+    "text": "Reflect on your own health strategy: are you passively dependent on the system, or actively building a preventative, independent lifestyle?"
+  },
+  "sort_order": 242
+},
+{
+  "key": "healthcare.items",
+  "language": "en",
+  "block_type": "list",
+  "value": {
+    "items": [
+      {
+        "id": 1,
+        "title": "A sickness-centered system",
+        "body": "The current healthcare system is designed to help the sick and operates as a one-size-fits-all model for the masses. EMMA, on the other hand, believes in and promotes preventative and customized healthcare. The U.S. healthcare system is the largest economic sector, valued over $5 trillion. It is run largely in the interest of Big Pharma and has comparatively little benefit for the patient. It is not in the industry’s interest to see a truly healthy society.\n\nClick on <Next> below."
+      },
+      {
+        "id": 2,
+        "title": "Why sick people are profitable",
+        "body": "If most of the U.S. population became healthy and physically fit, the healthcare industry could theoretically be cut in half, and many healthcare firms would go out of business. Sick people are in the long-term financial interest of pharmaceutical companies and parts of the healthcare industry."
+      },
+      {
+        "id": 3,
+        "title": "Handouts, dependence and buying votes",
+        "body": "A similar pattern exists with financial handouts: welfare, food stamps, and certain forms of assistance that do not solve long-term problems but create dependence and, in some cases, effectively buy votes. Power-hungry people do not want you to be independent and self-sufficient. EMMA’s goal is to make you independent, self-sufficient and capable of critical thinking."
+      },
+      {
+        "id": 4,
+        "title": "Feeding the body vs. feeding the soul",
+        "body": "Feeding the body—providing food, medicine and shelter—solves only short-term problems. EMMA emphasizes feeding the soul (the mind), teaching, mentoring and funding your startup or R&D projects to solve long-term problems. Our focus is on empowering people intellectually, financially, and philosophically so they can stand on their own feet."
+      }
+    ]
+  },
+  "sort_order": 243
+},
+{
+  "key": "uni.title",
+  "language": "en",
+  "block_type": "text",
+  "value": { "text": "For Individuals and Universities" },
+  "sort_order": 250
+},
+{
+  "key": "uni.subtitle",
+  "language": "en",
+  "block_type": "text",
+  "value": {
+    "text": "If you are affiliated with a university or are an individual entrepreneur, EMMA offers two main pathways: seed funding and charity-based collaboration."
+  },
+  "sort_order": 251
+},
+{
+  "key": "uni.challenge",
+  "language": "en",
+  "block_type": "text",
+  "value": {
+    "text": "Consider honestly whether you and your department want to be part of a mission that focuses on how to think, not what to think. If yes, explore the two paths below."
+  },
+  "sort_order": 252
+},
+{
+  "key": "uni.items",
+  "language": "en",
+  "block_type": "list",
+  "value": {
+    "items": [
+      {
+        "id": 1,
+        "title": "Invitation to professionals and universities",
+        "body": "If you are a professional, professor, Ph.D. or graduate student, this may interest you. The Emma Foundation is a non-profit organization registered in the U.S. as an IRS 501(c)(3) global philanthropic entity. My name is Munzer Haque, founder of the EMMA Foundation. I run a small family office and private equity hedge fund and invest in small startups as an angel or seed investor. You may want to read 'About the Founder' on our website. We need your support. You may join one or both of the following two pathways."
+      },
+      {
+        "id": 2,
+        "title": "Path 1 – Seed funding and sweat equity",
+        "body": "We reach out to universities globally to find the best and the brightest professors, Ph.D. and graduate students who are sharp, hardworking, driven and have big dreams. We either sponsor research projects that can be translated into successful businesses or invite you and your graduate students into EMMA-sponsored startups in exchange for sweat equity only. Anyone can join this part-time, working remotely while keeping their day job. These startups have the potential to make participants multimillionaires, decamillionaires or more. It costs you nothing. We reward you for your brain and passion."
+      },
+      {
+        "id": 3,
+        "title": "Path 2 – Charity via knowledge and discourse",
+        "body": "If you are an expert and passionate about a subject, we will interview you for EMMA’s YouTube channel. You may discuss your research, scientific thinking, deep philosophy, practice, religion and stoic life for fulfillment and meaning in life. This helps you build your own brand while spreading knowledge and truth. We explore almost anything under the sun using ethos, pathos, logos, mythos and real-world facts. Take the quiz on Intellect in the menu item 'The 1% & Better – 8 Clubs', sub-menu P3 on our website. Please also see the menu item 'Feeding the Children'.\n\nClick on <Next> below."
+      },
+      {
+        "id": 4,
+        "title": "Why EMMA focuses on reasoning, fairness and emotional control",
+        "body": "The founder of EMMA believes that the root cause of most of the problems in the world is the lack of application of reason/logic, fairness and emotional control. Embracing deep truths, epistemology and practicing truth and fairness accordingly can enhance your life and the lives of those around you. Critical thinking is paramount. Unfortunately, there is a severe lack of teaching and training in this area."
+      },
+      {
+        "id": 5,
+        "title": "Partnership with your university",
+        "body": "We would like to propose a partnership relationship between EMMA Foundation and your university. After exploring our website, please let us know if you, your professors, and your graduate and Ph.D. students are interested in joining our mission in any of the roles listed on the homepage or in our documentation. Your department, professors and students can greatly benefit from collaborating with EMMA."
+      },
+      {
+        "id": 6,
+        "title": "Feeding the soul, not just the body",
+        "body": "One of the main goals of the EMMA Foundation is to teach people how to think rather than prescribing what to think. Unlike most charity organizations that primarily feed the body by providing food and shelter, EMMA does that as well—but our primary goal is to feed the soul, the mind, enabling individuals to discern good from bad, right from wrong, and truth from lies, then act upon their conclusions so that all 8 Pistons follow. Please see the 7-tiers concept in text block #9 in the 8-Pistons NFT Poster on our website."
+      },
+      {
+        "id": 7,
+        "title": "Current focus for Path 1",
+        "body": "For Path 1, we are currently focusing on: (1) A global exchange for non–pre-IPO private equity (Blue Ocean strategy; no comprehensive platform exists yet). (2) Causal Quant HFT (High Frequency Trading). (3) CLAP Investment Club – bringing global investors, entrepreneurs and syndicators together. (4) AI-based Truth Machine, similar to Wikipedia but powered by AI and ChatGPT. (5) Or your own business idea, research project or startup concept – we will help you find angel investors. If you are interested, please contact us and share this invitation with others who might be interested."
+      }
+    ]
+  },
+  "sort_order": 253
+}
+
+
+  ]
+}

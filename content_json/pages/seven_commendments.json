@@ -1,0 +1,74 @@
+{
+  "slug": "seven_commendments",
+  "blocks": [
+    {
+      "key": "page.title",
+      "value": {
+        "text": "7 Commandments of the 21st Century Science and Beyond (21stCS)"
+      }
+    },
+    {
+      "key": "page.subtitle",
+      "value": {
+        "text": "The 21st Century Science (21stCS) is a term coined by EMMA Foundation in 2015."
+      }
+    },
+    {
+      "key": "commandments",
+      "value": {
+        "items": [
+          {
+            "id": 1,
+            "title": "Definition",
+            "body": "Unlike 20th and previous centuries' science, \"The 21stCS\" (The 21st Century Science) is not confined to physical material objects in labs only, nor is it only about empirical science. The 21stCS processes information rationally, encompassing everything—including but not limited to philosophy, relative, subjective, objective truth, human experiences, emotions, spirituality, consciousness, God, religion, life and its potential after death, love, hate, meditation, values, morality, distinguishing between good and bad, right and wrong, truth and lies, physics, chemistry, mathematics, psychology, sociology, politics, war, history, biology, healthcare, business, economics, and behavioral economics, neuroscience, human body full neural network a) System 1 (S1) Limbic system, Basil Ganglia, Amygdala, and more, b) System 2 (S2) Prefrontal Cortex (the thinking brain), AI, AGI, ASI or any new acronym that pops up in the salad of new terms. Essentially, the 21stCS is a rational approach to collecting data, analyzing, processing, pondering, and comprehending both tangible and intangible aspects of anything and everything that humans are curious about."
+          },
+          {
+            "id": 2,
+            "title": "Admission of Imperfection",
+            "body": "The 21stCS doesn't claim that it has the answer to everything. Nor does it claim that its current answers are absolute, fundamental, or unchangeable. The 21stCS is aware of the fact that there are many, many questions for which it doesn’t have any answers or any conclusion. But it does claim that it provides better answers, explanations to more questions than any other system, process, or belief system. The 21stCS is aware of the fact that science in general has been wrong before and will be proven wrong in the future, yet there is no better alternative tool available to understand ourselves and the universe."
+          },
+          {
+            "id": 3,
+            "title": "Its Strength",
+            "body": "The 21stCS actively seeks to prove itself wrong; that is its strength. Each time the 21stCS proves itself wrong, it improves, and its overall theories become more valid, bringing us one step deeper and closer to the truth. The 21stCS never claims to know the ultimate truth but rather aims to progress one step closer to it. The 21stCS compels you to swallow even the most bitter truth."
+          },
+          {
+            "id": 4,
+            "title": "Lower Layer Axioms",
+            "body": "The 21stCS relies on the principle that a statement to be true needs to be logically derived from previously agreed-upon lower-level axioms to be true. Between two conflicting conclusions, the one that is based upon lower-level axioms than the other one wins. This principle holds true for processing any and all ideas as listed in the Definition of the 21stCS."
+          },
+          {
+            "id": 5,
+            "title": "Q3 Principle",
+            "body": "Q3 is short for “Qualified, 3rd Party, Double-blind Test, Iterative-Successive Approximation, Statistical Process.\" The 21stCS is for independent thinking then verified by other qualified people (see Q3). This process doesn’t necessarily exclude personal experience, inner voice/thoughts, qualia, perception, relativistic feeling, such as one person enjoying wearing a green color dress but someone else might draw the same enjoyment wearing a red color dress. 21stCS also allows you to push yourself according to your parameters, a little bit beyond your body's limit, such as in exercise, cold exposure, breathing, fasting, meditation, and more, but always stay in the safe zone under the right conditions and environment. There too one can apply successive approximation, an iterative method. 21stCS's conclusion is in favor of personalized medicine. Only if one's ideas contradict any previously proven ideas, then those ideas need to be put on the table for everyone else to scrutinize using Q3 for short."
+          },
+          {
+            "id": 6,
+            "title": "Merging with AI, AGI, ASI",
+            "body": "The 21stCS realizes that as humans gradually begin to integrate or merge with future AI, AGI, ASI, or new acronyms as they emerge, human body parts will change, including but not limited to legs, hands, heart, gut, eyes, ears, skin, tongue, even the spinal cord and brain. It may even add additional sensory parts. As a result, human senses, even qualia and consciousness might also change. Consequently, human value systems, morality, and almost every idea might change. When these merged humanoids are able to integrate and separate with others humanoids and even with other objects for data collection purposes such as with the clouds and ocean, on the fly, on and off when advantageous, at that time, we might have a completely different and better understanding of the universe, but it still can't violate these 7 commandments of 21stCS, especially because 21stCS allows fine-tuning of these 7 commandments only if it becomes necessary. Some call that as “singularity”."
+          },
+          {
+            "id": 7,
+            "title": "Philosophy",
+            "body": "According to 21stCS, all established scientific theories must be coherent and consistent. Other scientific ideas that are not coherent yet can still be discussed at the outer edge of the 21stCS with a big question mark. The 21stCS doesn’t treat those as facts but is open to discussion for brainstorming purposes, and this is what we call Philosophy."
+          }
+        ]
+      }
+    },
+    {
+      "key": "challenge.text",
+      "value": {
+        "text": "We challenge you to come up with a better version than the 7 Commandments of 21stCS—or to improve it. What is your process?"
+      }
+    },
+    {
+  "key": "seven.hero_image",
+  "block_type": "image",
+  "value": {
+    "url": "http://127.0.0.1:8000/media/content/blocks/chair_Eu1EG5w.webp",
+    "alt": "21stCS visual"
+  }
+}
+
+  ]
+}

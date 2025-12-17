@@ -1,0 +1,290 @@
+{
+  "slug": "book-of-truth-chapter-2",
+  "template": "default",
+  "blocks": [
+    {
+      "key": "hero.title",
+      "type": "text",
+      "value": {
+        "text": "Book of Truth – Chapter 2"
+      }
+    },
+    {
+      "key": "hero.subtitle",
+      "type": "text",
+      "value": {
+        "text": "Create Wealth – Path to the 1% and Better"
+      }
+    },
+
+    {
+      "key": "chapter2.intro.heading",
+      "type": "text",
+      "value": {
+        "text": "Create Wealth – Introduction"
+      }
+    },
+    {
+      "key": "chapter2.intro.body",
+      "type": "markdown",
+      "value": {
+        "text": "Do you want to be rich, very rich?\nThen join “Path to the 1% and Better”.\n\nIn this video you will be presented with an opportunity to join any of the two high-tech startups as a founder’s group business partner. International candidates are also welcome. For these two businesses we do **not** need your money. We need your **talent, drive, dedication, creativity, grit, critical thinking, and good habits**.\n\nAngel investors and entrepreneurs with good startup ideas can contact [Munzer@EmmaFoundation.net](mailto:Munzer@EmmaFoundation.net).\n\nTo understand what caliber we are looking for, try this question:\n\n**Who has a higher probability of being robbed?**\n- (a) You\n- (b) Your neighbor\n\nYou only get credit if you give the **correct reason**, not only the correct answer."
+      }
+    },
+
+    {
+      "key": "chapter2.about_1percent.heading",
+      "type": "text",
+      "value": {
+        "text": "What Is 'Path to the 1% and Better'?"
+      }
+    },
+    {
+      "key": "chapter2.about_1percent.body",
+      "type": "markdown",
+      "value": {
+        "text": "Path To The 1% and Better (“The 1%”) is sponsored by EMMA Foundation, a US-based non-profit 501(c)3 organization.\n\nVisit: [www.EmmaFoundation.net](https://www.EmmaFoundation.net)\n\n[Like, subscribe, and share the video. Donations to the EMMA Foundation are appreciated and fully transparent online.](https://www.EmmaFoundation.net)"
+      }
+    },
+
+    {
+      "key": "chapter2.8_pistons.heading",
+      "type": "text",
+      "value": {
+        "text": "Munzer’s 8 Pistons of the Game of Life"
+      }
+    },
+    {
+      "key": "chapter2.8_pistons.body",
+      "type": "markdown",
+      "value": {
+        "text": "Life is more than money. “The 1%” refers not only to wealth but to excellence in **all major dimensions of life**, called the 8 Pistons:\n\n1. Health\n2. Wealth\n3. Intellect\n4. Family\n5. Travel\n6. Purpose & Wisdom\n7. Self-Mastery\n8. Charity\n\nEach piston varies in priority depending on age and personal situation.\n\nThis chapter focuses on **Piston #2 – Wealth**."
+      }
+    },
+
+    {
+      "key": "chapter2.opportunity.heading",
+      "type": "text",
+      "value": {
+        "text": "An Opportunity to Strengthen Your Wealth Piston"
+      }
+    },
+    {
+      "key": "chapter2.opportunity.body",
+      "type": "markdown",
+      "value": {
+        "text": "In this episode, you will be offered a chance to join one of two EMMA-recommended startups.\n\nWhy wealth first?\n- Because most people are not there yet.\n- Because wealth enables freedom to pursue the other 7 pistons."
+      }
+    },
+
+    {
+      "key": "chapter2.about_emma.heading",
+      "type": "text",
+      "value": {
+        "text": "About EMMA Foundation"
+      }
+    },
+    {
+      "key": "chapter2.about_emma.body",
+      "type": "markdown",
+      "value": {
+        "text": "EMMA members help each other grow in all 8 pistons.\nEMMA has 7 tiers of members: 1%, 2%, 5%, 10%, 20%, 30%, and 32%.\n\nEach group mentors the tier below it.\n\nEMMA helps members set realistic goals, create plans, and take action to reach the top % of their chosen pistons."
+      }
+    },
+
+    {
+      "key": "chapter2.wealth_intro.heading",
+      "type": "text",
+      "value": {
+        "text": "Understanding Wealth and Net Worth"
+      }
+    },
+    {
+      "key": "chapter2.wealth_intro.body",
+      "type": "markdown",
+      "value": {
+        "text": "Do you know the net worth needed to be in the top 1% of your age group in the US? Most people don't.\n\nAnd yet they want to become wealthy.\n\nBeing in the top 1% of the **world** is easier than being in the top 1% of the **USA**.\n\nEMMA aims to guide you there."
+      }
+    },
+
+    {
+      "key": "chapter2.grassroot.heading",
+      "type": "text",
+      "value": {
+        "text": "EMMA Foundation’s Role – A Bottom-Up Effort"
+      }
+    },
+    {
+      "key": "chapter2.grassroot.body",
+      "type": "markdown",
+      "value": {
+        "text": "Governments won’t help you. Corporations won’t help you. So we help ourselves.\n\nChange begins with **you**, then your family, then your neighbors.\n\nEMMA teaches self-reliance, critical thinking, personal responsibility, and wealth creation."
+      }
+    },
+
+    {
+      "key": "chapter2.angel_investors.heading",
+      "type": "text",
+      "value": {
+        "text": "Angel Investors & Entrepreneurs"
+      }
+    },
+    {
+      "key": "chapter2.angel_investors.body",
+      "type": "markdown",
+      "value": {
+        "text": "“The 1%” brings angel investors and entrepreneurs together.\n\nIf you have a startup idea or want to invest in early-stage businesses, contact us at [Munzer@EmmaFoundation.net](mailto:Munzer@EmmaFoundation.net).\n\nLocal chapters worldwide are also being formed."
+      }
+    },
+
+    {
+      "key": "chapter2.blue_ocean.heading",
+      "type": "text",
+      "value": {
+        "text": "Blue Ocean Strategy"
+      }
+    },
+    {
+      "key": "chapter2.blue_ocean.body",
+      "type": "markdown",
+      "value": {
+        "text": "One of the best ways to build massive wealth is by joining a startup with **little or no competition**.\n\nThis is called the **Blue Ocean Strategy**.\n\nRecommended books:\n- *Zero to One* – Peter Thiel\n- *Blue Ocean Strategy* – W. Chan Kim\n\nEMMA's recommended startups follow this strategy."
+      }
+    },
+
+    {
+      "key": "chapter2.skills.heading",
+      "type": "text",
+      "value": {
+        "text": "Skills That Make You Qualified"
+      }
+    },
+    {
+      "key": "chapter2.skills.body",
+      "type": "markdown",
+      "value": {
+        "text": "You may qualify if you have skills in:\n- Programming / coding\n- Web development & SEO\n- YouTube editing\n- AI algorithm development\n- Science, math, health, finance, real estate\n- Quantitative analysis\n- Philosophy & critical thinking\n- Charity & volunteer work\n- Digital marketing & online stores"
+      }
+    },
+
+    {
+      "key": "chapter2.business.heading",
+      "type": "text",
+      "value": {
+        "text": "Business, Charity & Career Opportunities"
+      }
+    },
+    {
+      "key": "chapter2.business.body",
+      "type": "markdown",
+      "value": {
+        "text": "Opportunities include:\n- Private Equity Exchange\n- High-Frequency Trading (HFT)\n- Investment clubs\n- Starting your own idea (we will find investors for you)\n- Sweat equity valued at millions over time"
+      }
+    },
+
+    {
+      "key": "chapter2.obrec.heading",
+      "type": "text",
+      "value": {
+        "text": "OBREC – A Massive Opportunity"
+      }
+    },
+    {
+      "key": "chapter2.obrec.body",
+      "type": "markdown",
+      "value": {
+        "text": "OBREC focuses on online end-to-end processing of real estate and construction.\n\nThe US construction market is **$1.29 trillion** (2019).\n\nJoin OBREC to grow rich by innovating in a slow-moving industry."
+      }
+    },
+
+    {
+      "key": "chapter2.abcq.heading",
+      "type": "text",
+      "value": {
+        "text": "ABCQ – Stock Market & AI Trading"
+      }
+    },
+    {
+      "key": "chapter2.abcq.body",
+      "type": "markdown",
+      "value": {
+        "text": "ABCQ is a startup using advanced mathematical models similar to Jim Simons' trading algorithms.\n\nReference: *The Man Who Solved the Market* – Gregory Zuckerman.\n\nABCQ aims to operate offshore for zero corporate tax advantages."
+      }
+    },
+
+    {
+      "key": "chapter2.online_work.heading",
+      "type": "text",
+      "value": {
+        "text": "Working Online – The Future"
+      }
+    },
+    {
+      "key": "chapter2.online_work.body",
+      "type": "markdown",
+      "value": {
+        "text": "Triggered by COVID-19, the future belongs to remote work.\n\nMost industries will move online, and your competitive advantage will be the ability to adapt early."
+      }
+    },
+
+    {
+      "key": "chapter2.requirements.heading",
+      "type": "text",
+      "value": {
+        "text": "Who Can Join?"
+      }
+    },
+    {
+      "key": "chapter2.requirements.body",
+      "type": "markdown",
+      "value": {
+        "text": "Professionals, students, professors, retirees, and international candidates.\n\nApplicants must pass:\n- IQ test\n- Business knowledge test\n- Psychological evaluation\n- Drive test (How badly do you want to be in the 1%?)"
+      }
+    },
+
+    {
+      "key": "chapter2.prices_law.heading",
+      "type": "text",
+      "value": {
+        "text": "Price’s Law"
+      }
+    },
+    {
+      "key": "chapter2.prices_law.body",
+      "type": "markdown",
+      "value": {
+        "text": "Price’s law: **Half of the output comes from the square root of the population.**\n\nOf 330,000,000 Americans, only about 18,165 produce half of the nation’s results.\n\nWhere would you like to be?"
+      }
+    },
+
+    {
+      "key": "chapter2.terms.heading",
+      "type": "text",
+      "value": {
+        "text": "Terms for Joining OBREC or ABCQ"
+      }
+    },
+    {
+      "key": "chapter2.terms.body",
+      "type": "markdown",
+      "value": {
+        "text": "These are garage startups funded by angel investors.\n\nYou may keep your day job.\n\nRequired:\n- 25+ hours per week\n- No salary initially\n- Earn sweat equity valued in millions\n\nDetailed agreements will follow (NDA, background check, etc)."
+      }
+    },
+
+    {
+      "key": "chapter2.volunteer.heading",
+      "type": "text",
+      "value": {
+        "text": "Volunteering for EMMA Foundation"
+      }
+    },
+    {
+      "key": "chapter2.volunteer.body",
+      "type": "markdown",
+      "value": {
+        "text": "EMMA is about **personal transformation**, **critical thinking**, **service**, and **self-actualization**.\n\nVolunteers help in:\n- Tech & software\n- Philosophy discussions\n- Neuroscience & psychology\n- Writing, editing\n- AI Truth Machine\n- YouTube podcasts\n- Local chapters worldwide"
+      }
+    }
+  ]
+}

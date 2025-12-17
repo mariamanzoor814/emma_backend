@@ -1,0 +1,297 @@
+{
+  "slug": "feeding-the-children",
+  "lang": "en",
+  "title": "Feeding Children",
+  "blocks": [
+    {
+      "key": "hero.title",
+      "language": "en",
+      "block_type": "text",
+      "value": { "text": "Feeding the Children" },
+      "sort_order": 1
+    },
+    {
+      "key": "hero.subtitle",
+      "language": "en",
+      "block_type": "text",
+      "value": {
+        "text": "Join us in providing meals, books, and care for children across remote communities."
+      },
+      "sort_order": 2
+    },
+    {
+      "key": "hero.cta_label",
+      "language": "en",
+      "block_type": "text",
+      "value": { "text": "Support the Mission" },
+      "sort_order": 3
+    },
+    {
+      "key": "hero.image",
+      "language": "en",
+      "block_type": "image",
+      "value": {
+        "url": "/media/gallery/2025/02.jpg",
+        "alt": "Volunteers delivering books and meals to children"
+      },
+      "sort_order": 4
+    },
+
+    {
+  "key": "bookathon.global.title",
+  "value": {
+    "text": "Bokathon Gallery"
+  }
+},
+{
+  "key": "bookathon.global.subtitle",
+  "value": {
+    "text": "Collection of moments from all Bokathon events"
+  }
+}
+,
+
+    {
+      "key": "bookathon2024.title",
+      "language": "en",
+      "block_type": "text",
+      "value": { "text": "Bookathon  Yr. 2024" },
+      "sort_order": 5
+    },
+    {
+      "key": "bookathon2024.subtitle",
+      "language": "en",
+      "block_type": "text",
+      "value": {
+        "text": "In 2024 over a thousand books sent to poor school districts in Philippines."
+      },
+      "sort_order": 6
+    },
+    {
+      "key": "bookathon2024.images",
+      "language": "en",
+      "block_type": "json",
+      "value": {
+        "items": [
+          {
+            "id": "b24-001",
+            "url": "/media/gallery/2024/01.jpg",
+            "alt": "Students receiving books in a rural school",
+            "caption": "First delivery to a remote district",
+            "date": "2024-02-12",
+            "tags": ["delivery", "students", "rural"]
+          },
+          {
+            "id": "b24-002",
+            "url": "/media/gallery/2024/02.jpg",
+            "alt": "Boxes of donated books stacked",
+            "caption": "Over 1000 books packed and ready",
+            "date": "2024-02-10",
+            "tags": ["packing", "logistics"]
+          },
+          {
+            "id": "b24-003",
+            "url": "/media/gallery/2024/03.jpg",
+            "alt": "Volunteer team organizing books",
+            "caption": "Volunteers sorting by grade levels",
+            "date": "2024-02-09",
+            "tags": ["volunteers", "sorting"]
+          },
+          {
+            "id": "b24-004",
+            "url": "/media/gallery/2024/04.jpg",
+            "alt": "Volunteer team organizing books",
+            "caption": "Volunteers sorting by grade levels",
+            "date": "2024-02-09",
+            "tags": ["volunteers", "sorting"]
+          },
+          {
+            "id": "b24-005",
+            "url": "/media/gallery/2024/05.jpg",
+            "alt": "Volunteer team organizing books",
+            "caption": "Volunteers sorting by grade levels",
+            "date": "2024-02-09",
+            "tags": ["volunteers", "sorting"]
+          },
+          {
+            "id": "b24-006",
+            "url": "/media/gallery/2024/06.jpg",
+            "alt": "Volunteer team organizing books",
+            "caption": "Volunteers sorting by grade levels",
+            "date": "2024-02-09",
+            "tags": ["volunteers", "sorting"]
+          },
+          {
+            "id": "b24-007",
+            "url": "/media/gallery/2024/07.jpg",
+            "alt": "Volunteer team organizing books",
+            "caption": "Volunteers sorting by grade levels",
+            "date": "2024-02-09",
+            "tags": ["volunteers", "sorting"]
+          }
+        ]
+      },
+      "sort_order": 7
+    },
+
+
+    {
+      "key": "bookathon.years",
+      "language": "en",
+      "block_type": "json",
+      "value": {
+        "items": [
+          {
+            "id": "2023",
+            "label": "Bookathon 2023",
+            "title": "Bookathon Yr. 2023",
+            "subtitle": "Pilot year of Bookathon – books reaching children in need.",
+            "images": [
+              {
+                "id": "b23-001",
+                "url": "/media/gallery/2023/01.jpg",
+                "alt": "Students receiving books in a rural school",
+                "caption": "First delivery to a remote district",
+                "date": "2023-02-12",
+                "tags": ["delivery", "students", "rural"]
+              },
+              {
+                "id": "b23-002",
+                "url": "/media/gallery/2023/02.jpg",
+                "alt": "Boxes of donated books stacked",
+                "caption": "Books packed and ready",
+                "date": "2023-02-10",
+                "tags": ["packing", "logistics"]
+              },
+              {
+                "id": "b23-003",
+                "url": "/media/gallery/2023/03.jpg",
+                "alt": "Volunteer team organizing books",
+                "caption": "Volunteers sorting by grade levels",
+                "date": "2023-02-09",
+                "tags": ["volunteers", "sorting"]
+              }
+            ]
+          },
+          {
+            "id": "2024",
+            "label": "Bookathon 2024",
+            "title": "Bookathon Yr. 2024",
+            "subtitle": "In 2024 over a thousand books sent to poor school districts in Philippines.",
+            "images": [
+              {
+                "id": "b24y-001",
+                "url": "/media/gallery/2024/01.jpg",
+                "alt": "Students receiving books in a rural school",
+                "caption": "First delivery to a remote district",
+                "date": "2024-02-12",
+                "tags": ["delivery", "students", "rural"]
+              },
+              {
+                "id": "b24y-002",
+                "url": "/media/gallery/2024/02.jpg",
+                "alt": "Boxes of donated books stacked",
+                "caption": "Over 1000 books packed and ready",
+                "date": "2024-02-10",
+                "tags": ["packing", "logistics"]
+              },
+              {
+                "id": "b24y-003",
+                "url": "/media/gallery/2024/03.jpg",
+                "alt": "Volunteer team organizing books",
+                "caption": "Volunteers sorting by grade levels",
+                "date": "2024-02-09",
+                "tags": ["volunteers", "sorting"]
+              },
+              {
+                "id": "b24y-004",
+                "url": "/media/gallery/2024/04.jpg",
+                "alt": "Volunteer team organizing books",
+                "caption": "Volunteers sorting by grade levels",
+                "date": "2024-02-09",
+                "tags": ["volunteers", "sorting"]
+              },
+              {
+                "id": "b24y-005",
+                "url": "/media/gallery/2024/05.jpg",
+                "alt": "Volunteer team organizing books",
+                "caption": "Volunteers sorting by grade levels",
+                "date": "2024-02-09",
+                "tags": ["volunteers", "sorting"]
+              },
+              {
+                "id": "b24y-006",
+                "url": "/media/gallery/2024/06.jpg",
+                "alt": "Volunteer team organizing books",
+                "caption": "Volunteers sorting by grade levels",
+                "date": "2024-02-09",
+                "tags": ["volunteers", "sorting"]
+              },
+              {
+                "id": "b24y-007",
+                "url": "/media/gallery/2024/07.jpg",
+                "alt": "Volunteer team organizing books",
+                "caption": "Volunteers sorting by grade levels",
+                "date": "2024-02-09",
+                "tags": ["volunteers", "sorting"]
+              }
+            ]
+          },
+          {
+            "id": "2025",
+            "label": "Bookathon 2025",
+            "title": "Bookathon Yr. 2025",
+            "subtitle": "Continuing to scale Bookathon to more regions.",
+            "images": [
+              {
+                "id": "b25-001",
+                "url": "/media/gallery/2025/01.jpg",
+                "alt": "Students receiving books in a rural school",
+                "caption": "First delivery to a remote district",
+                "date": "2025-02-12",
+                "tags": ["delivery", "students", "rural"]
+              },
+              {
+                "id": "b25-002",
+                "url": "/media/gallery/2025/02.jpg",
+                "alt": "Boxes of donated books stacked",
+                "caption": "Books packed and ready",
+                "date": "2025-02-10",
+                "tags": ["packing", "logistics"]
+              },
+              {
+                "id": "b25-003",
+                "url": "/media/gallery/2025/03.jpg",
+                "alt": "Volunteer team organizing books",
+                "caption": "Volunteers sorting by grade levels",
+                "date": "2025-02-09",
+                "tags": ["volunteers", "sorting"]
+              },
+              {
+                "id": "b25-004",
+                "url": "/media/gallery/2025/04.jpg",
+                "alt": "Volunteer team organizing books",
+                "caption": "Volunteers sorting by grade levels",
+                "date": "2025-02-09",
+                "tags": ["volunteers", "sorting"]
+              },
+              {
+                "id": "b25-005",
+                "url": "/media/gallery/2025/05.jpg",
+                "alt": "Volunteer team organizing books",
+                "caption": "Volunteers sorting by grade levels"
+              },
+              {
+                "id": "b25-006",
+                "url": "/media/gallery/2025/06.jpg",
+                "alt": "Volunteer team organizing books",
+                "caption": "Volunteers sorting by grade levels"
+              }
+            ]
+          }
+        ]
+      },
+      "sort_order": 8
+    }
+  ]
+}

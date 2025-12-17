@@ -1,0 +1,313 @@
+{
+  "slug": "pistons-poster",
+  "template": "default",
+  "blocks": [
+    {
+      "key": "hero.title",
+      "block_type": "text",
+      "value": {
+        "text": "Munzer’s 8 Pistons – Game of Life"
+      }
+    },
+    {
+      "key": "hero.subtitle",
+      "block_type": "text",
+      "value": {
+        "text": "EMMA Foundation Goal and Mission Statement"
+      }
+    },
+    {
+      "key": "hero.image",
+      "block_type": "image",
+      "value": {
+        "url": "/media/pistons/poster-main.png",
+        "alt": "Munzer’s 8 Pistons – Game of Life Poster"
+      }
+    },
+
+    {
+      "key": "pistons.overview1.heading",
+      "block_type": "text",
+      "value": { "text": "EMMA Foundation Goal and Mission Statement – 1/2" }
+    },
+    {
+      "key": "pistons.overview1.body",
+      "block_type": "text",
+      "value": {
+        "text": "Munzer's 8 Pistons – Rev # 98, …\n\nFor each piston we have a local meetup group, such as for Health: Hygieia Club; for Wealth: CLAP Club. You can improve your health and make money through entrepreneurship and investing. To start your own local chapter please contact us.\n\nEMMA Foundation is a US-based, non-profit, IRS 501(c)(3) global philanthropic organization. Its entire accounting system is open to its members, 100% transparent. Its goal is to enable individuals to reach their maximum potential through the founder’s modeled 8 Pistons – Game of Life.\n\nEMMA Foundation provides 7 tiers of daily and/or weekly, non-denominational preaching and education to the general public in pursuit of health, wealth, enlightenment, eudaemonic, ascetic, stoic, balanced-epicurean lifestyle, with proper diet, exercise, self-mastery, yoga, and meditation to benefit oneself and people around us."
+      }
+    },
+
+    {
+      "key": "pistons.overview2.heading",
+      "block_type": "text",
+      "value": { "text": "Feeding the Soul, Not Just the Body" }
+    },
+    {
+      "key": "pistons.overview2.body",
+      "block_type": "text",
+      "value": {
+        "text": "Most charity organizations feed the body by providing food to the hungry and shelter to the homeless, which are all good for urgent and temporary relief. EMMA wants to feed the human soul, spirit, subconscious and conscious mind.\n\nEMMA believes that the root causes of the problem are the bad ideas, beliefs, and value systems ingrained in one’s own mind that one never questioned, examined, nor recalibrated. That is why EMMA spends a smaller percentage of its funds for material and physical help and a larger percentage to feed the mind and the soul.\n\nEMMA’s founder doesn’t believe in Free Will, therefore he is against the death penalty but is for jail terms for deterrent, rehabilitation, and restitution purposes – never for punishment, revenge, or retribution. Everyone should be given initial equal opportunity and respect, but everyone is not created equal, and among those who are created equal do not attain equal socio-economic status, intellect, or wisdom.\n\nPath to “The 1%” (of US)\nMunzer’s 8 Pistons – Game of Life.\n\nWatch your actions, not just words. Excluding sleeping, eating, hygiene, survival hours, the percentage of the remaining 12–14 hours/day – your discretionary time – that you spend on each piston will tell you about your self-deception. Expose your lies and go through purgatory now for an enlightened life."
+      }
+    },
+
+    {
+      "key": "pistons.overview3.heading",
+      "block_type": "text",
+      "value": { "text": "EMMA Foundation Goal and Mission Statement – 2/2" }
+    },
+    {
+      "key": "pistons.overview3.body",
+      "block_type": "text",
+      "value": {
+        "text": "Munzer's 8 Pistons – Rev # 98, …\n\nTo reach one’s maximum potential to tackle worldly problems, material and spiritual, one must first enlighten one’s own mind by replacing bad ideas with good ones – well-thought-out logical ideas based on 21st century science (21CS), reason, and truth, and sometimes with a slight touch of myth when necessary.\n\nEMMA wants to feed the Soul – the mind through which one figures out good from bad, right from wrong, and truth from lies. EMMA’s founder practices the 8 Pistons and has achieved great results. EMMA is propagating this value system and process to make the world a little better place.\n\nWe favor objective meritocracy (with some charity) over blind equity. Any and all ideas in this poster can be modified as society changes or as human, AI, ASI, AGI hybrids emerge.\n\nLocal, state, federal governments, technofeudalism, UNO, IMF, WTO, WEF, corporations, Hollywood, educational systems, social media, virtue signaling, woke-ism, cancel culture, snowflake mentality, safe-space, trigger warnings, euphemism, SJW, DEI, equal outcome (equity), your job, even places of worship won’t help you become independent, smart, healthy, wealthy, self-reliant, and self-sufficient. Therefore, you have to do it yourself.\n\nThink independently. Avoid “collective illusion”, inadequate equilibria, and “unhealthy social norms”. EMMA’s goal is to help you get there – to high 8PQ."
+      }
+    },
+
+    {
+      "key": "pistons.how_to_read.heading",
+      "block_type": "text",
+      "value": { "text": "How to Read and Benefit from the Poster" }
+    },
+    {
+      "key": "pistons.how_to_read.body",
+      "block_type": "text",
+      "value": {
+        "text": "Munzer's 8 Pistons – Rev # 98, …\n\nThis poster is jam-packed with useful and thought-provoking information, ideas, and practices in a jigsaw puzzle format. It doesn’t explain everything in detail but shows ideas and pointers.\n\nIt is the reader’s job to think, ponder, fill in the blanks, connect the dots, solve the jigsaw puzzle of ideas, and put these into action.\n\nDo you want to know the TRUTH or just confirmation of your beliefs and wishes?\n\nInformation:\nI = log₂(1/Pᵢ)\nPᵢ = probability the new idea is true in your mind before you are convinced of it.\n\nSpend hours staring at this poster. Read. Let your mind wonder and wander. Research every keyword. Debate these topics over months and find coherence, connections, contradictions. When something makes sense, practice it daily and spread the message."
+      }
+    },
+
+    {
+      "key": "pistons.eight_overview.heading",
+      "block_type": "text",
+      "value": { "text": "Eight Pistons Overview" }
+    },
+    {
+      "key": "pistons.eight_overview.body",
+      "block_type": "text",
+      "value": {
+        "text": "Munzer's 8 Pistons – Rev # 98, …\n\nThese eight pistons together form a system for health, wealth, intellect, relationships, exploration, philosophy, self-mastery, and philanthropy."
+      }
+    },
+
+    {
+      "key": "pistons.health.heading",
+      "block_type": "text",
+      "value": { "text": "1. Health – Hygieia" }
+    },
+    {
+      "key": "pistons.health.body",
+      "block_type": "text",
+      "value": {
+        "text": "Maintain mental and physical homeostasis, interoception, proprioception, hormesis, circadian rhythm, calisthenics, breathing, meditation, microbiome, HBOT, bio-hacking, lab tests, diet, fasting, cold exposure, heat exposure."
+      }
+    },
+    {
+      "key": "pistons.health.image",
+      "block_type": "image",
+      "value": {
+        "url": "/media/pistons/health.png",
+        "alt": "Health – Hygieia"
+      }
+    },
+
+    {
+      "key": "pistons.wealth.heading",
+      "block_type": "text",
+      "value": { "text": "2. Wealth – Plutus" }
+    },
+    {
+      "key": "pistons.wealth.body",
+      "block_type": "text",
+      "value": {
+        "text": "Enjoy the power of money responsibly. No 9–5 golden handcuffs. Make money through investing, entrepreneurship, CLAP Club (Caishen, Lakshmi, Abundantia, Plutus).\n\nNet worth = Assets – Liabilities + risk capacity + social capital + free time.\n\nLearn about dollar, gold, crypto, NFTs, art, metaverse."
+      }
+    },
+    {
+      "key": "pistons.wealth.image",
+      "block_type": "image",
+      "value": {
+        "url": "/media/pistons/wealth.png",
+        "alt": "Wealth – Plutus"
+      }
+    },
+
+    {
+      "key": "pistons.intellect.heading",
+      "block_type": "text",
+      "value": { "text": "3. Intellect – Athena (System 2 / Front Door)" }
+    },
+    {
+      "key": "pistons.intellect.body",
+      "block_type": "text",
+      "value": {
+        "text": "200,000 years of evolution. Slow, deliberate, logical mind.\n\nIQ, wisdom, crystallized/fluid intelligence, persuasion, philosophy, reading, writing, puzzles.\n\nUse CMVS: Core Moral Value System."
+      }
+    },
+    {
+      "key": "pistons.intellect.image",
+      "block_type": "image",
+      "value": {
+        "url": "/media/pistons/intellect.png",
+        "alt": "Intellect – Athena"
+      }
+    },
+
+    {
+      "key": "pistons.family.heading",
+      "block_type": "text",
+      "value": { "text": "4. Family / Love – Philotes" }
+    },
+    {
+      "key": "pistons.family.body",
+      "block_type": "text",
+      "value": {
+        "text": "Relationships, children, compassion, forgiveness, kindness, social capital.\n\nVolunteer. Build real connections.\n\nWant respect? Earn it."
+      }
+    },
+    {
+      "key": "pistons.family.image",
+      "block_type": "image",
+      "value": {
+        "url": "/media/pistons/family.png",
+        "alt": "Family / Love – Philotes"
+      }
+    },
+
+    {
+      "key": "pistons.travel.heading",
+      "block_type": "text",
+      "value": { "text": "5. Travel – Hermes" }
+    },
+    {
+      "key": "pistons.travel.body",
+      "block_type": "text",
+      "value": {
+        "text": "Adventure, exposure to cultures, learning, nature, jungles, mountains, urban marvels, solitude and group activities."
+      }
+    },
+    {
+      "key": "pistons.travel.image",
+      "block_type": "image",
+      "value": {
+        "url": "/media/pistons/travel.png",
+        "alt": "Travel – Hermes"
+      }
+    },
+
+    {
+      "key": "pistons.philosophy.heading",
+      "block_type": "text",
+      "value": { "text": "6. Philosophy / Purpose – Dike" }
+    },
+    {
+      "key": "pistons.philosophy.body",
+      "block_type": "text",
+      "value": {
+        "text": "Truth, ethics, logic, epistemology, science, death awareness, existentialism, self-reflection, mathematics, ontology."
+      }
+    },
+    {
+      "key": "pistons.philosophy.image",
+      "block_type": "image",
+      "value": {
+        "url": "/media/pistons/philosophy.png",
+        "alt": "Philosophy / Purpose – Dike"
+      }
+    },
+
+    {
+      "key": "pistons.self_mastery.heading",
+      "block_type": "text",
+      "value": { "text": "7. Self-Mastery – Sophrosyne (System 1 / Back Door)" }
+    },
+    {
+      "key": "pistons.self_mastery.body",
+      "block_type": "text",
+      "value": {
+        "text": "100+ million years of evolution. Habits, grit, emotions, instinct, subconscious mind, breathwork, meditation, cold showers, autonomic system control.\n\nGuard your back door. Open it wisely."
+      }
+    },
+    {
+      "key": "pistons.self_mastery.image",
+      "block_type": "image",
+      "value": {
+        "url": "/media/pistons/self-mastery.png",
+        "alt": "Self-Mastery – Sophrosyne"
+      }
+    },
+
+    {
+      "key": "pistons.philanthropy.heading",
+      "block_type": "text",
+      "value": { "text": "8. Philanthropy – Eleos" }
+    },
+    {
+      "key": "pistons.philanthropy.body",
+      "block_type": "text",
+      "value": {
+        "text": "Smart charity: feed the soul, not just the body.\n\nHelp change beliefs, habits, self-reliance, discipline, truth, compassion, and tough love.\n\nHelp those who help themselves."
+      }
+    },
+    {
+      "key": "pistons.philanthropy.image",
+      "block_type": "image",
+      "value": {
+        "url": "/media/pistons/philanthropy.png",
+        "alt": "Philanthropy – Eleos"
+      }
+    },
+
+    {
+      "key": "pistons.instructions.heading",
+      "block_type": "text",
+      "value": { "text": "Instructions for Using the Pistons" }
+    },
+    {
+      "key": "pistons.instructions.body",
+      "block_type": "text",
+      "value": {
+        "text": "Piston numbers DO NOT represent priority.\n\nSet your desired scale height for each piston.\n\nYou have only “one hand” – limited time, resources, energy. Pull each piston up repeatedly; when you let go it slides down. Your success is keeping all pistons near your chosen target levels.\n\nMeasure everything — expose self-deception.\n\nUse Q3: Qualified, 3rd Party, Double Blind, Iterative statistical method.\n\nPractice pain endurance; develop mental strength.\n\nUse System 2 (Piston 3) to tame System 1 (Piston 7).\n\n86 billion neurons, 84% in System 1 (limbic). Leave the front door open (logic), guard the back door (emotion).\n\nYou are the average of the 5 people you are around.\n\nMost people (97%) are self-deceptive, zombie-like. Don’t be like them.\n\nFree Will is an illusion, but use it as a tool.\n\nHappiness is a by-product, not the goal."
+      }
+    },
+
+    {
+      "key": "pistons.tiers.heading",
+      "block_type": "text",
+      "value": { "text": "7 Tiers of Society (Net Worth Tiers)" }
+    },
+    {
+      "key": "pistons.tiers.body",
+      "block_type": "text",
+      "value": {
+        "text": "Munzer's 8 Pistons – Rev # 98, …\n\nTier 1: Top 1%\nTier 2: Next 2%\nTier 3: Next 5%\nTier 4: Next 10%\nTier 5: Next 20%\nTier 6: Next 30% (Confused)\nTier 7: Bottom 32% (Need help)\n\nThe rule: You will be the average of the 5 people you spend the most time with."
+      }
+    },
+
+    {
+      "key": "pistons.lack.heading",
+      "block_type": "text",
+      "value": { "text": "Lack of 8 Pistons → Consequences" }
+    },
+    {
+      "key": "pistons.lack.body",
+      "block_type": "text",
+      "value": {
+        "text": "Munzer's 8 Pistons – Rev # 98, …\n\nFat, poor, dumb.\nMultiple marriages.\nLocked in bad neighborhoods.\nNo philosophy, no self-discipline.\nCannot give."
+      }
+    },
+
+    {
+      "key": "pistons.spectrum.heading",
+      "block_type": "text",
+      "value": { "text": "Spectrum of Knowledge" }
+    },
+    {
+      "key": "pistons.spectrum.body",
+      "block_type": "text",
+      "value": {
+        "text": "Munzer's 8 Pistons – Rev # 98, …\n\nConsciousness / Qualia\nMath\nPhysics\nChemistry\nBiology\nPsychology\nSociology\nEconomy / Finance\nPolitics / Force / War"
+      }
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "slug": "global-footer",
+  "template": "footer",
+  "is_active": true,
+  "access_level": null,
+  "blocks": [
+    {
+      "key": "footer.brandName",
+      "type": "text",
+      "value": {
+        "text": "Emma Shopping Mall"
+      }
+    },
+    {
+      "key": "footer.tagline",
+      "type": "text",
+      "value": {
+        "text": "A curated marketplace for the EMMA community — simple, elegant and designed to feel like home."
+      }
+    },
+    {
+      "key": "footer.logo",
+      "type": "image",
+      "value": {
+        "url": "/media/emma_logo.png",
+        "alt": "EMMA Foundation logo"
+      }
+    },
+    {
+      "key": "footer.ecosystemText",
+      "type": "text",
+      "value": {
+        "text": "Part of the EMMA Foundation ecosystem."
+      }
+    },
+    {
+      "key": "footer.columns",
+      "type": "json",
+      "value": {
+        "items": [
+          {
+            "id": "emma",
+            "title": "Emma Foundation",
+            "links": [
+              {
+                "id": "about-emma",
+                "label": "About EMMA",
+                "href": "/about"
+              },
+              {
+                "id": "about-founder",
+                "label": "About the Founder",
+                "href": "/about-founder"
+              },
+              {
+                "id": "donation",
+                "label": "Donate / Volunteer",
+                "href": "/donation-contact-login"
+              }
+            ]
+          },
+          {
+            "id": "platforms",
+            "title": "Platforms",
+            "links": [
+              {
+                "id": "pq-test",
+                "label": "PQ Test (Quiz)",
+                "href": "/real-time-quiz"
+              },
+              {
+                "id": "truth-machine",
+                "label": "Truth Machine",
+                "href": "/truth-machine"
+              },
+              {
+                "id": "shopping-mall",
+                "label": "Shopping Mall",
+                "href": "/shopping-mall"
+              }
+            ]
+          },
+          {
+            "id": "support",
+            "title": "Support",
+            "links": [
+              {
+                "id": "help-center",
+                "label": "Help Center",
+                "href": "/help"
+              },
+              {
+                "id": "contact",
+                "label": "Contact",
+                "href": "/contact"
+              },
+              {
+                "id": "privacy",
+                "label": "Privacy Policy",
+                "href": "/privacy"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

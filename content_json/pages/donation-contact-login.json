@@ -1,0 +1,144 @@
+{
+  "slug": "donation-contact-login",
+  "lang": "en",
+  "title": "Donation, Contact & Login - EMMA Foundation",
+  "blocks": [
+    {
+      "key": "hero.title",
+      "value": {
+        "text": "Welcome to The 1% and Better!"
+      }
+    },
+    {
+      "key": "hero.subtitle",
+      "value": {
+        "text": "Support EMMA Foundation through donations, volunteering, and staying connected."
+      }
+    },
+    {
+      "key": "hero.image",
+      "value": {
+        "url": "/backend/gallery/2023/01.jpg",
+        "alt": "EMMA Foundation community and giving"
+      }
+    },
+
+    {
+      "key": "donation.title",
+      "value": {
+        "text": "Donation"
+      }
+    },
+    {
+      "key": "donation.intro",
+      "value": {
+        "text": "Click the following link to donate using your credit card."
+      }
+    },
+    {
+      "key": "donation.alert.title",
+      "value": {
+        "text": "ALERT:"
+      }
+    },
+    {
+      "key": "donation.alert.body",
+      "value": {
+        "text": "You are not obligated to pay anything to Zeffy payment platform. That money doesn’t go to Emma Foundation. You do not need to accept the default percentage. Just under the total dollar amount of donation you will see a drop-down menu, please click on that and select “other”, then put 0%."
+      }
+    },
+    {
+      "key": "donation.link.url",
+      "value": {
+        "text": "https://www.zeffy.com/en-US/donation-form/f2a2c9dc-3095-45d6-a689-5d8f25a87e35"
+      }
+    },
+    {
+      "key": "donation.link.label",
+      "value": {
+        "text": "Donate via Zeffy (Credit Card)"
+      }
+    },
+    {
+      "key": "donation.other_methods",
+      "value": {
+        "text": "You may also donate through Paypal, Payoneer, Venmo and more."
+      }
+    },
+
+    {
+      "key": "volunteering.title",
+      "value": {
+        "text": "Volunteering"
+      }
+    },
+    {
+      "key": "volunteering.body",
+      "value": {
+        "text": "If you want to volunteer for Emma Foundation in any capacity then please contact Maria Haque. You can do certain volunteering work remotely from anywhere in the world. You can participate in our YouTube channel, etc."
+      }
+    },
+    {
+      "key": "volunteering.contact.name",
+      "value": {
+        "text": "Maria Haque"
+      }
+    },
+    {
+      "key": "volunteering.contact.role",
+      "value": {
+        "text": "Director of Operation"
+      }
+    },
+    {
+      "key": "volunteering.contact.email",
+      "value": {
+        "text": "Maria.EmmaFoundation@gmail.com"
+      }
+    },
+
+    {
+      "key": "corporate.title",
+      "value": {
+        "text": "Corporate Office"
+      }
+    },
+    {
+      "key": "corporate.email.label",
+      "value": {
+        "text": "Contact us at"
+      }
+    },
+    {
+      "key": "corporate.email",
+      "value": {
+        "text": "EMMA@EmmaFoundation.net"
+      }
+    },
+
+    {
+      "key": "signup.title",
+      "value": {
+        "text": "Sign Up Now"
+      }
+    },
+    {
+      "key": "signup.body",
+      "value": {
+        "text": "Create your account to stay connected with EMMA Foundation initiatives, events, and updates."
+      }
+    },
+    {
+      "key": "signup.link.url",
+      "value": {
+        "text": "/auth/signup"
+      }
+    },
+    {
+      "key": "signup.link.label",
+      "value": {
+        "text": "Create your EMMA account"
+      }
+    }
+  ]
+}

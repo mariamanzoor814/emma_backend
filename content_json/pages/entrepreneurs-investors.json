@@ -1,0 +1,134 @@
+{
+  "slug": "entrepreneurs-investors",
+  "template": "default",
+  "blocks": [
+    {
+      "key": "hero.title",
+      "type": "text",
+      "value": {
+        "text": "The 1% and Better in Action"
+      }
+    },
+    {
+      "key": "hero.subtitle",
+      "type": "text",
+      "value": {
+        "text": "Entrepreneur + Investors"
+      }
+    },
+    {
+      "key": "hero.image",
+      "language": "en",
+      "block_type": "image",
+      "value": {
+        "url": "/media/gallert/2025/02.jpg",
+        "alt": "Founder of EMMA Foundation"
+      }
+    },
+
+    {
+      "key": "entrepreneurs.intro.heading",
+      "type": "text",
+      "value": {
+        "text": "Entrepreneur + Investors"
+      }
+    },
+    {
+      "key": "entrepreneurs.intro.body",
+      "type": "markdown",
+      "value": {
+        "text": "A lot more detail is coming soon.\n\nWe bring in small to midsize startups, private equity entrepreneurs, syndicators, and sponsors from all industries and from all over the world to a single platform with angel, incubator, and midsize VC investors.\n\nYou, as an entrepreneur, inventor, or creative thinker, can bring your own idea, working model, or setup to us and we will find investors for you. Or you can work on our ideas."
+      }
+    },
+
+    {
+      "key": "entrepreneurs.ideas.heading",
+      "type": "text",
+      "value": {
+        "text": "Some of Our Hundreds of Ideas"
+      }
+    },
+    {
+      "key": "entrepreneurs.ideas.body",
+      "type": "markdown",
+      "value": {
+        "text": "A few of our hundreds of ideas are:\n\n1. Quant logic–based HFT (High Frequency Trading)\n2. Start a global private equity trading exchange\n3. AI idea machine – sequitur logic processing machine to filter out lies from truth, good from bad, and right from wrong\n4. Individuals' longevity, fitness, habit, and fitness tracking system\n\nPlease see our [CLAP Investment Club](/clap-investment-club) for more detail."
+      }
+    },
+
+    {
+      "key": "entrepreneurs.clap_intro.heading",
+      "type": "text",
+      "value": {
+        "text": "What Is CLAP?"
+      }
+    },
+    {
+      "key": "entrepreneurs.clap_intro.body",
+      "type": "markdown",
+      "value": {
+        "text": "CLAP stands for **Caishen, Lakshmi, Abundantia, Plutus** – God and Goddess of Wealth, Prosperity, and Abundance from ancient Chinese, Hindu, Roman, and Greek religion and mythology, respectively.\n\nCurrently, CLAP is endorsed by **EMMA Foundation**, a US-based 501(c) philanthropic organization."
+      }
+    },
+
+    {
+      "key": "entrepreneurs.clap_role.heading",
+      "type": "text",
+      "value": {
+        "text": "Role of CLAP Investment Club"
+      }
+    },
+    {
+      "key": "entrepreneurs.clap_role.body",
+      "type": "markdown",
+      "value": {
+        "text": "CLAP Investment Club, endorsed by EMMA Foundation, provides a platform that brings together small to midsize startups, private equity entrepreneurs, syndicators, sponsors, and investors from various industries and regions across the globe.\n\nThe club offers a single platform where creative thinkers, inventors, and entrepreneurs can present their ideas and working models, seeking funding and support from angel investors, incubators, and midsize VC investors."
+      }
+    },
+
+    {
+      "key": "entrepreneurs.opportunities.heading",
+      "type": "text",
+      "value": {
+        "text": "Opportunities for Entrepreneurs and Investors"
+      }
+    },
+    {
+      "key": "entrepreneurs.opportunities.body",
+      "type": "markdown",
+      "value": {
+        "text": "Entrepreneurs can choose to bring their own ideas and projects to CLAP Investment Club, where the club's network of investors will evaluate and potentially invest in promising ventures.\n\nAlternatively, entrepreneurs can collaborate with the club on its various ideas, including ventures related to:\n\n- High-frequency trading (HFT)\n- A global private equity trading exchange\n- An AI-based idea machine for logical processing\n- An individuals' longevity and fitness tracking system"
+      }
+    },
+
+    {
+      "key": "entrepreneurs.symbolism.heading",
+      "type": "text",
+      "value": {
+        "text": "Symbolism and Mission of CLAP"
+      }
+    },
+    {
+      "key": "entrepreneurs.symbolism.body",
+      "type": "markdown",
+      "value": {
+        "text": "CLAP's name symbolizes **wealth, prosperity, and abundance**, representing the club's dedication to fostering a conducive environment for financial growth and success.\n\nThe club is backed by [EMMA Foundation](https://www.EmmaFoundation.net), a philanthropic organization focused on empowering individuals to reach their maximum potential across all aspects of life."
+      }
+    },
+
+    {
+      "key": "entrepreneurs.summary.heading",
+      "type": "text",
+      "value": {
+        "text": "A Bridge Between Ideas and Capital"
+      }
+    },
+    {
+      "key": "entrepreneurs.summary.body",
+      "type": "markdown",
+      "value": {
+        "text": "For entrepreneurs and investors interested in exploring investment opportunities and collaborations with CLAP Investment Club, detailed information can be obtained directly from the club's resources and platforms.\n\nOverall, CLAP Investment Club serves as a **bridge that connects innovative ideas with potential investors**, facilitating the realization of promising ventures and contributing to the growth and prosperity of its members and the broader entrepreneurial community."
+      }
+    }
+  ]
+}

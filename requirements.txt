@@ -1,0 +1,11 @@
+requests
+cryptography
+oauthlib 
+requests-oauthlib
+
+Django>=4.2
+djangorestframework
+celery>=5.2
+redis>=4.0
+django-environ
+channels-redis

@@ -1,0 +1,291 @@
+{
+  "slug": "shopping-mall",
+  "title": "Emma Shopping Mall",
+  "template": "default",
+  "blocks": [
+    {
+      "key": "top_links",
+      "value": {
+        "items": [
+          { "id": "deals", "label": "Daily Deals", "href": "/deals" },
+          { "id": "brand-outlet", "label": "Brand Outlet", "href": "/brands" },
+          { "id": "gift-cards", "label": "Gift Cards", "href": "/gift-cards" },
+          { "id": "help", "label": "Help & Contact", "href": "/help" }
+        ]
+      }
+    },
+
+    {
+      "key": "main_categories",
+      "value": {
+        "items": [
+          { "id": "motors", "label": "Motors", "href": "/c/motors" },
+          { "id": "electronics", "label": "Electronics", "href": "/c/electronics" },
+          {
+            "id": "collectibles",
+            "label": "Collectibles",
+            "href": "/c/collectibles"
+          },
+          { "id": "home-garden", "label": "Home & Garden", "href": "/c/home" },
+          {
+            "id": "fashion",
+            "label": "Clothing, Shoes & Accessories",
+            "href": "/c/fashion"
+          },
+          { "id": "toys", "label": "Toys", "href": "/c/toys" },
+          {
+            "id": "sporting",
+            "label": "Sporting Goods",
+            "href": "/c/sporting"
+          },
+          {
+            "id": "business",
+            "label": "Business & Industrial",
+            "href": "/c/business"
+          }
+        ]
+      }
+    },
+
+    {
+      "key": "mall_hero_slides",
+      "value": {
+        "items": [
+          {
+            "id": "hero-1",
+            "title": "Upgrade your home",
+            "subtitle": "Find the right pieces that suit your space.",
+            "buttonLabel": "Shop furniture",
+            "backgroundColor": "#d4e43b",
+            "items": [
+              {
+                "id": "sofas",
+                "label": "Sofas & armchairs",
+                "imageUrl": "/assets/mall/hero/sofa.png"
+              },
+              {
+                "id": "dining",
+                "label": "Dining sets",
+                "imageUrl": "/assets/mall/hero/dining.png"
+              },
+              {
+                "id": "beds",
+                "label": "Beds & headboards",
+                "imageUrl": "/assets/mall/hero/bed.png"
+              }
+            ]
+          },
+          {
+            "id": "hero-2",
+            "title": "Gear up for gaming nights",
+            "subtitle": "Consoles, headsets, chairs and more.",
+            "buttonLabel": "Shop gaming",
+            "backgroundColor": "#c5e0ff",
+            "items": [
+              {
+                "id": "consoles",
+                "label": "Consoles",
+                "imageUrl": "/assets/mall/hero/console.png"
+              },
+              {
+                "id": "headsets",
+                "label": "Headsets",
+                "imageUrl": "/assets/mall/hero/headset.png"
+              },
+              {
+                "id": "chairs",
+                "label": "Gaming chairs",
+                "imageUrl": "/assets/mall/hero/chair.png"
+              }
+            ]
+          },
+          {
+            "id": "hero-3",
+            "title": "Emma-exclusive merch",
+            "subtitle": "Support research, health & education with every purchase.",
+            "buttonLabel": "Shop Emma merch",
+            "backgroundColor": "#ffe5c0",
+            "items": [
+              {
+                "id": "hoodies",
+                "label": "Hoodies",
+                "imageUrl": "/assets/mall/hero/hoodie.png"
+              },
+              {
+                "id": "mugs",
+                "label": "Mugs",
+                "imageUrl": "/assets/mall/hero/mug.png"
+              },
+              {
+                "id": "posters",
+                "label": "Posters",
+                "imageUrl": "/assets/mall/hero/poster.png"
+              }
+            ]
+          }
+        ]
+      }
+    },
+
+    {
+      "key": "mall_promo",
+      "value": {
+        "title": "Find gear that fuels your passion",
+        "subtitle": "Discover refurbished and new items, all supporting Emma Foundation.",
+        "buttonLabel": "Shop now"
+      }
+    },
+
+    {
+      "key": "circle_section_heading",
+      "value": {
+        "title": "Gear up for the holidays",
+        "subtitle": "Curated picks for the season"
+      }
+    },
+
+    {
+      "key": "circle_categories",
+      "value": {
+        "items": [
+          {
+            "id": "trees",
+            "label": "Trees",
+            "imageUrl": "/assets/mall/circles/tree.png",
+            "href": "/c/holiday-trees"
+          },
+          {
+            "id": "ornaments",
+            "label": "Ornaments",
+            "imageUrl": "/assets/mall/circles/ornament.png",
+            "href": "/c/ornaments"
+          },
+          {
+            "id": "wreaths",
+            "label": "Wreaths",
+            "imageUrl": "/assets/mall/circles/wreath.png",
+            "href": "/c/wreaths"
+          },
+          {
+            "id": "lights",
+            "label": "Lights",
+            "imageUrl": "/assets/mall/circles/lights.png",
+            "href": "/c/lights"
+          },
+          {
+            "id": "outdoor",
+            "label": "Outdoor décor",
+            "imageUrl": "/assets/mall/circles/outdoor.png",
+            "href": "/c/outdoor"
+          }
+        ]
+      }
+    },
+
+    {
+      "key": "product_sections",
+      "value": {
+        "items": [
+          {
+            "id": "gift-hunt",
+            "title": "The $50 gift hunt",
+            "subtitle": "Great finds under $50",
+            "products": [
+              {
+                "id": "p1",
+                "title": "Spa gift set with candles and oils",
+                "imageUrl": "/assets/mall/products/spa-set.png",
+                "price": 30.0,
+                "currency": "$"
+              },
+              {
+                "id": "p2",
+                "title": "Mini Bluetooth speaker portable",
+                "imageUrl": "/assets/mall/products/speaker.png",
+                "price": 24.99,
+                "currency": "$"
+              },
+              {
+                "id": "p3",
+                "title": "Espresso maker compact",
+                "imageUrl": "/assets/mall/products/espresso.png",
+                "price": 30.0,
+                "currency": "$"
+              }
+            ]
+          },
+          {
+            "id": "todays-deals",
+            "title": "Today’s deals",
+            "subtitle": "All with free shipping",
+            "products": [
+              {
+                "id": "p4",
+                "title": "Refurbished smartphone 128GB",
+                "imageUrl": "/assets/mall/products/phone.png",
+                "price": 199.99,
+                "oldPrice": 249.99,
+                "currency": "$",
+                "badgeText": "20% off"
+              },
+              {
+                "id": "p5",
+                "title": "Mechanical keyboard RGB",
+                "imageUrl": "/assets/mall/products/keyboard.png",
+                "price": 89.99,
+                "oldPrice": 129.99,
+                "currency": "$",
+                "badgeText": "Cyber deal"
+              }
+            ]
+          }
+        ]
+      }
+    },
+
+    {
+      "key": "footer_columns",
+      "value": {
+        "items": [
+          {
+            "id": "buy",
+            "title": "Buy",
+            "links": [
+              { "id": "registration", "label": "Registration", "href": "/register" },
+              {
+                "id": "bidding-help",
+                "label": "Bidding & buying help",
+                "href": "/help/buy"
+              },
+              { "id": "stores", "label": "Stores", "href": "/stores" }
+            ]
+          },
+          {
+            "id": "sell",
+            "title": "Sell",
+            "links": [
+              { "id": "start-selling", "label": "Start selling", "href": "/sell" },
+              { "id": "how-to-sell", "label": "How to sell", "href": "/help/sell" }
+            ]
+          },
+          {
+            "id": "about",
+            "title": "About Emma",
+            "links": [
+              { "id": "company", "label": "Company info", "href": "/about" },
+              { "id": "careers", "label": "Careers", "href": "/careers" }
+            ]
+          },
+          {
+            "id": "help-contact",
+            "title": "Help & Contact",
+            "links": [
+              { "id": "seller-center", "label": "Seller Center", "href": "/help" },
+              { "id": "returns", "label": "Returns", "href": "/returns" }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

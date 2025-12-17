@@ -1,0 +1,370 @@
+{
+  "slug": "about-founder",
+  "template": "content",
+  "blocks": [
+    {
+      "key": "hero.title",
+      "language": "en",
+      "block_type": "text",
+      "value": { "text": "About the Founder" },
+      "sort_order": 1
+    },
+    {
+      "key": "hero.subtitle",
+      "language": "en",
+      "block_type": "text",
+      "value": {
+        "text": "Munzer Haque shares his journey, philosophy, and why EMMA exists."
+      },
+      "sort_order": 2
+    },
+    {
+      "key": "hero.image",
+      "language": "en",
+      "block_type": "image",
+      "value": {
+        "url": "/media/about/hero.jpg",
+        "alt": "Founder of EMMA Foundation"
+      },
+      "sort_order": 3
+    },
+
+    {
+      "key": "founder.intro.heading",
+      "language": "en",
+      "block_type": "text",
+      "value": { "text": "Introduction" },
+      "sort_order": 10
+    },
+    {
+      "key": "founder.intro.body",
+      "language": "en",
+      "block_type": "text",
+      "value": {
+        "text": "My name is Munzer Haque. I am the founder of EMMA Foundation. I am retired but fully engaged with my charity foundation. I run my own small family office, a private equity hedge fund, and invest in small startups as an angel investor or seed funder.\n\nEMMA's goal is simple and straightforward: teach others how to think instead of handing out what to think, because I believe the root cause of most problems is the human mind."
+      },
+      "sort_order": 11
+    },
+
+    {
+      "key": "founder.childhood.heading",
+      "language": "en",
+      "block_type": "text",
+      "value": { "text": "My Early Childhood" },
+      "sort_order": 20
+    },
+    {
+      "key": "founder.childhood.body",
+      "language": "en",
+      "block_type": "text",
+      "value": {
+        "text": "From a very early age, I was a curious boy. I would poke almost anything and everything, mental or physical, just to see what would happen. I also conducted all kinds of simple home-based experiments on my own—electrical, mechanical, physics, biological (on frogs), and more—to find out how things work. Several times, I hurt myself too. I always asked what, when, why, and how."
+      },
+      "sort_order": 21
+    },
+
+    {
+      "key": "founder.no_free_will.heading",
+      "language": "en",
+      "block_type": "text",
+      "value": { "text": "What Changed My Life for Better? — No Free Will" },
+      "sort_order": 30
+    },
+    {
+      "key": "founder.no_free_will.body",
+      "language": "en",
+      "block_type": "text",
+      "value": {
+        "text": "At about 20 years old, on a hot summer day by a small lake, I was deep in thought about man, God, and nature. Using high-school-level math, science, reason, and honesty, I concluded that free will does not exist; it is a necessary illusion.\n\nSince then, reviewing this conclusion monthly and yearly with steel-man arguments has not changed it. Please see item 30 in text block 7 of the 8-Pistons Poster. Maybe free will is an emerging property that cannot be explained by particles, neurons, or mental activity, but there is no evidence for that. A similar argument can be made for ghost, hell, and heaven—what I call anything goes.\n\nTime flew by. Now at 70, I want to share what I have learned: a philosophy of life. That is why I created the 8 Pistons of Life. With your help, EMMA can make the world a bit better. I still do not know many things; I am still learning."
+      },
+      "sort_order": 31
+    },
+
+    {
+      "key": "founder.praying.heading",
+      "language": "en",
+      "block_type": "text",
+      "value": { "text": "Praying" },
+      "sort_order": 40
+    },
+    {
+      "key": "founder.praying.body",
+      "language": "en",
+      "block_type": "text",
+      "value": {
+        "text": "In my mid-20s, while in college and working full-time as an avionics engineer, I often lay on the grass, gazing at the stars. Once, while sick and hospitalized, I snuck to the rooftop and prayed:\n\nOh God, if you exist and can hear me, and if you can interfere in this world, I do not pray for grades, money, wealth, fame, or even good health—those are my responsibilities. Grant me truth, wisdom, and use me as a beacon of truth. Make me a radiator of honest, fair, rational truth based on critical thinking, maybe mixed with some emotion and passion, to make lives around me a bit better.\n\nI still remember this prayer, and it remains unchanged. Half a century later, I think I mostly received what I asked for: happiness, satisfaction, fulfillment, and a eudaimonic life. Another way to say it: God, grant me the power to change the things I can, the serenity to accept the things I cannot, and the wisdom to know the difference."
+      },
+      "sort_order": 41
+    },
+
+    {
+      "key": "founder.origin_8_pistons.heading",
+      "language": "en",
+      "block_type": "text",
+      "value": { "text": "Origin of the 8-Pistons Poster" },
+      "sort_order": 50
+    },
+    {
+      "key": "founder.origin_8_pistons.body",
+      "language": "en",
+      "block_type": "text",
+      "value": {
+        "text": "In 2016, at the Dubai Mall with my adult children discussing philosophy, I conceived the 8 Pistons of Life to explain vital elements in life. Those pistons became the core of EMMA Foundation.\n\nLater, I realized I cannot take money or knowledge to my grave. My money will be used by someone else and my knowledge will vanish. So I decided to give a major portion of my wealth and all my knowledge to the world through EMMA while I am alive.\n\nMost people, even educated people with good jobs, often seek short-term pleasure rather than what they truly need. Success without meaning can be a double-edged sword—no pleasure without some pain. See the 8-Pistons poster."
+      },
+      "sort_order": 51
+    },
+
+    {
+      "key": "founder.migrating_us.heading",
+      "language": "en",
+      "block_type": "text",
+      "value": { "text": "Migrating to the United States" },
+      "sort_order": 60
+    },
+    {
+      "key": "founder.migrating_us.body",
+      "language": "en",
+      "block_type": "text",
+      "value": {
+        "text": "About 45 years ago in Pakistan, I had a good avionics job but was not content. Before smartphones, the internet, or color TV, and surrounded by non-thinking zealotry, I knew I needed to leave.\n\nFor six months, almost daily, I traveled two hours to the USIS library to study the 30-volume Encyclopedia Britannica. I created a giant hand-drawn spreadsheet with over 200 rows and 100 columns listing every country, its capital, leader, population, per capita income, education level, life expectancy, Nobel laureates, Olympic gold medals, migration success, universities, and more. I memorized most of it and compared countries. One country stood out by a wide margin (in 2023, this should be reevaluated).\n\nKnowing emotions can override reason, I spent 30 days meditating and writing my decision each day about migrating. The average overwhelmingly favored moving to the US."
+      },
+      "sort_order": 61
+    },
+
+    {
+      "key": "founder.education.heading",
+      "language": "en",
+      "block_type": "text",
+      "value": { "text": "Educational Background" },
+      "sort_order": 70
+    },
+    {
+      "key": "founder.education.body",
+      "language": "en",
+      "block_type": "text",
+      "value": {
+        "text": "I hold two master's degrees (Physics overseas, Computer Science from the University of Houston) and two bachelor's degrees (Electrical Engineering from Lamar University, Mechanical Engineering overseas), all with honors. I once told my wife she was my second love; physics was my first."
+      },
+      "sort_order": 71
+    },
+
+    {
+      "key": "founder.professional.heading",
+      "language": "en",
+      "block_type": "text",
+      "value": { "text": "Professional Background" },
+      "sort_order": 80
+    },
+    {
+      "key": "founder.professional.body",
+      "language": "en",
+      "block_type": "text",
+      "value": {
+        "text": "For 20 years I worked at large consulting firms (KPMG, Andersen/Accenture), traveled globally, and taught graduate computer science as an adjunct at UT Dallas and East Texas State University.\n\nAfter 20 corporate years, I quit to start high-tech businesses that failed. Later I wrote software for my healthcare businesses, which succeeded (HEAT system). After 20 years I sold them, learned finance, and became a passive private equity investor.\n\nI realized our education system neglects finance, economics, health, psychology, and law unless you major in each. Learning never ends. Now I mentor the next generation to start meaningful businesses and sometimes become an angel investor."
+      },
+      "sort_order": 81
+    },
+
+    {
+      "key": "founder.travel.heading",
+      "language": "en",
+      "block_type": "text",
+      "value": { "text": "Worldwide Travel" },
+      "sort_order": 90
+    },
+    {
+      "key": "founder.travel.body",
+      "language": "en",
+      "block_type": "text",
+      "value": {
+        "text": "Over the next 25 years, I traveled with my family to all seven continents: the Arctic Circle, Himalayas, African safari, Antarctica, Galapagos, Australia, Asia Pacific, Russia, China, Denali, Alaska, Central America, islands, Scandinavia, the Baltics, Eastern and Western Europe, and poorer countries like Laos, Cambodia, India, Pakistan, and more—over 80 countries before COVID-19.\n\nBy mingling with different cultures, we learned a lot about life and people."
+      },
+      "sort_order": 91
+    },
+
+    {
+      "key": "founder.health.heading",
+      "language": "en",
+      "block_type": "text",
+      "value": { "text": "Health, Fitness, and Longevity" },
+      "sort_order": 100
+    },
+    {
+      "key": "founder.health.body",
+      "language": "en",
+      "block_type": "text",
+      "value": {
+        "text": "Since around 2010, I have focused on longevity: diet, exercise, meditation, psychology, and self-mastery. I fast 24 hours, five days a week, drink a large raw vegetable blend as my one meal a day, take many supplements, and do moderate exercise.\n\nI did a polar plunge in Antarctica (about 5°C water for 2 minutes). I take cold showers even below freezing. I use Wim Hof breathing for 30–60 minutes walking outdoors in thin clothing; the coldest was below 0°F in Dallas on February 14, 2021.\n\nI walk on a treadmill desk all day (for over 12 years)—now a habit like breathing. See piston #1 in the 8-Pistons menu."
+      },
+      "sort_order": 101
+    },
+
+    {
+      "key": "founder.family.heading",
+      "language": "en",
+      "block_type": "text",
+      "value": { "text": "Family Life" },
+      "sort_order": 110
+    },
+    {
+      "key": "founder.family.body",
+      "language": "en",
+      "block_type": "text",
+      "value": {
+        "text": "I have been happily married for 37 years to Maria, a retired critical care RN who supports my endeavors.\n\nMy son has a PhD in computer science from Stanford and an MS in finance from UT Austin; he patented a LADAR-based AI system for surgical equipment tracking and is now a causal quant HFT strategist.\n\nMy daughter is a dermatologist (top of her class) and studied neuroscience; as a child she learned to fix AC units and change car tires. We vacation together as a family."
+      },
+      "sort_order": 111
+    },
+
+    {
+      "key": "founder.raising_children.heading",
+      "language": "en",
+      "block_type": "text",
+      "value": { "text": "Raising Our Children" },
+      "sort_order": 120
+    },
+    {
+      "key": "founder.raising_children.body",
+      "language": "en",
+      "block_type": "text",
+      "value": {
+        "text": "In their teens I taught discipline, hard work, delayed gratification, car maintenance, home repairs, and extra math and physics homework for points convertible to dollars.\n\nThe hardest decision was making them pay two-thirds of the cost of their first laptop to instill ownership. When they were 10, I took them to a mobile home park and said, If you do not work hard and smart, you will end up here.\n\nWe are blessed with their achievements. Luck plays a role; now I want to help the unfortunate and help the fortunate become even better."
+      },
+      "sort_order": 121
+    },
+
+    {
+      "key": "founder.regret.heading",
+      "language": "en",
+      "block_type": "text",
+      "value": { "text": "Regret?" },
+      "sort_order": 130
+    },
+    {
+      "key": "founder.regret.body",
+      "language": "en",
+      "block_type": "text",
+      "value": {
+        "text": "I practice Stoicism and a Marcus Aurelius mindset, so I do not dwell in regret. Perhaps my biggest problem is not having a major problem—stagnation can be risky without new goals. That is why I created EMMA.\n\nEMMA is named from the first letters of Emily, Maria, Munzer, and Albert. I have achieved nearly all I sought; if there is any regret, maybe it is wishing for more children, but it is more appreciation than regret."
+      },
+      "sort_order": 131
+    },
+
+    {
+      "key": "founder.emma.heading",
+      "language": "en",
+      "block_type": "text",
+      "value": { "text": "EMMA Foundation" },
+      "sort_order": 140
+    },
+    {
+      "key": "founder.emma.body",
+      "language": "en",
+      "block_type": "text",
+      "value": {
+        "text": "EMMA Foundation is the vehicle through which I aim to share my philosophy of life, my experience, and my resources. Its mission is to strengthen minds, character, and meaning in life, especially for those who did not receive the same luck of genetics, environment, and opportunity."
+      },
+      "sort_order": 141
+    },
+
+    {
+      "key": "founder.feed_body_soul.heading",
+      "language": "en",
+      "block_type": "text",
+      "value": { "text": "Feeding the Body versus Feeding the Soul" },
+      "sort_order": 150
+    },
+    {
+      "key": "founder.feed_body_soul.body",
+      "language": "en",
+      "block_type": "text",
+      "value": {
+        "text": "We allocate less to feeding the body and more to nourishing the soul and mind. The brain is about 2% of body mass but uses around 20% of its energy.\n\nWe fed 600 kids in the Philippines in 2023 and 400 in 2024, plus medical and dental missions on remote islands. Next missions: Africa, then India. I prefer hands-on charity because seeing smiles is my return on investment.\n\nMoral dilemmas such as the drowning boy and expensive boots, or the trolley problem, help illustrate how we think about charity and responsibility."
+      },
+      "sort_order": 151
+    },
+
+    {
+      "key": "founder.projecting_shoes.heading",
+      "language": "en",
+      "block_type": "text",
+      "value": { "text": "Projecting Myself into Other People's Shoes" },
+      "sort_order": 160
+    },
+    {
+      "key": "founder.projecting_shoes.body",
+      "language": "en",
+      "block_type": "text",
+      "value": {
+        "text": "On missions donating food, medical care, books, clothing, computers, and cash, I talked with children and adults about poverty. I realized that if I had been born there, I would likely be in the same position.\n\nThis reinforces my belief that there is no free will in the traditional sense: luck of genetics and environment shaped me. I am fortunate to have education, jobs, a supportive spouse, business success, children, and EMMA.\n\nConsider a thought experiment: a child born in a Mumbai slum to janitors, cleaning stool by hand with no gloves or water. Even with good intentions, he is likely to think only of being the best janitor. Be grateful for what you have."
+      },
+      "sort_order": 161
+    },
+
+    {
+      "key": "founder.selfishness_charity.heading",
+      "language": "en",
+      "block_type": "text",
+      "value": { "text": "Selfishness and Charity" },
+      "sort_order": 170
+    },
+    {
+      "key": "founder.selfishness_charity.body",
+      "language": "en",
+      "block_type": "text",
+      "value": {
+        "text": "All charity, including mine, is selfish at its core: I feel good seeing others benefit. If it caused me pain, I would not do it. The difference between the selfishness of a tyrant and that of someone like Mother Teresa is whom it harms or helps.\n\nMany religious people think they act selflessly, but if their holy book threatened punishment for charity instead of rewarding it, would they still do it? Very often we act for ourselves, even when we do not realize it.\n\nGiving food or money at a temple door may feel good but might not change the beggar's life—critical thinking is needed. Large international charities often miss feeding the soul; we aim to do both, with more emphasis on the soul because it is long-term, preventive, and far more effective.\n\nYes, encourage selfish acts that help others—be smart selfish, not dumb selfish. Teach children smart selfishness: help yourself, then help others; avoid unjust harm."
+      },
+      "sort_order": 171
+    },
+
+    {
+      "key": "founder.observing_cultures.heading",
+      "language": "en",
+      "block_type": "text",
+      "value": { "text": "Observing Various Cultures" },
+      "sort_order": 180
+    },
+    {
+      "key": "founder.observing_cultures.body",
+      "language": "en",
+      "block_type": "text",
+      "value": {
+        "text": "Traveling to more than 80 countries over 45 years, I learned that deprivation is often bad luck. Nature is amoral; humans created ideas like morality, fairness, and justice.\n\nNature favors the strongest, smartest, and most adaptable; the snowball effect and ideas like Price's law tend to redistribute from those with little to those with a lot. Our challenge is to use our minds and institutions to push back and create a more just world."
+      },
+      "sort_order": 181
+    },
+
+   {
+  "key": "founder.intro.image",
+  "language": "en",
+  "block_type": "image",
+  "value": {
+    "url": "/media/about/founder.png",
+    "alt": "Founder portrait"
+  },
+  "sort_order": 12
+},
+{
+  "key": "founder.childhood.image",
+  "language": "en",
+  "block_type": "image",
+  "value": {
+    "url": "/media/about/childhood.png",
+    "alt": "Founder childhood"
+  },
+  "sort_order": 22
+},
+{
+  "key": "founder.no_free_will.image",
+  "language": "en",
+  "block_type": "image",
+  "value": {
+    "url": "/media/about/no-free-will.png",
+    "alt": "No free will concept"
+  },
+  "sort_order": 32
+}
+
+  ]
+}

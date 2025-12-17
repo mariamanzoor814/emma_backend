@@ -1,0 +1,63 @@
+{
+  "slug": "feeding-the-body",
+  "blocks": [
+    {
+      "key": "hero.title",
+      "block_type": "text",
+      "value": { "text": "Feeding the Body" },
+      "sort_order": 1
+    },
+    {
+      "key": "hero.subtitle",
+      "block_type": "text",
+      "value": {
+        "text": "Addressing physical needs with dignity, strategy, and long-term impact."
+      },
+      "sort_order": 2
+    },
+    {
+      "key": "hero.image",
+      "block_type": "image",
+      "value": {
+        "url": "/media/gallery/2024/01.jpg",
+        "alt": "Feeding the Body"
+      },
+      "sort_order": 3
+    },
+    {
+      "key": "feeding.sections",
+      "language": "en",
+      "block_type": "list",
+      "value": {
+        "items": [
+          {
+            "id": "body_1",
+            "heading": "Feeding the Body",
+            "body": "We provide food, medicine and shelter around the world to the unfortunate ones.\n\nClick on <Next> below"
+          },
+          {
+            "id": "body_2",
+            "heading": "Collaboration with Global Charity Organizations",
+            "body": "We collaborate with other charity organizations around the world."
+          },
+          {
+            "id": "body_3",
+            "heading": "Giving What People Want vs. What They Truly Need",
+            "body": "EMMA’s goal is to provide what people want but at the same time give them what they actually need."
+          },
+          {
+            "id": "body_4",
+            "heading": "From Emergency Aid to Long-Term Independence",
+            "body": "Give a man a fish and you feed him for a day; teach a man how to fish and you feed him for life.\n\nEMMA wants to give a man a fish as a temporary solution in urgency but at the same time teach him how to fish to make him independent and provide a long-term solution for him."
+          },
+          {
+            "id": "body_5",
+            "heading": "Sustainable Charity & EMMA’s Long-Term ROI",
+            "body": "Give a man a fish then he knows exactly who to come back to the next time (preferably with their vote); teach a man how to fish and you destroy your market share.\n\nEMMA’s ROI (return on investment) is not based upon short-term, shallow thinking but on the long-term, more profound positive changes in society. Therefore, EMMA doesn’t want its members to come back to EMMA to get more and more charity funds, but rather come back to EMMA to help others because they will be more healthy, wealthy and happier by joining EMMA and learning from EMMA.\n\nFor now, EMMA doesn’t have any competition in its philosophy of rational and most effective charity. In the future, if there are more non-profit charity organizations like EMMA, then that is better because EMMA gets its ROI by seeing the spectrum of disparity shrink."
+          }
+        ]
+      },
+      "sort_order": 220
+    }
+  ]
+}
