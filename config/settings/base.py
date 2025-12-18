@@ -14,7 +14,8 @@ if ENV_PATH.exists():
     load_dotenv(ENV_PATH)
 
 SECRET_KEY = os.getenv("DJANGO_SECRET_KEY", "unsafe-secret-key-change-in-prod")
-DEBUG = os.getenv("DJANGO_DEBUG", "False") == "True"
+DJANGO_DEBUG=False
+
 
 
 
@@ -77,6 +78,7 @@ INSTALLED_APPS = [
     "pq_test",
     "shopping_mall",
     "channels",
+    "msp",
 ]
 
 MIDDLEWARE = [
@@ -178,6 +180,7 @@ REST_FRAMEWORK = {
 CORS_ALLOW_CREDENTIALS = True
 
 CORS_ALLOWED_ORIGINS = [
+    "http://16.16.30.34",
     "http://localhost:3000",
     "http://127.0.0.1:3000",
 ]

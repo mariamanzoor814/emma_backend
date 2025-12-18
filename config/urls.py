@@ -20,6 +20,7 @@ urlpatterns = [
     path("accounts/", include("allauth.urls")),
     path("api/pq/", include("pq_test.urls")),
     path("api/mall/", include("shopping_mall.urls", namespace="shopping_mall")),
+    path('api/msp/', include('msp.urls'))
 
     
 ]
