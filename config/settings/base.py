@@ -21,7 +21,8 @@ if env_file.exists():
 else:
     print(f"⚠️ .env file not found at {env_file}")
 
-
+SECRET_KEY = env("DJANGO_SECRET_KEY") 
+DEBUG = env.bool("DJANGO_DEBUG", default=False)
 # Email config via django-environ (use default= for default values)
 EMAIL_BACKEND = env(
     "EMAIL_BACKEND",
