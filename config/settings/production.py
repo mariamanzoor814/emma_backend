@@ -11,7 +11,7 @@ SECURE_SSL_REDIRECT = False
 ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS", "").split(",")
 
 CSRF_TRUSTED_ORIGINS = [
-    "16.171.181.249",
+    "http://51.20.194.196/",
 ]
 
 SESSION_COOKIE_SAMESITE = "None"
