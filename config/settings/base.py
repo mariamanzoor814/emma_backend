@@ -6,18 +6,20 @@ import dj_database_url
 # from dotenv import load_dotenv
 from corsheaders.defaults import default_headers, default_methods
 
-
-# Load environment variables from .env
-BASE_DIR = Path(__file__).resolve().parent.parent.parent
-ENV_PATH = BASE_DIR / ".env"
-# if ENV_PATH.exists():
-#     load_dotenv(ENV_PATH)
-
 import environ
+
+# Base directory
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
+
+# Initialize environment
 env = environ.Env()
-environ.Env.read_env()
-SECRET_KEY = os.getenv("DJANGO_SECRET_KEY", "unsafe-secret-key-change-in-prod")
-DEBUG = env.bool("DJANGO_DEBUG", default=False)
+
+# Load .env explicitly from BASE_DIR
+env_file = BASE_DIR / ".env"
+if env_file.exists():
+    env.read_env(str(env_file))
+else:
+    print(f"⚠️ .env file not found at {env_file}")
 
 
 # Email config via django-environ (use default= for default values)
