@@ -3,18 +3,18 @@ import os
 from pathlib import Path
 
 import dj_database_url
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 from corsheaders.defaults import default_headers, default_methods
 
 
 # Load environment variables from .env
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
-ENV_PATH = BASE_DIR / ".env"
-if ENV_PATH.exists():
-    load_dotenv(ENV_PATH)
+# ENV_PATH = BASE_DIR / ".env"
+# if ENV_PATH.exists():
+#     load_dotenv(ENV_PATH)
 
 SECRET_KEY = os.getenv("DJANGO_SECRET_KEY", "unsafe-secret-key-change-in-prod")
-DJANGO_DEBUG=False
+DEBUG = env.bool("DJANGO_DEBUG", default=False)
 
 
 
@@ -47,7 +47,7 @@ DEFAULT_FROM_EMAIL = env(
 
 
 
-ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS", "").split(",") if os.getenv("ALLOWED_HOSTS") else []
+ALLOWED_HOSTS = env.list("ALLOWED_HOSTS", default=[])
 
 # Application definition
 INSTALLED_APPS = [
@@ -163,8 +163,10 @@ USE_TZ = True
 
 STATIC_URL = "/static/"
 STATIC_ROOT = BASE_DIR / "staticfiles"
-MEDIA_URL = "/media/"
+MEDIA_URL = f"https://{env('AWS_S3_CUSTOM_DOMAIN')}/"
 MEDIA_ROOT = BASE_DIR / "media"
+DEFAULT_FILE_STORAGE = "storages.backends.s3boto3.S3Boto3Storage"
+
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
@@ -179,11 +181,8 @@ REST_FRAMEWORK = {
 
 CORS_ALLOW_CREDENTIALS = True
 
-CORS_ALLOWED_ORIGINS = [
-    "http://16.16.30.34",
-    "http://localhost:3000",
-    "http://127.0.0.1:3000",
-]
+CORS_ALLOWED_ORIGINS = env.list("CORS_ALLOWED_ORIGINS", default=[])
+
 
 CORS_ALLOW_HEADERS = list(default_headers) + [
     "authorization",
@@ -193,16 +192,14 @@ CORS_ALLOW_METHODS = list(default_methods)
 
 
 # Cookies remain Lax/HTTP in dev; host is the same (127.0.0.1) across ports
-SESSION_COOKIE_SAMESITE = "Lax"
-SESSION_COOKIE_SECURE = False
-CSRF_COOKIE_SAMESITE = "Lax"
-CSRF_COOKIE_SECURE = False
+CSRF_COOKIE_SAMESITE = env("CSRF_COOKIE_SAMESITE", default="None")
+SESSION_COOKIE_SECURE = env.bool("SESSION_COOKIE_SECURE", default=True)
+SESSION_COOKIE_SAMESITE = env("SESSION_COOKIE_SAMESITE", default="None")
+CSRF_COOKIE_SECURE = env.bool("CSRF_COOKIE_SECURE", default=True)
 
 
-CSRF_TRUSTED_ORIGINS = [
-    "http://127.0.0.1:3000",
-    "http://localhost:3000",
-]
+CSRF_TRUSTED_ORIGINS = env.list("CSRF_TRUSTED_ORIGINS", default=[])
+
 
 # Custom user model
 AUTH_USER_MODEL = "accounts.User"
@@ -236,7 +233,8 @@ ACCOUNT_SIGNUP_FIELDS = {
 }
 ACCOUNT_UNIQUE_EMAIL = True
 SOCIALACCOUNT_PROVIDERS = {"google": {"SCOPE": ["profile", "email"]}}
-LOGIN_REDIRECT_URL = "http://localhost:3000/profile"
+LOGIN_REDIRECT_URL = env("LOGIN_REDIRECT_URL", default="/")
+
 
 # Social login behavior
 SOCIALACCOUNT_AUTO_SIGNUP = True
