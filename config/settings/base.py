@@ -163,9 +163,12 @@ USE_TZ = True
 
 STATIC_URL = "/static/"
 STATIC_ROOT = BASE_DIR / "staticfiles"
-MEDIA_URL = f"https://{env('AWS_S3_CUSTOM_DOMAIN')}/"
+# MEDIA_URL = f"https://{env('AWS_S3_CUSTOM_DOMAIN')}/"
+# MEDIA_ROOT = BASE_DIR / "media"
+# DEFAULT_FILE_STORAGE = "storages.backends.s3boto3.S3Boto3Storage"
+MEDIA_URL = "/media/"
 MEDIA_ROOT = BASE_DIR / "media"
-DEFAULT_FILE_STORAGE = "storages.backends.s3boto3.S3Boto3Storage"
+
 
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
