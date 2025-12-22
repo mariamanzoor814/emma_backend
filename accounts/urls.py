@@ -19,6 +19,7 @@ from .views import (
     ConfirmRegistrationView,
     PasswordResetVerifyCodeView
 )
+from .social_views import social_start, social_jwt
 
 app_name = "accounts"
 
@@ -26,6 +27,10 @@ urlpatterns = [
     # Auth / JWT
     path("login/", EmailLoginView.as_view(), name="token_obtain_pair"),
     path("refresh/", TokenRefreshView.as_view(), name="token_refresh"),
+
+    # Social Auth
+    path("social/login/", social_jwt, name="social_jwt"),
+    path("social-start/<str:provider>/", social_start, name="social_login"),
 
     # Registration flow
     path("register/", RegisterView.as_view(), name="register"),  # sends signup OTP
