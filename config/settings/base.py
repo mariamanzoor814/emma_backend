@@ -13,15 +13,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent.parent
 # if ENV_PATH.exists():
 #     load_dotenv(ENV_PATH)
 
-SECRET_KEY = os.getenv("DJANGO_SECRET_KEY", "unsafe-secret-key-change-in-prod")
-DEBUG = env.bool("DJANGO_DEBUG", default=False)
-
-
-
-
 import environ
 env = environ.Env()
 environ.Env.read_env()
+SECRET_KEY = os.getenv("DJANGO_SECRET_KEY", "unsafe-secret-key-change-in-prod")
+DEBUG = env.bool("DJANGO_DEBUG", default=False)
+
 
 # Email config via django-environ (use default= for default values)
 EMAIL_BACKEND = env(
