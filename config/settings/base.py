@@ -45,6 +45,7 @@ DEFAULT_FROM_EMAIL = env(
     default=f'{MAIL_FROM_NAME} <{EMAIL_HOST_USER or "no-reply@example.com"}>',
 )
 
+STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 
 ALLOWED_HOSTS = env.list("ALLOWED_HOSTS", default=[])
