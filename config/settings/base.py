@@ -79,6 +79,7 @@ INSTALLED_APPS = [
     "pq_test",
     "shopping_mall",
     "channels",
+    "storages",
     "msp",
 ]
 
