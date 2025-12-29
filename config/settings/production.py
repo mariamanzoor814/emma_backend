@@ -10,8 +10,8 @@ SECURE_SSL_REDIRECT = True
 ALLOWED_HOSTS = os.getenv("ALLOWED_HOSTS", "").split(",")
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://www.PlutusInvestment.com",
-    "https://www.PlutusInvestment.com",
+    "https://plutusinvestment.com",
+    "https://www.plutusinvestment.com",
 ]
 
 SESSION_COOKIE_SAMESITE = "None"
