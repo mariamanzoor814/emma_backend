@@ -11,34 +11,35 @@ class ContentBlockSerializer(serializers.ModelSerializer):
         # we don't need to expose "image" directly to frontend
         # we'll inject its URL into value in to_representation
 
-    def to_representation(self, instance):
-        data = super().to_representation(instance)
+   def to_representation(self, instance):
+    data = super().to_representation(instance)
 
-        # Only for image blocks
-        if instance.block_type == ContentBlock.TYPE_IMAGE:
-            value = data.get("value") or {}
+    if instance.block_type == ContentBlock.TYPE_IMAGE:
+        value = data.get("value") or {}
 
-            if instance.image:
-                # Use uploaded image if exists
-                url = instance.image.url
-                request = self.context.get("request")
-                if request:
-                    url = request.build_absolute_uri(url)
-                value["url"] = url
+        if instance.image:
+            # Admin uploaded image
+            url = instance.image.url
+            request = self.context.get("request")
+            if request:
+                url = request.build_absolute_uri(url)
+            value["url"] = url
+        else:
+            # Fallback for old JSON / relative paths
+            old_url = value.get("url", "")
+            if old_url.startswith("media/") or old_url.startswith("/media/"):
+                from django.conf import settings
+                # remove leading slash before prepending S3 domain
+                value["url"] = f"https://{settings.AWS_S3_CUSTOM_DOMAIN}/{old_url.lstrip('/')}"
             else:
-                # fallback for old JSON path (media/... → S3 URL)
-                old_url = value.get("url", "")
-                if old_url.startswith("media/"):
-                    from django.conf import settings
-                    value["url"] = f"https://{settings.AWS_S3_CUSTOM_DOMAIN}/{old_url}"
-                else:
-                    value["url"] = old_url
+                value["url"] = old_url
 
-            # ensure alt is always present
-            value.setdefault("alt", "")
-            data["value"] = value
+        # Ensure alt is always present
+        value.setdefault("alt", "")
+        data["value"] = value
 
-        return data
+    return data
+
 
 
 class PageDetailSerializer(serializers.ModelSerializer):
