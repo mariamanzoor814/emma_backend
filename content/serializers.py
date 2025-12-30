@@ -15,19 +15,22 @@ class ContentBlockSerializer(serializers.ModelSerializer):
         data = super().to_representation(instance)
 
         # Only for image blocks
-        if instance.block_type == ContentBlock.TYPE_IMAGE and instance.image:
-            request = self.context.get("request")
-            url = instance.image.url
-            if request is not None:
-                # Build absolute URL: https://domain.com/media/...
-                url = request.build_absolute_uri(url)
-
+        if instance.block_type == ContentBlock.TYPE_IMAGE:
             value = data.get("value") or {}
-            # put URL into value.url so frontend keeps working as-is
-            value["url"] = url
-            # keep existing alt if present, or leave empty string
-            if "alt" not in value:
-                value["alt"] = ""
+
+            if instance.image:
+                # Use uploaded image if exists
+                url = instance.image.url
+                request = self.context.get("request")
+                if request:
+                    url = request.build_absolute_uri(url)
+                value["url"] = url
+            else:
+                # fallback: keep old value.url if present, else empty
+                value["url"] = value.get("url", "")
+
+            # ensure alt is always present
+            value.setdefault("alt", "")
             data["value"] = value
 
         return data
