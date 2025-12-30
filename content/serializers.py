@@ -26,8 +26,13 @@ class ContentBlockSerializer(serializers.ModelSerializer):
                     url = request.build_absolute_uri(url)
                 value["url"] = url
             else:
-                # fallback: keep old value.url if present, else empty
-                value["url"] = value.get("url", "")
+                # fallback for old JSON path (media/... → S3 URL)
+                old_url = value.get("url", "")
+                if old_url.startswith("media/"):
+                    from django.conf import settings
+                    value["url"] = f"https://{settings.AWS_S3_CUSTOM_DOMAIN}/{old_url}"
+                else:
+                    value["url"] = old_url
 
             # ensure alt is always present
             value.setdefault("alt", "")
