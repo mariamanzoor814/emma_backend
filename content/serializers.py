@@ -8,22 +8,21 @@ class ContentBlockSerializer(serializers.ModelSerializer):
     class Meta:
         model = ContentBlock
         fields = ["id", "key", "language", "block_type", "value", "sort_order"]
-        # we don't need to expose "image" directly to frontend
-        # we'll inject its URL into value in to_representation
+        # image field frontend ko expose nahi karna
 
-   def to_representation(self, instance):
-    data = super().to_representation(instance)
+    def to_representation(self, instance):
+        data = super().to_representation(instance)
 
-    if instance.block_type == ContentBlock.TYPE_IMAGE and instance.image:
-        value = data.get("value") or {}
+        if instance.block_type == ContentBlock.TYPE_IMAGE and instance.image:
+            value = data.get("value") or {}
 
-        # S3 already gives full URL
-        value["url"] = instance.image.url
-        value.setdefault("alt", "")
+            # ✅ S3 already gives full URL
+            value["url"] = instance.image.url
+            value.setdefault("alt", "")
 
-        data["value"] = value
+            data["value"] = value
 
-    return data
+        return data
 
 
 class PageDetailSerializer(serializers.ModelSerializer):
