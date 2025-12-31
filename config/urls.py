@@ -13,7 +13,7 @@ class GoogleLogin(SocialLoginView):
     adapter_class = GoogleOAuth2Adapter
 
 urlpatterns = [
-    path("", lambda r: HttpResponse("API is running")),
+    path("", root_view), 
     path("admin/", admin.site.urls),
 
     # Your custom auth endpoints
