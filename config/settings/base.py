@@ -249,8 +249,36 @@ ACCOUNT_UNIQUE_EMAIL = True
 SOCIALACCOUNT_PROVIDERS = {
     "google": {
         "SCOPE": ["profile", "email"],
-        "AUTH_PARAMS": {"access_type": "online"},
+        "APP": {
+            "client_id": os.getenv("GOOGLE_CLIENT_ID"),
+            "secret": os.getenv("GOOGLE_CLIENT_SECRET"),
+            "key": "",
+        }
+    },
+    "facebook": {
+        "METHOD": "oauth2",
+        "SCOPE": ["email", "public_profile"],
+        "APP": {
+            "client_id": os.getenv("FACEBOOK_CLIENT_ID"),
+            "secret": os.getenv("FACEBOOK_CLIENT_SECRET"),
+            "key": "",
+        }
+    },
+    "twitter": {
+        "APP": {
+            "client_id": os.getenv("TWITTER_CLIENT_ID"),
+            "secret": os.getenv("TWITTER_CLIENT_SECRET"),
+            "key": "",
+        }
+    },
+    "instagram": {
+        "APP": {
+            "client_id": os.getenv("INSTAGRAM_CLIENT_ID"),
+            "secret": os.getenv("INSTAGRAM_CLIENT_SECRET"),
+            "key": "",
+        }
     }
+}
 }LOGIN_REDIRECT_URL = env(
     "LOGIN_REDIRECT_URL",
     default="http://127.0.0.1:3000/auth/callback"
