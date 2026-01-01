@@ -246,8 +246,12 @@ ACCOUNT_SIGNUP_FIELDS = {
     "email": {"required": True},
 }
 ACCOUNT_UNIQUE_EMAIL = True
-SOCIALACCOUNT_PROVIDERS = {"google": {"SCOPE": ["profile", "email"]}}
-LOGIN_REDIRECT_URL = env(
+SOCIALACCOUNT_PROVIDERS = {
+    "google": {
+        "SCOPE": ["profile", "email"],
+        "AUTH_PARAMS": {"access_type": "online"},
+    }
+}LOGIN_REDIRECT_URL = env(
     "LOGIN_REDIRECT_URL",
     default="http://127.0.0.1:3000/auth/callback"
 )
