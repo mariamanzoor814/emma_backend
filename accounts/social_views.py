@@ -27,15 +27,9 @@ def social_start(request, provider):
     if provider not in PROVIDER_LOGIN_URLS:
         return Response({"detail": "Unknown provider"}, status=400)
 
-    # frontend_callback = request.GET.get(
-    #     "callback",
-    #     "http://127.0.0.1:3000/auth/callback"  # your Next.js callback page
-    # )
-
-
     frontend_callback = request.GET.get(
         "callback",
-        settings.SOCIALACCOUNT_DEFAULT_REDIRECT_URL
+        "http://127.0.0.1:3000/auth/callback"  # your Next.js callback page
     )
 
 
