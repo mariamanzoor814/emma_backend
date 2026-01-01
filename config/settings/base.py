@@ -247,8 +247,15 @@ ACCOUNT_SIGNUP_FIELDS = {
 }
 ACCOUNT_UNIQUE_EMAIL = True
 SOCIALACCOUNT_PROVIDERS = {"google": {"SCOPE": ["profile", "email"]}}
-LOGIN_REDIRECT_URL = env("LOGIN_REDIRECT_URL", default="/")
+LOGIN_REDIRECT_URL = env(
+    "LOGIN_REDIRECT_URL",
+    default="http://127.0.0.1:3000/auth/callback"
+)
 
+SOCIALACCOUNT_DEFAULT_REDIRECT_URL = env(
+    "SOCIALACCOUNT_DEFAULT_REDIRECT_URL",
+    default="http://127.0.0.1:3000/auth/callback"
+)
 
 # Social login behavior
 SOCIALACCOUNT_AUTO_SIGNUP = True
