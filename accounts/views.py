@@ -75,14 +75,14 @@ class RegisterView(APIView):
             vc.delete()
             return Response({"detail": "Failed to send verification email."}, status=500)
 
-        # Save signup data in session
-        # request.session[f"signup_{email}"] = {
-        #     "username": username,
-        #     "password": password,
-        #     "access_level": access_level,
-        #     "created_at": timezone.now().isoformat(),
-        # }
-        # request.session.modified = True
+        Save signup data in session
+        request.session[f"signup_{email}"] = {
+            "username": username,
+            "password": password,
+            "access_level": access_level,
+            "created_at": timezone.now().isoformat(),
+        }
+        request.session.modified = True
 
         return Response({"detail": "Verification code sent to email."}, status=201)
 
