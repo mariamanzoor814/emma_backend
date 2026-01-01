@@ -17,11 +17,13 @@ CSRF_TRUSTED_ORIGINS = ["https://plutusinvestment.com", "https://www.plutusinves
 #     "https://plutusinvestment.com",
 #     "https://www.plutusinvestment.com",
 # ]
+SESSION_COOKIE_DOMAIN = ".plutusinvestment.com"
+CSRF_COOKIE_DOMAIN = ".plutusinvestment.com"
 
 SESSION_COOKIE_SAMESITE = "None"
 CSRF_COOKIE_SAMESITE = "None"
 
 SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
-SOCIALACCOUNT_DEFAULT_REDIRECT_URL = "https://api.plutusinvestment.com/accounts/google/login/callback/"
+# SOCIALACCOUNT_DEFAULT_REDIRECT_URL = "https://api.plutusinvestment.com/accounts/google/login/callback/"
 LOGIN_REDIRECT_URL = "https://plutusinvestment.com/auth/callback"
-
+LOGOUT_REDIRECT_URL = "https://plutusinvestment.com/"
