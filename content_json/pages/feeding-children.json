@@ -39,18 +39,18 @@
 
     {
   "key": "bookathon.global.title",
-  "value": {
-    "text": "Bokathon Gallery"
-  }
+  "language": "en",
+  "block_type": "text",
+  "value": { "text": "Bookathon Gallery" },
+  "sort_order": 4.5
 },
 {
   "key": "bookathon.global.subtitle",
-  "value": {
-    "text": "Collection of moments from all Bokathon events"
-  }
-}
-,
-
+  "language": "en",
+  "block_type": "text",
+  "value": { "text": "Collection of moments from all Bookathon events" },
+  "sort_order": 4.6
+},
     {
       "key": "bookathon2024.title",
       "language": "en",
