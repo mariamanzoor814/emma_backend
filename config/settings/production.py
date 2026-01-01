@@ -11,7 +11,7 @@ SECURE_SSL_REDIRECT = True
 
 ALLOWED_HOSTS = ["plutusinvestment.com", "www.plutusinvestment.com", "api.plutusinvestment.com"]
 
-CSRF_TRUSTED_ORIGINS = ["https://plutusinvestment.com", "https://www.plutusinvestment.com"]
+CSRF_TRUSTED_ORIGINS = ["https://plutusinvestment.com", "https://www.plutusinvestment.com", "https://api.plutusinvestment.com",]
 
 # CSRF_TRUSTED_ORIGINS = [
 #     "https://plutusinvestment.com",
