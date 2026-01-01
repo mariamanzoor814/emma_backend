@@ -22,6 +22,6 @@ SESSION_COOKIE_SAMESITE = "None"
 CSRF_COOKIE_SAMESITE = "None"
 
 SECURE_PROXY_SSL_HEADER = ("HTTP_X_FORWARDED_PROTO", "https")
-SOCIALACCOUNT_DEFAULT_REDIRECT_URL = "https://plutusinvestment.com/accounts/google/login/callback/"
+SOCIALACCOUNT_DEFAULT_REDIRECT_URL = "https://api.plutusinvestment.com/accounts/google/login/callback/"
 LOGIN_REDIRECT_URL = "https://plutusinvestment.com/auth/callback"
 
