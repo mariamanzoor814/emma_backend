@@ -246,8 +246,41 @@ ACCOUNT_SIGNUP_FIELDS = {
     "email": {"required": True},
 }
 ACCOUNT_UNIQUE_EMAIL = True
-SOCIALACCOUNT_PROVIDERS = {"google": {"SCOPE": ["profile", "email"]}}
-}LOGIN_REDIRECT_URL = env(
+SOCIALACCOUNT_PROVIDERS = {
+    "google": {
+        "SCOPE": ["profile", "email"],
+        "APP": {
+            "client_id": env("GOOGLE_CLIENT_ID"),
+            "secret": env("GOOGLE_CLIENT_SECRET"),
+            "key": "",
+        }
+    },
+    "facebook": {
+        "METHOD": "oauth2",
+        "SCOPE": ["email", "public_profile"],
+        "APP": {
+            "client_id": env("FACEBOOK_CLIENT_ID"),
+            "secret": env("FACEBOOK_CLIENT_SECRET"),
+            "key": "",
+        }
+    },
+    "twitter": {
+        "APP": {
+            "client_id": env("TWITTER_CLIENT_ID"),
+            "secret": env("TWITTER_CLIENT_SECRET"),
+            "key": "",
+        }
+    },
+    "instagram": {
+        "APP": {
+            "client_id": env("INSTAGRAM_CLIENT_ID"),
+            "secret": env("INSTAGRAM_CLIENT_SECRET"),
+            "key": "",
+        }
+    }
+}
+
+LOGIN_REDIRECT_URL = env(
     "LOGIN_REDIRECT_URL",
     default="http://127.0.0.1:3000/auth/callback"
 )
