@@ -29,7 +29,7 @@ def social_start(request, provider):
 
     frontend_callback = request.GET.get(
         "callback",
-        "http://127.0.0.1:3000/auth/callback"  # your Next.js callback page
+        settings.SOCIALACCOUNT_DEFAULT_REDIRECT_URL # your Next.js callback page
     )
 
     # allauth uses "next" param for redirect after login
