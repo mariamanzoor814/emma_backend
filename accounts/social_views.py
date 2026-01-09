@@ -8,10 +8,14 @@ from rest_framework.permissions import AllowAny, IsAuthenticated
 from rest_framework.response import Response
 
 from rest_framework_simplejwt.tokens import RefreshToken
+from rest_framework.authentication import SessionAuthentication
+from rest_framework.decorators import authentication_classes
+
 
 # allauth provider login URLs:
 PROVIDER_LOGIN_URLS = {
     "google": "/accounts/google/login/",
+    "facebook": "/accounts/facebook/login/",
     "twitter": "/accounts/twitter/login/",      # X (Twitter)
     "instagram": "/accounts/instagram/login/",
 }
@@ -29,7 +33,7 @@ def social_start(request, provider):
 
     frontend_callback = request.GET.get(
         "callback",
-        settings.SOCIALACCOUNT_DEFAULT_REDIRECT_URL # your Next.js callback page
+        "http://127.0.0.1:3000/auth/callback"  # your Next.js callback page
     )
 
     # allauth uses "next" param for redirect after login
@@ -38,6 +42,7 @@ def social_start(request, provider):
 
 @api_view(["GET"])
 @permission_classes([AllowAny])
+@authentication_classes([SessionAuthentication])
 def social_jwt(request):
     """
     If user is logged in via Django session, mint JWT pair
