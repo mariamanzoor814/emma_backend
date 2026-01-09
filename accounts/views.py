@@ -6,6 +6,7 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 from django.db import transaction
 from rest_framework_simplejwt.views import TokenObtainPairView
+from rest_framework_simplejwt.tokens import RefreshToken
 from rest_framework.exceptions import ValidationError
 from django.utils import timezone
 from rest_framework import status
@@ -43,16 +44,55 @@ class EmailLoginView(TokenObtainPairView):
     permission_classes = [permissions.AllowAny]
 
 
+# class RegisterView(APIView):
+#     """
+#     Step 1 of signup: create signup verification code and store signup data in session.
+#     Request body: { "email": "...", "username": "...", "password": "...", "access_level": "visitor" }
+#     """
+#     permission_classes = [permissions.AllowAny]
+
+#     def post(self, request):
+#         email = (request.data.get("email", "") or "").strip().lower()
+#         username = (request.data.get("username", "") or "").strip()
+#         password = request.data.get("password", "")
+#         access_level = request.data.get("access_level", AccessLevel.VISITOR)
+
+#         if not email or not password or not username:
+#             return Response({"detail": "email, username and password are required."}, status=400)
+
+#         if User.objects.filter(email__iexact=email).exists():
+#             return Response({"detail": "Email already registered. Try password reset or login."}, status=400)
+
+#         # create signup verification code with username & password
+#         vc = VerificationCode.create_for_signup(
+#             email=email,
+#             username=username,
+#             password=password,
+#             ttl_minutes=15
+#         )
+
+#         ok = send_verification_email(email, vc.code)
+#         if not ok:
+#             vc.delete()
+#             return Response({"detail": "Failed to send verification email."}, status=500)
+
+#         # Save signup data in session
+#         # request.session[f"signup_{email}"] = {
+#         #     "username": username,
+#         #     "password": password,
+#         #     "access_level": access_level,
+#         #     "created_at": timezone.now().isoformat(),
+#         # }
+#         # request.session.modified = True
+
+#         return Response({"detail": "Verification code sent to email."}, status=201)
+
 class RegisterView(APIView):
-    """
-    Step 1 of signup: create signup verification code and store signup data in session.
-    Request body: { "email": "...", "username": "...", "password": "...", "access_level": "visitor" }
-    """
     permission_classes = [permissions.AllowAny]
 
     def post(self, request):
-        email = (request.data.get("email", "") or "").strip().lower()
-        username = (request.data.get("username", "") or "").strip()
+        email = request.data.get("email", "").strip().lower()
+        username = request.data.get("username", "").strip()
         password = request.data.get("password", "")
         access_level = request.data.get("access_level", AccessLevel.VISITOR)
 
@@ -60,9 +100,8 @@ class RegisterView(APIView):
             return Response({"detail": "email, username and password are required."}, status=400)
 
         if User.objects.filter(email__iexact=email).exists():
-            return Response({"detail": "Email already registered. Try password reset or login."}, status=400)
+            return Response({"detail": "Email already registered."}, status=400)
 
-        # create signup verification code with username & password
         vc = VerificationCode.create_for_signup(
             email=email,
             username=username,
@@ -70,22 +109,12 @@ class RegisterView(APIView):
             ttl_minutes=15
         )
 
-        ok = send_verification_email(email, vc.code)
-        if not ok:
-            vc.delete()
-            return Response({"detail": "Failed to send verification email."}, status=500)
+        send_verification_email(email, vc.code)
 
-        # Save signup data in session
-        request.session[f"signup_{email}"] = {
-            "username": username,
-            "password": password,
-            "access_level": access_level,
-            "created_at": timezone.now().isoformat(),
-        }
-        request.session.modified = True
-
-        return Response({"detail": "Verification code sent to email."}, status=201)
-
+        return Response(
+            {"detail": "Verification code sent to email."},
+            status=201
+        )
 
 
 class ConfirmRegistrationView(APIView):
@@ -122,14 +151,19 @@ class ConfirmRegistrationView(APIView):
                 is_email_verified=True,
             )
             UserProfile.objects.get_or_create(user=user, defaults={"access_level": user.access_level})
-            if user.access_level == AccessLevel.MEMBER:
-                ChapterMembership.objects.get_or_create(user=user, defaults={"member_tier": MemberTier.TIER_1})
 
             vc.is_used = True
             vc.user = user
             vc.save(update_fields=["is_used", "user"])
 
-        return Response({"detail": "Account created successfully."}, status=201)
+        refresh = RefreshToken.for_user(user)
+
+        return Response({
+            "detail": "Account created successfully.",
+            "access": str(refresh.access_token),
+            "refresh": str(refresh),
+        }, status=201)
+
 
 
 class PasswordResetRequestView(APIView):
