@@ -13,7 +13,6 @@ class GoogleLogin(SocialLoginView):
     adapter_class = GoogleOAuth2Adapter
 
 urlpatterns = [
-    
     path("admin/", admin.site.urls),
 
     # Your custom auth endpoints
@@ -32,7 +31,6 @@ urlpatterns = [
     path("api/pq/", include("pq_test.urls")),
     path("api/mall/", include("shopping_mall.urls", namespace="shopping_mall")),
     path('api/msp/', include('msp.urls')),
-    # path("api/auth/google/", GoogleLogin.as_view(), name="google_login"),
     
 ]
 
