@@ -36,6 +36,7 @@ urlpatterns = [
     path("register/", RegisterView.as_view(), name="register"),  # sends signup OTP
     path("confirm-registration/", ConfirmRegistrationView.as_view(), name="confirm_registration"),  # confirm OTP -> create user
     path("auth/resend-signup/", ResendSignupCodeView.as_view(), name="resend-signup"),
+    
     # Password reset
     path("password-reset/", PasswordResetRequestView.as_view(), name="password_reset"),
     path("password-reset/confirm/", PasswordResetConfirmView.as_view(), name="password_reset_confirm"),
