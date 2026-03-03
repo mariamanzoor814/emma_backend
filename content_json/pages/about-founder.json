@@ -345,16 +345,7 @@
   },
   "sort_order": 12
 },
-{
-  "key": "founder.childhood.image",
-  "language": "en",
-  "block_type": "image",
-  "value": {
-    "url": "/media/about/childhood.png",
-    "alt": "Founder childhood"
-  },
-  "sort_order": 22
-},
+
 {
   "key": "founder.no_free_will.image",
   "language": "en",
