@@ -3,6 +3,278 @@
   "slug": "home",
   "template": "landing",
   "blocks": [
+    {
+    "key": "feeding_highlights.header.title",
+    "language": "en",
+    "block_type": "text",
+    "value": {
+      "text": "EMMA Foundation"
+    },
+    "sort_order": 300
+  },
+  {
+    "key": "feeding_highlights.header.subtitle",
+    "language": "en",
+    "block_type": "text",
+    "value": {
+      "text": "Path to \"The 1%\" and better, a Global Community"
+    },
+    "sort_order": 301
+  },
+  {
+    "key": "feeding_highlights.header.contact_label",
+    "language": "en",
+    "block_type": "text",
+    "value": {
+      "text": "Contact email:"
+    },
+    "sort_order": 302
+  },
+  {
+    "key": "feeding_highlights.header.email1",
+    "language": "en",
+    "block_type": "text",
+    "value": {
+      "text": "Emma@EmmaFoundation.net"
+    },
+    "sort_order": 303
+  },
+  {
+    "key": "feeding_highlights.header.email2",
+    "language": "en",
+    "block_type": "text",
+    "value": {
+      "text": "Maria.EmmaFoundation@gmail.com"
+    },
+    "sort_order": 304
+  },
+  {
+    "key": "feeding_highlights.header.landing",
+    "language": "en",
+    "block_type": "text",
+    "value": {
+      "text": "We mentor you and fund your R&D or Startup project, or you work on ours for sweat equity."
+    },
+    "sort_order": 305
+  },
+  {
+    "key": "feeding_highlights.section_label",
+    "language": "en",
+    "block_type": "text",
+    "value": {
+      "text": "Section 1:"
+    },
+    "sort_order": 306
+  },
+  {
+    "key": "feeding_highlights.soul.title",
+    "language": "en",
+    "block_type": "text",
+    "value": {
+      "text": "Feeding the Soul (mind)"
+    },
+    "sort_order": 310
+  },
+  {
+    "key": "feeding_highlights.soul.body_html",
+    "language": "en",
+    "block_type": "html",
+    "value": {
+      "text": "<span class=\"text-[#FF0000] font-bold\">Emma's primary goal</span> is to help solving the root cause of the world's problems by <span class=\"text-[#FF0000] font-bold\">\"Feeding the Soul\"</span> (the mind, the intellect, critical and holistic thinking) of the fortunate ones, so that individuals can achieve their maximum potential. Later, they will be more inclined to feed the bodies of the unfortunate and the souls of the fortunate ones, <span class=\"text-[#FF0000] font-bold\">\"Trickle Down\"</span> method."
+    },
+    "sort_order": 311
+  },
+  {
+    "key": "feeding_highlights.soul.img_brain",
+    "language": "en",
+    "block_type": "image",
+    "value": {
+      "url": "/assets/emma-logo.png",
+      "alt": "Brain illustration"
+    },
+    "sort_order": 312
+  },
+  {
+    "key": "feeding_highlights.soul.img_meeting",
+    "language": "en",
+    "block_type": "image",
+    "value": {
+      "url": "/assets/meeting.png",
+      "alt": "Meeting"
+    },
+    "sort_order": 313
+  },
+  {
+    "key": "feeding_highlights.soul.banner",
+    "language": "en",
+    "block_type": "text",
+    "value": {
+      "text": "Collaborating with provosts, deans, professors and top 1% Ph.D. students from universities worldwide to fund their research and development projects that align with EMMA's vision. – 2024"
+    },
+    "sort_order": 314
+  },
+  {
+    "key": "feeding_highlights.soul.test_title",
+    "language": "en",
+    "block_type": "text",
+    "value": {
+      "text": "Test your intellect:"
+    },
+    "sort_order": 315
+  },
+  {
+    "key": "feeding_highlights.soul.test_body",
+    "language": "en",
+    "block_type": "text",
+    "value": {
+      "text": "Who has the higher probability of getting robbed?\na) You/(more accurately, a randomly picked person)\nb) Your neighbor/randomly picked person's neighbor?\nGive solid, valid reason behind your answer"
+    },
+    "sort_order": 316
+  },
+  {
+    "key": "feeding_highlights.soul.test_footer",
+    "language": "en",
+    "block_type": "text",
+    "value": {
+      "text": "See \"The 1% & Better – 8 Clubs -> P3\" menu item for more.\n-- Youtube videos, in-person local meetup groups, and online teaching materials are under production."
+    },
+    "sort_order": 317
+  },
+  {
+    "key": "feeding_highlights.body.title",
+    "language": "en",
+    "block_type": "text",
+    "value": {
+      "text": "Feeding the body"
+    },
+    "sort_order": 320
+  },
+  {
+    "key": "feeding_highlights.body.intro",
+    "language": "en",
+    "block_type": "html",
+    "value": {
+      "text": "<span class=\"text-[#FF0000] font-bold\">Emma's secondary goal</span> is to provide a short-term solution to immediate needs for the unfortunate ones: <span class=\"text-[#FF0000] font-bold\">\"Feeding the Body\",</span> with the aim that eventually they can become fortunate ones."
+    },
+    "sort_order": 321
+  },
+  {
+    "key": "feeding_highlights.body.vid1",
+    "language": "en",
+    "block_type": "image",
+    "value": {
+      "url": "/assets/vid1.png",
+      "alt": "Feeding children video 1"
+    },
+    "sort_order": 322
+  },
+  {
+    "key": "feeding_highlights.body.vid2",
+    "language": "en",
+    "block_type": "image",
+    "value": {
+      "url": "/assets/vid2.png",
+      "alt": "Feeding children video 2"
+    },
+    "sort_order": 323
+  },
+  {
+    "key": "feeding_highlights.body.mission",
+    "language": "en",
+    "block_type": "text",
+    "value": {
+      "text": "EMMA Foundation first international mission \"feeding the body\" in Philippines, 2023. See the videos of \"Feeding the Children\" in the menu items."
+    },
+    "sort_order": 324
+  },
+  {
+    "key": "feeding_highlights.body.p1",
+    "language": "en",
+    "block_type": "image",
+    "value": {
+      "url": "/assets/p1.png",
+      "alt": "Philippines mission 1"
+    },
+    "sort_order": 325
+  },
+  {
+    "key": "feeding_highlights.body.p2",
+    "language": "en",
+    "block_type": "image",
+    "value": {
+      "url": "/assets/p2.png",
+      "alt": "Philippines mission 2"
+    },
+    "sort_order": 326
+  },
+  {
+    "key": "feeding_highlights.body.p3",
+    "language": "en",
+    "block_type": "image",
+    "value": {
+      "url": "/assets/p3.png",
+      "alt": "Philippines mission 3"
+    },
+    "sort_order": 327
+  },
+  {
+    "key": "feeding_highlights.body.p4",
+    "language": "en",
+    "block_type": "image",
+    "value": {
+      "url": "/assets/p4.png",
+      "alt": "Philippines mission 4"
+    },
+    "sort_order": 328
+  },
+  {
+    "key": "feeding_highlights.body.p5",
+    "language": "en",
+    "block_type": "image",
+    "value": {
+      "url": "/assets/p5.png",
+      "alt": "Philippines mission 5"
+    },
+    "sort_order": 329
+  },
+  {
+    "key": "feeding_highlights.body.p6",
+    "language": "en",
+    "block_type": "image",
+    "value": {
+      "url": "/assets/p6.png",
+      "alt": "Philippines mission 6"
+    },
+    "sort_order": 330
+  },
+  {
+    "key": "feeding_highlights.body.p7",
+    "language": "en",
+    "block_type": "image",
+    "value": {
+      "url": "/assets/p7.png",
+      "alt": "Medical and dental mission"
+    },
+    "sort_order": 331
+  },
+  {
+    "key": "feeding_highlights.body.footer",
+    "language": "en",
+    "block_type": "text",
+    "value": {
+      "text": "EMMA's 2024 missions are done: Medical and dental aid; feeding, donating books, computers, cash to 5 remote locations in abject poverty islands in the Philippines."
+    },
+    "sort_order": 332
+  },
+  {
+    "key": "feeding_highlights.serendipity.title",
+    "language": "en",
+    "block_type": "text",
+    "value": {
+      "text": "Lucky you! Your Serendipity today. Read on ..."
+    },
+    "sort_order": 340
+  },
 
     {
       "key": "hero.title",
